@@ -1,0 +1,1567 @@
+lets begin here
+{'use_pretrained_model': 'True', 'dataset_text_folder': 'data/20110201_0_input', 'pretrained_model_folder': 'trained_models/conll_2003_en', 'fetch_data': '', 'train_model': 'False', 'fetch_trained_model': ''}
+hello
+here1
+here2
+printing the parameters_filepath /home/satadisha/Desktop/GitProjects/NeuroNER-master/parameters.ini
+{'use_pretrained_model': 1, 'maximum_number_of_epochs': 100, 'token_embedding_dimension': 100, 'fetch_trained_model': '', 'main_evaluation_mode': 'conll', 'gradient_clipping_value': 5.0, 'reload_feedforward': 1, 'character_embedding_dimension': 25, 'tagging_format': 'bioes', 'reload_character_embeddings': 1, 'debug': 0, 'check_for_digits_replaced_with_zeros': 1, 'learning_rate': 0.005, 'spacylanguage': 'en', 'verbose': 0, 'fetch_data': '', 'train_model': 0, 'reload_crf': 1, 'token_lstm_hidden_state_dimension': 1, 'parameters_filepath': 'parameters.ini', 'number_of_cpu_threads': 8, 'freeze_token_embeddings': 0, 'reload_token_lstm': 1, 'load_only_pretrained_token_embeddings': 0, 'check_for_lowercase': 1, 'use_crf': 1, 'pretrained_model_folder': 'trained_models/conll_2003_en', 'experiment_name': 'test', 'output_scores': 0, 'plot_format': 'pdf', 'remap_unknown_tokens_to_unk': 1, 'token_pretrained_embedding_filepath': '/home/satadisha/Desktop/GitProjects/NeuroNER-master/data/word_vectors/glove.6B.100d.txt', 'reload_token_embeddings': 1, 'dataset_text_folder': 'data/20110201_0_input', 'output_folder': 'output', 'character_lstm_hidden_state_dimension': 25, 'tokenizer': 'spacy', 'dropout_rate': 0.5, 'load_all_pretrained_token_embeddings': 'False', 'patience': 10, 'use_character_lstm': 1, 'reload_character_lstm': 1, 'optimizer': 'sgd', 'number_of_gpus': 0}
+printing the pretrain path trained_models/conll_2003_en/parameters.ini
+WARNING: parameter 'token_lstm_hidden_state_dimension' was overwritten from '1' to '100'
+                        for consistency with the pretrained model
+dataset_type, dataset_filepaths[dataset_type]:  train data/20110201_0_input/train.txt
+dataset_type, dataset_brat_folders[dataset_type]:  train data/20110201_0_input/train
+dataset_type, dataset_compatible_with_brat_filepath:  train data/20110201_0_input/train_compatible_with_brat.txt
+[] 0
+dataset_type, dataset_filepaths[dataset_type]:  valid data/20110201_0_input/valid.txt
+dataset_type, dataset_brat_folders[dataset_type]:  valid data/20110201_0_input/valid
+dataset_type, dataset_compatible_with_brat_filepath:  valid data/20110201_0_input/valid_compatible_with_brat.txt
+[] 0
+dataset_type, dataset_filepaths[dataset_type]:  test data/20110201_0_input/test.txt
+dataset_type, dataset_brat_folders[dataset_type]:  test data/20110201_0_input/test
+dataset_type, dataset_compatible_with_brat_filepath:  test data/20110201_0_input/test_compatible_with_brat.txt
+[] 0
+dataset_type, dataset_filepaths[dataset_type]:  deploy data/20110201_0_input/deploy.txt
+dataset_type, dataset_brat_folders[dataset_type]:  deploy data/20110201_0_input/deploy
+dataset_type, dataset_compatible_with_brat_filepath:  deploy data/20110201_0_input/deploy_compatible_with_brat.txt
+['data/20110201_0_input/deploy/20110201_6.txt', 'data/20110201_0_input/deploy/20110201_1.txt', 'data/20110201_0_input/deploy/20110201_5.txt', 'data/20110201_0_input/deploy/20110201_0.txt', 'data/20110201_0_input/deploy/20110201_9.txt', 'data/20110201_0_input/deploy/20110201_8.txt', 'data/20110201_0_input/deploy/20110201_7.txt', 'data/20110201_0_input/deploy/20110201_3.txt', 'data/20110201_0_input/deploy/20110201_4.txt', 'data/20110201_0_input/deploy/20110201_2.txt'] 10
+dataset_type, dataset_brat_folders[dataset_type]:  deploy data/20110201_0_input/deploy
+Checking compatibility between CONLL and BRAT for deploy_spacy set ... Done.
+Checking validity of CONLL BIOES format... Done.
+dataset_filepaths: {'deploy': 'data/20110201_0_input/deploy_spacy_bioes.txt'}
+dataset_filepaths: {'deploy': 'data/20110201_0_input/deploy_spacy_bioes.txt'}
+Load dataset... done (258.63 seconds)
+Load token embeddings... done (1.35 seconds)
+number_of_token_original_case_found: 400000
+number_of_token_lowercase_found: 38765
+number_of_token_digits_replaced_with_zeros_found: 379
+number_of_token_lowercase_and_digits_replaced_with_zeros_found: 18
+number_of_loaded_word_vectors: 439162
+dataset.vocabulary_size: 441671
+Load token embeddings from pretrained model... done (0.32 seconds)
+number_of_loaded_vectors: 28985
+dataset.vocabulary_size: 441671
+Load character embeddings from pretrained model... done (0.07 seconds)
+number_of_loaded_vectors: 86
+dataset.alphabet_size: 95
+
+Starting epoch 0
+Training completed in 0.00 seconds
+=> Predict labels for the deploy set
+output_file:  output/20110201_0_input_2019-06-14_20-45-49-193396/000_deploy.txt
+mentions_output_file:  output/20110201_0_input_2019-06-14_20-45-49-193396/mentions_output.txt
+tally: 100000 100000 total mentions discovered: 81799
+=> Formatting 000_deploy set from CONLL to BRAT... Done.
+Finishing the experiment
+1030.343843460083
+lets begin here
+{'use_pretrained_model': 'True', 'fetch_trained_model': '', 'train_model': 'False', 'dataset_text_folder': 'data/20110201_1_input', 'fetch_data': '', 'pretrained_model_folder': 'trained_models/conll_2003_en'}
+hello
+here1
+here2
+printing the parameters_filepath /home/satadisha/Desktop/GitProjects/NeuroNER-master/parameters.ini
+{'output_scores': 0, 'fetch_trained_model': '', 'main_evaluation_mode': 'conll', 'optimizer': 'sgd', 'parameters_filepath': 'parameters.ini', 'check_for_lowercase': 1, 'gradient_clipping_value': 5.0, 'check_for_digits_replaced_with_zeros': 1, 'reload_character_lstm': 1, 'maximum_number_of_epochs': 100, 'plot_format': 'pdf', 'token_pretrained_embedding_filepath': '/home/satadisha/Desktop/GitProjects/NeuroNER-master/data/word_vectors/glove.6B.100d.txt', 'token_embedding_dimension': 100, 'reload_token_embeddings': 1, 'remap_unknown_tokens_to_unk': 1, 'pretrained_model_folder': 'trained_models/conll_2003_en', 'output_folder': 'output', 'verbose': 0, 'freeze_token_embeddings': 0, 'reload_feedforward': 1, 'load_all_pretrained_token_embeddings': 'False', 'reload_token_lstm': 1, 'character_lstm_hidden_state_dimension': 25, 'use_pretrained_model': 1, 'dropout_rate': 0.5, 'reload_crf': 1, 'token_lstm_hidden_state_dimension': 1, 'use_character_lstm': 1, 'use_crf': 1, 'load_only_pretrained_token_embeddings': 0, 'experiment_name': 'test', 'dataset_text_folder': 'data/20110201_1_input', 'reload_character_embeddings': 1, 'spacylanguage': 'en', 'train_model': 0, 'number_of_cpu_threads': 8, 'tagging_format': 'bioes', 'tokenizer': 'spacy', 'character_embedding_dimension': 25, 'learning_rate': 0.005, 'patience': 10, 'debug': 0, 'fetch_data': '', 'number_of_gpus': 0}
+printing the pretrain path trained_models/conll_2003_en/parameters.ini
+WARNING: parameter 'token_lstm_hidden_state_dimension' was overwritten from '1' to '100'
+                        for consistency with the pretrained model
+dataset_type, dataset_filepaths[dataset_type]:  train data/20110201_1_input/train.txt
+dataset_type, dataset_brat_folders[dataset_type]:  train data/20110201_1_input/train
+dataset_type, dataset_compatible_with_brat_filepath:  train data/20110201_1_input/train_compatible_with_brat.txt
+[] 0
+dataset_type, dataset_filepaths[dataset_type]:  valid data/20110201_1_input/valid.txt
+dataset_type, dataset_brat_folders[dataset_type]:  valid data/20110201_1_input/valid
+dataset_type, dataset_compatible_with_brat_filepath:  valid data/20110201_1_input/valid_compatible_with_brat.txt
+[] 0
+dataset_type, dataset_filepaths[dataset_type]:  test data/20110201_1_input/test.txt
+dataset_type, dataset_brat_folders[dataset_type]:  test data/20110201_1_input/test
+dataset_type, dataset_compatible_with_brat_filepath:  test data/20110201_1_input/test_compatible_with_brat.txt
+[] 0
+dataset_type, dataset_filepaths[dataset_type]:  deploy data/20110201_1_input/deploy.txt
+dataset_type, dataset_brat_folders[dataset_type]:  deploy data/20110201_1_input/deploy
+dataset_type, dataset_compatible_with_brat_filepath:  deploy data/20110201_1_input/deploy_compatible_with_brat.txt
+['data/20110201_1_input/deploy/20110201_15.txt', 'data/20110201_1_input/deploy/20110201_16.txt', 'data/20110201_1_input/deploy/20110201_13.txt', 'data/20110201_1_input/deploy/20110201_18.txt', 'data/20110201_1_input/deploy/20110201_11.txt', 'data/20110201_1_input/deploy/20110201_10.txt', 'data/20110201_1_input/deploy/20110201_12.txt', 'data/20110201_1_input/deploy/20110201_14.txt', 'data/20110201_1_input/deploy/20110201_17.txt', 'data/20110201_1_input/deploy/20110201_19.txt'] 10
+dataset_type, dataset_brat_folders[dataset_type]:  deploy data/20110201_1_input/deploy
+Formatting deploy set from BRAT to CONLL... data/20110201_1_input/deploy_spacy.txt
+Done.
+Converting CONLL from BIO to BIOES format... Done.
+dataset_filepaths: {'deploy': 'data/20110201_1_input/deploy_spacy_bioes.txt'}
+dataset_filepaths: {'deploy': 'data/20110201_1_input/deploy_spacy_bioes.txt'}
+Load dataset... done (248.73 seconds)
+Load token embeddings... done (1.15 seconds)
+number_of_token_original_case_found: 400000
+number_of_token_lowercase_found: 38211
+number_of_token_digits_replaced_with_zeros_found: 426
+number_of_token_lowercase_and_digits_replaced_with_zeros_found: 18
+number_of_loaded_word_vectors: 438655
+dataset.vocabulary_size: 441164
+Load token embeddings from pretrained model... done (0.34 seconds)
+number_of_loaded_vectors: 28985
+dataset.vocabulary_size: 441164
+Load character embeddings from pretrained model... done (0.07 seconds)
+number_of_loaded_vectors: 86
+dataset.alphabet_size: 96
+
+Starting epoch 0
+Training completed in 0.00 seconds
+=> Predict labels for the deploy set
+output_file:  output/20110201_1_input_2019-06-14_21-06-25-860615/000_deploy.txt
+mentions_output_file:  output/20110201_1_input_2019-06-14_21-06-25-860615/mentions_output.txt
+tally: 100000 100000 total mentions discovered: 81361
+=> Formatting 000_deploy set from CONLL to BRAT... Done.
+Finishing the experiment
+1002.1000475883484
+lets begin here
+{'dataset_text_folder': 'data/20110201_2_input', 'fetch_trained_model': '', 'use_pretrained_model': 'True', 'pretrained_model_folder': 'trained_models/conll_2003_en', 'train_model': 'False', 'fetch_data': ''}
+hello
+here1
+here2
+printing the parameters_filepath /home/satadisha/Desktop/GitProjects/NeuroNER-master/parameters.ini
+{'dataset_text_folder': 'data/20110201_2_input', 'learning_rate': 0.005, 'tokenizer': 'spacy', 'gradient_clipping_value': 5.0, 'optimizer': 'sgd', 'output_scores': 0, 'reload_token_lstm': 1, 'use_character_lstm': 1, 'character_lstm_hidden_state_dimension': 25, 'use_pretrained_model': 1, 'pretrained_model_folder': 'trained_models/conll_2003_en', 'dropout_rate': 0.5, 'token_embedding_dimension': 100, 'tagging_format': 'bioes', 'experiment_name': 'test', 'main_evaluation_mode': 'conll', 'debug': 0, 'train_model': 0, 'freeze_token_embeddings': 0, 'patience': 10, 'verbose': 0, 'reload_crf': 1, 'check_for_lowercase': 1, 'number_of_cpu_threads': 8, 'plot_format': 'pdf', 'parameters_filepath': 'parameters.ini', 'reload_character_embeddings': 1, 'number_of_gpus': 0, 'remap_unknown_tokens_to_unk': 1, 'spacylanguage': 'en', 'reload_token_embeddings': 1, 'check_for_digits_replaced_with_zeros': 1, 'fetch_trained_model': '', 'load_only_pretrained_token_embeddings': 0, 'token_pretrained_embedding_filepath': '/home/satadisha/Desktop/GitProjects/NeuroNER-master/data/word_vectors/glove.6B.100d.txt', 'use_crf': 1, 'token_lstm_hidden_state_dimension': 1, 'character_embedding_dimension': 25, 'fetch_data': '', 'reload_character_lstm': 1, 'load_all_pretrained_token_embeddings': 'False', 'maximum_number_of_epochs': 100, 'reload_feedforward': 1, 'output_folder': 'output'}
+printing the pretrain path trained_models/conll_2003_en/parameters.ini
+WARNING: parameter 'token_lstm_hidden_state_dimension' was overwritten from '1' to '100'
+                        for consistency with the pretrained model
+dataset_type, dataset_filepaths[dataset_type]:  train data/20110201_2_input/train.txt
+dataset_type, dataset_brat_folders[dataset_type]:  train data/20110201_2_input/train
+dataset_type, dataset_compatible_with_brat_filepath:  train data/20110201_2_input/train_compatible_with_brat.txt
+[] 0
+dataset_type, dataset_filepaths[dataset_type]:  valid data/20110201_2_input/valid.txt
+dataset_type, dataset_brat_folders[dataset_type]:  valid data/20110201_2_input/valid
+dataset_type, dataset_compatible_with_brat_filepath:  valid data/20110201_2_input/valid_compatible_with_brat.txt
+[] 0
+dataset_type, dataset_filepaths[dataset_type]:  test data/20110201_2_input/test.txt
+dataset_type, dataset_brat_folders[dataset_type]:  test data/20110201_2_input/test
+dataset_type, dataset_compatible_with_brat_filepath:  test data/20110201_2_input/test_compatible_with_brat.txt
+[] 0
+dataset_type, dataset_filepaths[dataset_type]:  deploy data/20110201_2_input/deploy.txt
+dataset_type, dataset_brat_folders[dataset_type]:  deploy data/20110201_2_input/deploy
+dataset_type, dataset_compatible_with_brat_filepath:  deploy data/20110201_2_input/deploy_compatible_with_brat.txt
+['data/20110201_2_input/deploy/20110201_27.txt', 'data/20110201_2_input/deploy/20110201_21.txt', 'data/20110201_2_input/deploy/20110201_20.txt', 'data/20110201_2_input/deploy/20110201_23.txt', 'data/20110201_2_input/deploy/20110201_24.txt', 'data/20110201_2_input/deploy/20110201_22.txt', 'data/20110201_2_input/deploy/20110201_26.txt', 'data/20110201_2_input/deploy/20110201_28.txt', 'data/20110201_2_input/deploy/20110201_25.txt', 'data/20110201_2_input/deploy/20110201_29.txt'] 10
+dataset_type, dataset_brat_folders[dataset_type]:  deploy data/20110201_2_input/deploy
+Formatting deploy set from BRAT to CONLL... data/20110201_2_input/deploy_spacy.txt
+Done.
+Converting CONLL from BIO to BIOES format... Done.
+dataset_filepaths: {'deploy': 'data/20110201_2_input/deploy_spacy_bioes.txt'}
+dataset_filepaths: {'deploy': 'data/20110201_2_input/deploy_spacy_bioes.txt'}
+Load dataset... done (250.00 seconds)
+Load token embeddings... done (1.13 seconds)
+number_of_token_original_case_found: 400000
+number_of_token_lowercase_found: 37847
+number_of_token_digits_replaced_with_zeros_found: 369
+number_of_token_lowercase_and_digits_replaced_with_zeros_found: 16
+number_of_loaded_word_vectors: 438232
+dataset.vocabulary_size: 440741
+Load token embeddings from pretrained model... done (0.31 seconds)
+number_of_loaded_vectors: 28985
+dataset.vocabulary_size: 440741
+Load character embeddings from pretrained model... done (0.07 seconds)
+number_of_loaded_vectors: 86
+dataset.alphabet_size: 96
+
+Starting epoch 0
+Training completed in 0.00 seconds
+=> Predict labels for the deploy set
+output_file:  output/20110201_2_input_2019-06-14_21-23-46-611004/000_deploy.txt
+mentions_output_file:  output/20110201_2_input_2019-06-14_21-23-46-611004/mentions_output.txt
+tally: 100000 100000 total mentions discovered: 79424
+=> Formatting 000_deploy set from CONLL to BRAT... Done.
+Finishing the experiment
+1006.3465394973755
+lets begin here
+{'use_pretrained_model': 'True', 'pretrained_model_folder': 'trained_models/conll_2003_en', 'train_model': 'False', 'dataset_text_folder': 'data/20110201_3_input', 'fetch_trained_model': '', 'fetch_data': ''}
+hello
+here1
+here2
+printing the parameters_filepath /home/satadisha/Desktop/GitProjects/NeuroNER-master/parameters.ini
+{'debug': 0, 'experiment_name': 'test', 'use_character_lstm': 1, 'parameters_filepath': 'parameters.ini', 'load_all_pretrained_token_embeddings': 'False', 'number_of_gpus': 0, 'patience': 10, 'optimizer': 'sgd', 'main_evaluation_mode': 'conll', 'reload_character_lstm': 1, 'dropout_rate': 0.5, 'fetch_trained_model': '', 'check_for_digits_replaced_with_zeros': 1, 'verbose': 0, 'remap_unknown_tokens_to_unk': 1, 'freeze_token_embeddings': 0, 'output_folder': 'output', 'token_embedding_dimension': 100, 'output_scores': 0, 'reload_token_lstm': 1, 'tokenizer': 'spacy', 'check_for_lowercase': 1, 'plot_format': 'pdf', 'train_model': 0, 'reload_feedforward': 1, 'dataset_text_folder': 'data/20110201_3_input', 'number_of_cpu_threads': 8, 'maximum_number_of_epochs': 100, 'reload_character_embeddings': 1, 'pretrained_model_folder': 'trained_models/conll_2003_en', 'reload_token_embeddings': 1, 'character_embedding_dimension': 25, 'tagging_format': 'bioes', 'load_only_pretrained_token_embeddings': 0, 'character_lstm_hidden_state_dimension': 25, 'spacylanguage': 'en', 'token_pretrained_embedding_filepath': '/home/satadisha/Desktop/GitProjects/NeuroNER-master/data/word_vectors/glove.6B.100d.txt', 'use_crf': 1, 'learning_rate': 0.005, 'use_pretrained_model': 1, 'token_lstm_hidden_state_dimension': 1, 'fetch_data': '', 'reload_crf': 1, 'gradient_clipping_value': 5.0}
+printing the pretrain path trained_models/conll_2003_en/parameters.ini
+WARNING: parameter 'token_lstm_hidden_state_dimension' was overwritten from '1' to '100'
+                        for consistency with the pretrained model
+dataset_type, dataset_filepaths[dataset_type]:  train data/20110201_3_input/train.txt
+dataset_type, dataset_brat_folders[dataset_type]:  train data/20110201_3_input/train
+dataset_type, dataset_compatible_with_brat_filepath:  train data/20110201_3_input/train_compatible_with_brat.txt
+[] 0
+dataset_type, dataset_filepaths[dataset_type]:  valid data/20110201_3_input/valid.txt
+dataset_type, dataset_brat_folders[dataset_type]:  valid data/20110201_3_input/valid
+dataset_type, dataset_compatible_with_brat_filepath:  valid data/20110201_3_input/valid_compatible_with_brat.txt
+[] 0
+dataset_type, dataset_filepaths[dataset_type]:  test data/20110201_3_input/test.txt
+dataset_type, dataset_brat_folders[dataset_type]:  test data/20110201_3_input/test
+dataset_type, dataset_compatible_with_brat_filepath:  test data/20110201_3_input/test_compatible_with_brat.txt
+[] 0
+dataset_type, dataset_filepaths[dataset_type]:  deploy data/20110201_3_input/deploy.txt
+dataset_type, dataset_brat_folders[dataset_type]:  deploy data/20110201_3_input/deploy
+dataset_type, dataset_compatible_with_brat_filepath:  deploy data/20110201_3_input/deploy_compatible_with_brat.txt
+['data/20110201_3_input/deploy/20110201_31.txt', 'data/20110201_3_input/deploy/20110201_33.txt', 'data/20110201_3_input/deploy/20110201_38.txt', 'data/20110201_3_input/deploy/20110201_32.txt', 'data/20110201_3_input/deploy/20110201_39.txt', 'data/20110201_3_input/deploy/20110201_37.txt', 'data/20110201_3_input/deploy/20110201_36.txt', 'data/20110201_3_input/deploy/20110201_34.txt', 'data/20110201_3_input/deploy/20110201_30.txt', 'data/20110201_3_input/deploy/20110201_35.txt'] 10
+dataset_type, dataset_brat_folders[dataset_type]:  deploy data/20110201_3_input/deploy
+Formatting deploy set from BRAT to CONLL... data/20110201_3_input/deploy_spacy.txt
+Done.
+Converting CONLL from BIO to BIOES format... Done.
+dataset_filepaths: {'deploy': 'data/20110201_3_input/deploy_spacy_bioes.txt'}
+dataset_filepaths: {'deploy': 'data/20110201_3_input/deploy_spacy_bioes.txt'}
+Load dataset... done (244.82 seconds)
+Load token embeddings... done (1.12 seconds)
+number_of_token_original_case_found: 400000
+number_of_token_lowercase_found: 37339
+number_of_token_digits_replaced_with_zeros_found: 377
+number_of_token_lowercase_and_digits_replaced_with_zeros_found: 18
+number_of_loaded_word_vectors: 437734
+dataset.vocabulary_size: 440243
+Load token embeddings from pretrained model... done (0.32 seconds)
+number_of_loaded_vectors: 28985
+dataset.vocabulary_size: 440243
+Load character embeddings from pretrained model... done (0.07 seconds)
+number_of_loaded_vectors: 86
+dataset.alphabet_size: 97
+
+Starting epoch 0
+Training completed in 0.00 seconds
+=> Predict labels for the deploy set
+output_file:  output/20110201_3_input_2019-06-14_21-40-42-773406/000_deploy.txt
+mentions_output_file:  output/20110201_3_input_2019-06-14_21-40-42-773406/mentions_output.txt
+tally: 100000 100000 total mentions discovered: 78200
+=> Formatting 000_deploy set from CONLL to BRAT... Done.
+Finishing the experiment
+993.879606962204
+lets begin here
+{'train_model': 'False', 'use_pretrained_model': 'True', 'fetch_data': '', 'pretrained_model_folder': 'trained_models/conll_2003_en', 'dataset_text_folder': 'data/20110201_4_input', 'fetch_trained_model': ''}
+hello
+here1
+here2
+printing the parameters_filepath /home/satadisha/Desktop/GitProjects/NeuroNER-master/parameters.ini
+{'optimizer': 'sgd', 'spacylanguage': 'en', 'use_character_lstm': 1, 'main_evaluation_mode': 'conll', 'remap_unknown_tokens_to_unk': 1, 'maximum_number_of_epochs': 100, 'freeze_token_embeddings': 0, 'fetch_trained_model': '', 'parameters_filepath': 'parameters.ini', 'gradient_clipping_value': 5.0, 'character_embedding_dimension': 25, 'verbose': 0, 'reload_feedforward': 1, 'reload_crf': 1, 'experiment_name': 'test', 'reload_token_embeddings': 1, 'reload_character_embeddings': 1, 'use_crf': 1, 'load_only_pretrained_token_embeddings': 0, 'dropout_rate': 0.5, 'character_lstm_hidden_state_dimension': 25, 'learning_rate': 0.005, 'check_for_lowercase': 1, 'reload_character_lstm': 1, 'output_scores': 0, 'pretrained_model_folder': 'trained_models/conll_2003_en', 'token_embedding_dimension': 100, 'tagging_format': 'bioes', 'debug': 0, 'use_pretrained_model': 1, 'number_of_cpu_threads': 8, 'tokenizer': 'spacy', 'number_of_gpus': 0, 'token_lstm_hidden_state_dimension': 1, 'plot_format': 'pdf', 'dataset_text_folder': 'data/20110201_4_input', 'output_folder': 'output', 'check_for_digits_replaced_with_zeros': 1, 'train_model': 0, 'token_pretrained_embedding_filepath': '/home/satadisha/Desktop/GitProjects/NeuroNER-master/data/word_vectors/glove.6B.100d.txt', 'fetch_data': '', 'load_all_pretrained_token_embeddings': 'False', 'patience': 10, 'reload_token_lstm': 1}
+printing the pretrain path trained_models/conll_2003_en/parameters.ini
+WARNING: parameter 'token_lstm_hidden_state_dimension' was overwritten from '1' to '100'
+                        for consistency with the pretrained model
+dataset_type, dataset_filepaths[dataset_type]:  train data/20110201_4_input/train.txt
+dataset_type, dataset_brat_folders[dataset_type]:  train data/20110201_4_input/train
+dataset_type, dataset_compatible_with_brat_filepath:  train data/20110201_4_input/train_compatible_with_brat.txt
+[] 0
+dataset_type, dataset_filepaths[dataset_type]:  valid data/20110201_4_input/valid.txt
+dataset_type, dataset_brat_folders[dataset_type]:  valid data/20110201_4_input/valid
+dataset_type, dataset_compatible_with_brat_filepath:  valid data/20110201_4_input/valid_compatible_with_brat.txt
+[] 0
+dataset_type, dataset_filepaths[dataset_type]:  test data/20110201_4_input/test.txt
+dataset_type, dataset_brat_folders[dataset_type]:  test data/20110201_4_input/test
+dataset_type, dataset_compatible_with_brat_filepath:  test data/20110201_4_input/test_compatible_with_brat.txt
+[] 0
+dataset_type, dataset_filepaths[dataset_type]:  deploy data/20110201_4_input/deploy.txt
+dataset_type, dataset_brat_folders[dataset_type]:  deploy data/20110201_4_input/deploy
+dataset_type, dataset_compatible_with_brat_filepath:  deploy data/20110201_4_input/deploy_compatible_with_brat.txt
+['data/20110201_4_input/deploy/20110201_40.txt', 'data/20110201_4_input/deploy/20110201_46.txt', 'data/20110201_4_input/deploy/20110201_47.txt', 'data/20110201_4_input/deploy/20110201_48.txt', 'data/20110201_4_input/deploy/20110201_44.txt', 'data/20110201_4_input/deploy/20110201_49.txt', 'data/20110201_4_input/deploy/20110201_43.txt', 'data/20110201_4_input/deploy/20110201_42.txt', 'data/20110201_4_input/deploy/20110201_41.txt', 'data/20110201_4_input/deploy/20110201_45.txt'] 10
+dataset_type, dataset_brat_folders[dataset_type]:  deploy data/20110201_4_input/deploy
+Formatting deploy set from BRAT to CONLL... data/20110201_4_input/deploy_spacy.txt
+Done.
+Converting CONLL from BIO to BIOES format... Done.
+dataset_filepaths: {'deploy': 'data/20110201_4_input/deploy_spacy_bioes.txt'}
+dataset_filepaths: {'deploy': 'data/20110201_4_input/deploy_spacy_bioes.txt'}
+Load dataset... done (250.56 seconds)
+Load token embeddings... done (1.12 seconds)
+number_of_token_original_case_found: 400000
+number_of_token_lowercase_found: 38340
+number_of_token_digits_replaced_with_zeros_found: 384
+number_of_token_lowercase_and_digits_replaced_with_zeros_found: 19
+number_of_loaded_word_vectors: 438743
+dataset.vocabulary_size: 441252
+Load token embeddings from pretrained model... done (0.31 seconds)
+number_of_loaded_vectors: 28985
+dataset.vocabulary_size: 441252
+Load character embeddings from pretrained model... done (0.07 seconds)
+number_of_loaded_vectors: 86
+dataset.alphabet_size: 97
+
+Starting epoch 0
+Training completed in 0.00 seconds
+=> Predict labels for the deploy set
+output_file:  output/20110201_4_input_2019-06-14_21-57-39-809555/000_deploy.txt
+mentions_output_file:  output/20110201_4_input_2019-06-14_21-57-39-809555/mentions_output.txt
+tally: 100000 100000 total mentions discovered: 81485
+=> Formatting 000_deploy set from CONLL to BRAT... Done.
+Finishing the experiment
+998.7429385185242
+lets begin here
+{'fetch_data': '', 'pretrained_model_folder': 'trained_models/conll_2003_en', 'use_pretrained_model': 'True', 'dataset_text_folder': 'data/20110201_5_input', 'fetch_trained_model': '', 'train_model': 'False'}
+hello
+here1
+here2
+printing the parameters_filepath /home/satadisha/Desktop/GitProjects/NeuroNER-master/parameters.ini
+{'fetch_data': '', 'use_character_lstm': 1, 'learning_rate': 0.005, 'pretrained_model_folder': 'trained_models/conll_2003_en', 'experiment_name': 'test', 'use_pretrained_model': 1, 'dataset_text_folder': 'data/20110201_5_input', 'reload_token_lstm': 1, 'reload_token_embeddings': 1, 'reload_crf': 1, 'remap_unknown_tokens_to_unk': 1, 'number_of_gpus': 0, 'train_model': 0, 'spacylanguage': 'en', 'tagging_format': 'bioes', 'freeze_token_embeddings': 0, 'load_all_pretrained_token_embeddings': 'False', 'parameters_filepath': 'parameters.ini', 'main_evaluation_mode': 'conll', 'reload_character_lstm': 1, 'debug': 0, 'verbose': 0, 'plot_format': 'pdf', 'check_for_lowercase': 1, 'number_of_cpu_threads': 8, 'gradient_clipping_value': 5.0, 'use_crf': 1, 'character_lstm_hidden_state_dimension': 25, 'token_embedding_dimension': 100, 'character_embedding_dimension': 25, 'check_for_digits_replaced_with_zeros': 1, 'fetch_trained_model': '', 'reload_character_embeddings': 1, 'output_scores': 0, 'token_pretrained_embedding_filepath': '/home/satadisha/Desktop/GitProjects/NeuroNER-master/data/word_vectors/glove.6B.100d.txt', 'patience': 10, 'reload_feedforward': 1, 'tokenizer': 'spacy', 'maximum_number_of_epochs': 100, 'dropout_rate': 0.5, 'output_folder': 'output', 'load_only_pretrained_token_embeddings': 0, 'optimizer': 'sgd', 'token_lstm_hidden_state_dimension': 1}
+printing the pretrain path trained_models/conll_2003_en/parameters.ini
+WARNING: parameter 'token_lstm_hidden_state_dimension' was overwritten from '1' to '100'
+                        for consistency with the pretrained model
+dataset_type, dataset_filepaths[dataset_type]:  train data/20110201_5_input/train.txt
+dataset_type, dataset_brat_folders[dataset_type]:  train data/20110201_5_input/train
+dataset_type, dataset_compatible_with_brat_filepath:  train data/20110201_5_input/train_compatible_with_brat.txt
+[] 0
+dataset_type, dataset_filepaths[dataset_type]:  valid data/20110201_5_input/valid.txt
+dataset_type, dataset_brat_folders[dataset_type]:  valid data/20110201_5_input/valid
+dataset_type, dataset_compatible_with_brat_filepath:  valid data/20110201_5_input/valid_compatible_with_brat.txt
+[] 0
+dataset_type, dataset_filepaths[dataset_type]:  test data/20110201_5_input/test.txt
+dataset_type, dataset_brat_folders[dataset_type]:  test data/20110201_5_input/test
+dataset_type, dataset_compatible_with_brat_filepath:  test data/20110201_5_input/test_compatible_with_brat.txt
+[] 0
+dataset_type, dataset_filepaths[dataset_type]:  deploy data/20110201_5_input/deploy.txt
+dataset_type, dataset_brat_folders[dataset_type]:  deploy data/20110201_5_input/deploy
+dataset_type, dataset_compatible_with_brat_filepath:  deploy data/20110201_5_input/deploy_compatible_with_brat.txt
+['data/20110201_5_input/deploy/20110201_59.txt', 'data/20110201_5_input/deploy/20110201_50.txt', 'data/20110201_5_input/deploy/20110201_56.txt', 'data/20110201_5_input/deploy/20110201_57.txt', 'data/20110201_5_input/deploy/20110201_52.txt', 'data/20110201_5_input/deploy/20110201_55.txt', 'data/20110201_5_input/deploy/20110201_51.txt', 'data/20110201_5_input/deploy/20110201_58.txt', 'data/20110201_5_input/deploy/20110201_54.txt', 'data/20110201_5_input/deploy/20110201_53.txt'] 10
+dataset_type, dataset_brat_folders[dataset_type]:  deploy data/20110201_5_input/deploy
+Formatting deploy set from BRAT to CONLL... data/20110201_5_input/deploy_spacy.txt
+Done.
+Converting CONLL from BIO to BIOES format... Done.
+dataset_filepaths: {'deploy': 'data/20110201_5_input/deploy_spacy_bioes.txt'}
+dataset_filepaths: {'deploy': 'data/20110201_5_input/deploy_spacy_bioes.txt'}
+Load dataset... done (249.37 seconds)
+Load token embeddings... done (1.18 seconds)
+number_of_token_original_case_found: 400000
+number_of_token_lowercase_found: 38614
+number_of_token_digits_replaced_with_zeros_found: 391
+number_of_token_lowercase_and_digits_replaced_with_zeros_found: 17
+number_of_loaded_word_vectors: 439022
+dataset.vocabulary_size: 441531
+Load token embeddings from pretrained model... done (0.33 seconds)
+number_of_loaded_vectors: 28985
+dataset.vocabulary_size: 441531
+Load character embeddings from pretrained model... done (0.07 seconds)
+number_of_loaded_vectors: 86
+dataset.alphabet_size: 96
+
+Starting epoch 0
+Training completed in 0.00 seconds
+=> Predict labels for the deploy set
+output_file:  output/20110201_5_input_2019-06-14_22-14-32-764099/000_deploy.txt
+mentions_output_file:  output/20110201_5_input_2019-06-14_22-14-32-764099/mentions_output.txt
+tally: 100000 100000 total mentions discovered: 80879
+=> Formatting 000_deploy set from CONLL to BRAT... Done.
+Finishing the experiment
+992.7638220787048
+lets begin here
+{'pretrained_model_folder': 'trained_models/conll_2003_en', 'dataset_text_folder': 'data/20110201_6_input', 'use_pretrained_model': 'True', 'fetch_trained_model': '', 'fetch_data': '', 'train_model': 'False'}
+hello
+here1
+here2
+printing the parameters_filepath /home/satadisha/Desktop/GitProjects/NeuroNER-master/parameters.ini
+{'reload_token_embeddings': 1, 'reload_feedforward': 1, 'plot_format': 'pdf', 'reload_character_lstm': 1, 'reload_token_lstm': 1, 'main_evaluation_mode': 'conll', 'character_lstm_hidden_state_dimension': 25, 'check_for_digits_replaced_with_zeros': 1, 'reload_crf': 1, 'use_character_lstm': 1, 'verbose': 0, 'pretrained_model_folder': 'trained_models/conll_2003_en', 'remap_unknown_tokens_to_unk': 1, 'spacylanguage': 'en', 'output_scores': 0, 'dropout_rate': 0.5, 'load_all_pretrained_token_embeddings': 'False', 'tokenizer': 'spacy', 'maximum_number_of_epochs': 100, 'token_embedding_dimension': 100, 'character_embedding_dimension': 25, 'use_pretrained_model': 1, 'patience': 10, 'fetch_trained_model': '', 'reload_character_embeddings': 1, 'output_folder': 'output', 'fetch_data': '', 'parameters_filepath': 'parameters.ini', 'check_for_lowercase': 1, 'dataset_text_folder': 'data/20110201_6_input', 'load_only_pretrained_token_embeddings': 0, 'token_lstm_hidden_state_dimension': 1, 'experiment_name': 'test', 'train_model': 0, 'learning_rate': 0.005, 'freeze_token_embeddings': 0, 'optimizer': 'sgd', 'number_of_cpu_threads': 8, 'number_of_gpus': 0, 'token_pretrained_embedding_filepath': '/home/satadisha/Desktop/GitProjects/NeuroNER-master/data/word_vectors/glove.6B.100d.txt', 'use_crf': 1, 'tagging_format': 'bioes', 'gradient_clipping_value': 5.0, 'debug': 0}
+printing the pretrain path trained_models/conll_2003_en/parameters.ini
+WARNING: parameter 'token_lstm_hidden_state_dimension' was overwritten from '1' to '100'
+                        for consistency with the pretrained model
+dataset_type, dataset_filepaths[dataset_type]:  train data/20110201_6_input/train.txt
+dataset_type, dataset_brat_folders[dataset_type]:  train data/20110201_6_input/train
+dataset_type, dataset_compatible_with_brat_filepath:  train data/20110201_6_input/train_compatible_with_brat.txt
+[] 0
+dataset_type, dataset_filepaths[dataset_type]:  valid data/20110201_6_input/valid.txt
+dataset_type, dataset_brat_folders[dataset_type]:  valid data/20110201_6_input/valid
+dataset_type, dataset_compatible_with_brat_filepath:  valid data/20110201_6_input/valid_compatible_with_brat.txt
+[] 0
+dataset_type, dataset_filepaths[dataset_type]:  test data/20110201_6_input/test.txt
+dataset_type, dataset_brat_folders[dataset_type]:  test data/20110201_6_input/test
+dataset_type, dataset_compatible_with_brat_filepath:  test data/20110201_6_input/test_compatible_with_brat.txt
+[] 0
+dataset_type, dataset_filepaths[dataset_type]:  deploy data/20110201_6_input/deploy.txt
+dataset_type, dataset_brat_folders[dataset_type]:  deploy data/20110201_6_input/deploy
+dataset_type, dataset_compatible_with_brat_filepath:  deploy data/20110201_6_input/deploy_compatible_with_brat.txt
+['data/20110201_6_input/deploy/20110201_61.txt', 'data/20110201_6_input/deploy/20110201_60.txt'] 2
+dataset_type, dataset_brat_folders[dataset_type]:  deploy data/20110201_6_input/deploy
+Formatting deploy set from BRAT to CONLL... data/20110201_6_input/deploy_spacy.txt
+Done.
+Converting CONLL from BIO to BIOES format... Done.
+dataset_filepaths: {'deploy': 'data/20110201_6_input/deploy_spacy_bioes.txt'}
+dataset_filepaths: {'deploy': 'data/20110201_6_input/deploy_spacy_bioes.txt'}
+Load dataset... done (46.68 seconds)
+Load token embeddings... done (0.79 seconds)
+number_of_token_original_case_found: 400000
+number_of_token_lowercase_found: 17353
+number_of_token_digits_replaced_with_zeros_found: 151
+number_of_token_lowercase_and_digits_replaced_with_zeros_found: 16
+number_of_loaded_word_vectors: 417520
+dataset.vocabulary_size: 420029
+Load token embeddings from pretrained model... done (0.30 seconds)
+number_of_loaded_vectors: 28985
+dataset.vocabulary_size: 420029
+Load character embeddings from pretrained model... done (0.07 seconds)
+number_of_loaded_vectors: 86
+dataset.alphabet_size: 95
+
+Starting epoch 0
+Training completed in 0.00 seconds
+=> Predict labels for the deploy set
+output_file:  output/20110201_6_input_2019-06-14_22-25-03-398622/000_deploy.txt
+mentions_output_file:  output/20110201_6_input_2019-06-14_22-25-03-398622/mentions_output.txt
+tally: 11174 11174 total mentions discovered: 8553
+=> Formatting 000_deploy set from CONLL to BRAT... Done.
+Finishing the experiment
+141.22010731697083
+lets begin here
+{'use_pretrained_model': 'True', 'pretrained_model_folder': 'trained_models/conll_2003_en', 'train_model': 'False', 'fetch_trained_model': '', 'fetch_data': '', 'dataset_text_folder': 'data/20110202_0_input'}
+hello
+here1
+here2
+printing the parameters_filepath /home/satadisha/Desktop/GitProjects/NeuroNER-master/parameters.ini
+{'parameters_filepath': 'parameters.ini', 'reload_token_embeddings': 1, 'character_lstm_hidden_state_dimension': 25, 'load_only_pretrained_token_embeddings': 0, 'reload_feedforward': 1, 'patience': 10, 'learning_rate': 0.005, 'tokenizer': 'spacy', 'verbose': 0, 'check_for_lowercase': 1, 'token_pretrained_embedding_filepath': '/home/satadisha/Desktop/GitProjects/NeuroNER-master/data/word_vectors/glove.6B.100d.txt', 'train_model': 0, 'token_embedding_dimension': 100, 'use_pretrained_model': 1, 'use_character_lstm': 1, 'dataset_text_folder': 'data/20110202_0_input', 'fetch_data': '', 'character_embedding_dimension': 25, 'plot_format': 'pdf', 'load_all_pretrained_token_embeddings': 'False', 'optimizer': 'sgd', 'gradient_clipping_value': 5.0, 'pretrained_model_folder': 'trained_models/conll_2003_en', 'spacylanguage': 'en', 'maximum_number_of_epochs': 100, 'reload_character_lstm': 1, 'remap_unknown_tokens_to_unk': 1, 'reload_crf': 1, 'freeze_token_embeddings': 0, 'debug': 0, 'reload_character_embeddings': 1, 'token_lstm_hidden_state_dimension': 1, 'dropout_rate': 0.5, 'main_evaluation_mode': 'conll', 'output_scores': 0, 'number_of_gpus': 0, 'reload_token_lstm': 1, 'output_folder': 'output', 'fetch_trained_model': '', 'use_crf': 1, 'experiment_name': 'test', 'check_for_digits_replaced_with_zeros': 1, 'number_of_cpu_threads': 8, 'tagging_format': 'bioes'}
+printing the pretrain path trained_models/conll_2003_en/parameters.ini
+WARNING: parameter 'token_lstm_hidden_state_dimension' was overwritten from '1' to '100'
+                        for consistency with the pretrained model
+dataset_type, dataset_filepaths[dataset_type]:  train data/20110202_0_input/train.txt
+dataset_type, dataset_brat_folders[dataset_type]:  train data/20110202_0_input/train
+dataset_type, dataset_compatible_with_brat_filepath:  train data/20110202_0_input/train_compatible_with_brat.txt
+[] 0
+dataset_type, dataset_filepaths[dataset_type]:  valid data/20110202_0_input/valid.txt
+dataset_type, dataset_brat_folders[dataset_type]:  valid data/20110202_0_input/valid
+dataset_type, dataset_compatible_with_brat_filepath:  valid data/20110202_0_input/valid_compatible_with_brat.txt
+[] 0
+dataset_type, dataset_filepaths[dataset_type]:  test data/20110202_0_input/test.txt
+dataset_type, dataset_brat_folders[dataset_type]:  test data/20110202_0_input/test
+dataset_type, dataset_compatible_with_brat_filepath:  test data/20110202_0_input/test_compatible_with_brat.txt
+[] 0
+dataset_type, dataset_filepaths[dataset_type]:  deploy data/20110202_0_input/deploy.txt
+dataset_type, dataset_brat_folders[dataset_type]:  deploy data/20110202_0_input/deploy
+dataset_type, dataset_compatible_with_brat_filepath:  deploy data/20110202_0_input/deploy_compatible_with_brat.txt
+['data/20110202_0_input/deploy/20110202_7.txt', 'data/20110202_0_input/deploy/20110202_6.txt', 'data/20110202_0_input/deploy/20110202_0.txt', 'data/20110202_0_input/deploy/20110202_1.txt', 'data/20110202_0_input/deploy/20110202_8.txt', 'data/20110202_0_input/deploy/20110202_5.txt', 'data/20110202_0_input/deploy/20110202_2.txt', 'data/20110202_0_input/deploy/20110202_4.txt', 'data/20110202_0_input/deploy/20110202_3.txt', 'data/20110202_0_input/deploy/20110202_9.txt'] 10
+dataset_type, dataset_brat_folders[dataset_type]:  deploy data/20110202_0_input/deploy
+Formatting deploy set from BRAT to CONLL... data/20110202_0_input/deploy_spacy.txt
+Done.
+Converting CONLL from BIO to BIOES format... Done.
+dataset_filepaths: {'deploy': 'data/20110202_0_input/deploy_spacy_bioes.txt'}
+dataset_filepaths: {'deploy': 'data/20110202_0_input/deploy_spacy_bioes.txt'}
+Load dataset... done (244.06 seconds)
+Load token embeddings... done (1.13 seconds)
+number_of_token_original_case_found: 400000
+number_of_token_lowercase_found: 38007
+number_of_token_digits_replaced_with_zeros_found: 383
+number_of_token_lowercase_and_digits_replaced_with_zeros_found: 16
+number_of_loaded_word_vectors: 438406
+dataset.vocabulary_size: 440915
+Load token embeddings from pretrained model... done (0.31 seconds)
+number_of_loaded_vectors: 28985
+dataset.vocabulary_size: 440915
+Load character embeddings from pretrained model... done (0.07 seconds)
+number_of_loaded_vectors: 86
+dataset.alphabet_size: 97
+
+Starting epoch 0
+Training completed in 0.00 seconds
+=> Predict labels for the deploy set
+output_file:  output/20110202_0_input_2019-06-14_22-33-35-883708/000_deploy.txt
+mentions_output_file:  output/20110202_0_input_2019-06-14_22-33-35-883708/mentions_output.txt
+tally: 100000 100000 total mentions discovered: 80201
+=> Formatting 000_deploy set from CONLL to BRAT... Done.
+Finishing the experiment
+990.1502664089203
+lets begin here
+{'fetch_data': '', 'fetch_trained_model': '', 'use_pretrained_model': 'True', 'train_model': 'False', 'dataset_text_folder': 'data/20110202_1_input', 'pretrained_model_folder': 'trained_models/conll_2003_en'}
+hello
+here1
+here2
+printing the parameters_filepath /home/satadisha/Desktop/GitProjects/NeuroNER-master/parameters.ini
+{'remap_unknown_tokens_to_unk': 1, 'reload_character_lstm': 1, 'spacylanguage': 'en', 'optimizer': 'sgd', 'fetch_data': '', 'plot_format': 'pdf', 'token_lstm_hidden_state_dimension': 1, 'token_pretrained_embedding_filepath': '/home/satadisha/Desktop/GitProjects/NeuroNER-master/data/word_vectors/glove.6B.100d.txt', 'verbose': 0, 'output_scores': 0, 'reload_feedforward': 1, 'reload_token_lstm': 1, 'gradient_clipping_value': 5.0, 'token_embedding_dimension': 100, 'number_of_cpu_threads': 8, 'parameters_filepath': 'parameters.ini', 'tagging_format': 'bioes', 'pretrained_model_folder': 'trained_models/conll_2003_en', 'dropout_rate': 0.5, 'reload_character_embeddings': 1, 'number_of_gpus': 0, 'load_only_pretrained_token_embeddings': 0, 'reload_crf': 1, 'character_lstm_hidden_state_dimension': 25, 'maximum_number_of_epochs': 100, 'character_embedding_dimension': 25, 'tokenizer': 'spacy', 'freeze_token_embeddings': 0, 'experiment_name': 'test', 'patience': 10, 'check_for_lowercase': 1, 'use_pretrained_model': 1, 'reload_token_embeddings': 1, 'dataset_text_folder': 'data/20110202_1_input', 'check_for_digits_replaced_with_zeros': 1, 'train_model': 0, 'main_evaluation_mode': 'conll', 'output_folder': 'output', 'fetch_trained_model': '', 'load_all_pretrained_token_embeddings': 'False', 'debug': 0, 'learning_rate': 0.005, 'use_crf': 1, 'use_character_lstm': 1}
+printing the pretrain path trained_models/conll_2003_en/parameters.ini
+WARNING: parameter 'token_lstm_hidden_state_dimension' was overwritten from '1' to '100'
+                        for consistency with the pretrained model
+dataset_type, dataset_filepaths[dataset_type]:  train data/20110202_1_input/train.txt
+dataset_type, dataset_brat_folders[dataset_type]:  train data/20110202_1_input/train
+dataset_type, dataset_compatible_with_brat_filepath:  train data/20110202_1_input/train_compatible_with_brat.txt
+[] 0
+dataset_type, dataset_filepaths[dataset_type]:  valid data/20110202_1_input/valid.txt
+dataset_type, dataset_brat_folders[dataset_type]:  valid data/20110202_1_input/valid
+dataset_type, dataset_compatible_with_brat_filepath:  valid data/20110202_1_input/valid_compatible_with_brat.txt
+[] 0
+dataset_type, dataset_filepaths[dataset_type]:  test data/20110202_1_input/test.txt
+dataset_type, dataset_brat_folders[dataset_type]:  test data/20110202_1_input/test
+dataset_type, dataset_compatible_with_brat_filepath:  test data/20110202_1_input/test_compatible_with_brat.txt
+[] 0
+dataset_type, dataset_filepaths[dataset_type]:  deploy data/20110202_1_input/deploy.txt
+dataset_type, dataset_brat_folders[dataset_type]:  deploy data/20110202_1_input/deploy
+dataset_type, dataset_compatible_with_brat_filepath:  deploy data/20110202_1_input/deploy_compatible_with_brat.txt
+['data/20110202_1_input/deploy/20110202_16.txt', 'data/20110202_1_input/deploy/20110202_12.txt', 'data/20110202_1_input/deploy/20110202_19.txt', 'data/20110202_1_input/deploy/20110202_11.txt', 'data/20110202_1_input/deploy/20110202_18.txt', 'data/20110202_1_input/deploy/20110202_13.txt', 'data/20110202_1_input/deploy/20110202_14.txt', 'data/20110202_1_input/deploy/20110202_17.txt', 'data/20110202_1_input/deploy/20110202_10.txt', 'data/20110202_1_input/deploy/20110202_15.txt'] 10
+dataset_type, dataset_brat_folders[dataset_type]:  deploy data/20110202_1_input/deploy
+Formatting deploy set from BRAT to CONLL... data/20110202_1_input/deploy_spacy.txt
+Done.
+Converting CONLL from BIO to BIOES format... Done.
+dataset_filepaths: {'deploy': 'data/20110202_1_input/deploy_spacy_bioes.txt'}
+dataset_filepaths: {'deploy': 'data/20110202_1_input/deploy_spacy_bioes.txt'}
+Load dataset... done (242.27 seconds)
+Load token embeddings... done (1.17 seconds)
+number_of_token_original_case_found: 400000
+number_of_token_lowercase_found: 37425
+number_of_token_digits_replaced_with_zeros_found: 385
+number_of_token_lowercase_and_digits_replaced_with_zeros_found: 17
+number_of_loaded_word_vectors: 437827
+dataset.vocabulary_size: 440336
+Load token embeddings from pretrained model... done (0.31 seconds)
+number_of_loaded_vectors: 28985
+dataset.vocabulary_size: 440336
+Load character embeddings from pretrained model... done (0.07 seconds)
+number_of_loaded_vectors: 86
+dataset.alphabet_size: 96
+
+Starting epoch 0
+Training completed in 0.00 seconds
+=> Predict labels for the deploy set
+output_file:  output/20110202_1_input_2019-06-14_22-50-19-558173/000_deploy.txt
+mentions_output_file:  output/20110202_1_input_2019-06-14_22-50-19-558173/mentions_output.txt
+tally: 100000 100000 total mentions discovered: 79210
+=> Formatting 000_deploy set from CONLL to BRAT... Done.
+Finishing the experiment
+1005.0563771724701
+lets begin here
+{'fetch_data': '', 'use_pretrained_model': 'True', 'fetch_trained_model': '', 'train_model': 'False', 'dataset_text_folder': 'data/20110202_2_input', 'pretrained_model_folder': 'trained_models/conll_2003_en'}
+hello
+here1
+here2
+printing the parameters_filepath /home/satadisha/Desktop/GitProjects/NeuroNER-master/parameters.ini
+{'number_of_gpus': 0, 'tokenizer': 'spacy', 'experiment_name': 'test', 'check_for_digits_replaced_with_zeros': 1, 'reload_token_lstm': 1, 'fetch_data': '', 'maximum_number_of_epochs': 100, 'parameters_filepath': 'parameters.ini', 'reload_token_embeddings': 1, 'plot_format': 'pdf', 'reload_feedforward': 1, 'use_pretrained_model': 1, 'output_scores': 0, 'use_crf': 1, 'train_model': 0, 'reload_character_embeddings': 1, 'token_lstm_hidden_state_dimension': 1, 'load_only_pretrained_token_embeddings': 0, 'patience': 10, 'spacylanguage': 'en', 'dropout_rate': 0.5, 'remap_unknown_tokens_to_unk': 1, 'freeze_token_embeddings': 0, 'fetch_trained_model': '', 'tagging_format': 'bioes', 'character_lstm_hidden_state_dimension': 25, 'verbose': 0, 'main_evaluation_mode': 'conll', 'optimizer': 'sgd', 'load_all_pretrained_token_embeddings': 'False', 'gradient_clipping_value': 5.0, 'character_embedding_dimension': 25, 'pretrained_model_folder': 'trained_models/conll_2003_en', 'output_folder': 'output', 'number_of_cpu_threads': 8, 'token_embedding_dimension': 100, 'reload_crf': 1, 'token_pretrained_embedding_filepath': '/home/satadisha/Desktop/GitProjects/NeuroNER-master/data/word_vectors/glove.6B.100d.txt', 'learning_rate': 0.005, 'check_for_lowercase': 1, 'debug': 0, 'reload_character_lstm': 1, 'dataset_text_folder': 'data/20110202_2_input', 'use_character_lstm': 1}
+printing the pretrain path trained_models/conll_2003_en/parameters.ini
+WARNING: parameter 'token_lstm_hidden_state_dimension' was overwritten from '1' to '100'
+                        for consistency with the pretrained model
+dataset_type, dataset_filepaths[dataset_type]:  train data/20110202_2_input/train.txt
+dataset_type, dataset_brat_folders[dataset_type]:  train data/20110202_2_input/train
+dataset_type, dataset_compatible_with_brat_filepath:  train data/20110202_2_input/train_compatible_with_brat.txt
+[] 0
+dataset_type, dataset_filepaths[dataset_type]:  valid data/20110202_2_input/valid.txt
+dataset_type, dataset_brat_folders[dataset_type]:  valid data/20110202_2_input/valid
+dataset_type, dataset_compatible_with_brat_filepath:  valid data/20110202_2_input/valid_compatible_with_brat.txt
+[] 0
+dataset_type, dataset_filepaths[dataset_type]:  test data/20110202_2_input/test.txt
+dataset_type, dataset_brat_folders[dataset_type]:  test data/20110202_2_input/test
+dataset_type, dataset_compatible_with_brat_filepath:  test data/20110202_2_input/test_compatible_with_brat.txt
+[] 0
+dataset_type, dataset_filepaths[dataset_type]:  deploy data/20110202_2_input/deploy.txt
+dataset_type, dataset_brat_folders[dataset_type]:  deploy data/20110202_2_input/deploy
+dataset_type, dataset_compatible_with_brat_filepath:  deploy data/20110202_2_input/deploy_compatible_with_brat.txt
+['data/20110202_2_input/deploy/20110202_28.txt', 'data/20110202_2_input/deploy/20110202_23.txt', 'data/20110202_2_input/deploy/20110202_26.txt', 'data/20110202_2_input/deploy/20110202_25.txt', 'data/20110202_2_input/deploy/20110202_29.txt', 'data/20110202_2_input/deploy/20110202_27.txt', 'data/20110202_2_input/deploy/20110202_24.txt', 'data/20110202_2_input/deploy/20110202_21.txt', 'data/20110202_2_input/deploy/20110202_22.txt', 'data/20110202_2_input/deploy/20110202_20.txt'] 10
+dataset_type, dataset_brat_folders[dataset_type]:  deploy data/20110202_2_input/deploy
+Formatting deploy set from BRAT to CONLL... data/20110202_2_input/deploy_spacy.txt
+Done.
+Converting CONLL from BIO to BIOES format... Done.
+dataset_filepaths: {'deploy': 'data/20110202_2_input/deploy_spacy_bioes.txt'}
+dataset_filepaths: {'deploy': 'data/20110202_2_input/deploy_spacy_bioes.txt'}
+Load dataset... done (250.73 seconds)
+Load token embeddings... done (1.14 seconds)
+number_of_token_original_case_found: 400000
+number_of_token_lowercase_found: 38319
+number_of_token_digits_replaced_with_zeros_found: 397
+number_of_token_lowercase_and_digits_replaced_with_zeros_found: 17
+number_of_loaded_word_vectors: 438733
+dataset.vocabulary_size: 441242
+Load token embeddings from pretrained model... done (0.32 seconds)
+number_of_loaded_vectors: 28985
+dataset.vocabulary_size: 441242
+Load character embeddings from pretrained model... done (0.07 seconds)
+number_of_loaded_vectors: 86
+dataset.alphabet_size: 95
+
+Starting epoch 0
+Training completed in 0.00 seconds
+=> Predict labels for the deploy set
+output_file:  output/20110202_2_input_2019-06-14_23-09-04-158069/000_deploy.txt
+mentions_output_file:  output/20110202_2_input_2019-06-14_23-09-04-158069/mentions_output.txt
+tally: 100000 100000 total mentions discovered: 81195
+=> Formatting 000_deploy set from CONLL to BRAT... Done.
+Finishing the experiment
+1011.8487436771393
+lets begin here
+{'fetch_trained_model': '', 'use_pretrained_model': 'True', 'fetch_data': '', 'train_model': 'False', 'dataset_text_folder': 'data/20110202_3_input', 'pretrained_model_folder': 'trained_models/conll_2003_en'}
+hello
+here1
+here2
+printing the parameters_filepath /home/satadisha/Desktop/GitProjects/NeuroNER-master/parameters.ini
+{'parameters_filepath': 'parameters.ini', 'reload_token_lstm': 1, 'reload_character_embeddings': 1, 'number_of_cpu_threads': 8, 'number_of_gpus': 0, 'token_embedding_dimension': 100, 'load_only_pretrained_token_embeddings': 0, 'spacylanguage': 'en', 'experiment_name': 'test', 'gradient_clipping_value': 5.0, 'train_model': 0, 'use_pretrained_model': 1, 'main_evaluation_mode': 'conll', 'reload_crf': 1, 'remap_unknown_tokens_to_unk': 1, 'plot_format': 'pdf', 'maximum_number_of_epochs': 100, 'output_scores': 0, 'character_embedding_dimension': 25, 'optimizer': 'sgd', 'output_folder': 'output', 'reload_feedforward': 1, 'load_all_pretrained_token_embeddings': 'False', 'reload_token_embeddings': 1, 'patience': 10, 'pretrained_model_folder': 'trained_models/conll_2003_en', 'tagging_format': 'bioes', 'fetch_trained_model': '', 'use_character_lstm': 1, 'check_for_lowercase': 1, 'learning_rate': 0.005, 'freeze_token_embeddings': 0, 'token_pretrained_embedding_filepath': '/home/satadisha/Desktop/GitProjects/NeuroNER-master/data/word_vectors/glove.6B.100d.txt', 'fetch_data': '', 'reload_character_lstm': 1, 'tokenizer': 'spacy', 'check_for_digits_replaced_with_zeros': 1, 'verbose': 0, 'token_lstm_hidden_state_dimension': 1, 'use_crf': 1, 'character_lstm_hidden_state_dimension': 25, 'debug': 0, 'dropout_rate': 0.5, 'dataset_text_folder': 'data/20110202_3_input'}
+printing the pretrain path trained_models/conll_2003_en/parameters.ini
+WARNING: parameter 'token_lstm_hidden_state_dimension' was overwritten from '1' to '100'
+                        for consistency with the pretrained model
+dataset_type, dataset_filepaths[dataset_type]:  train data/20110202_3_input/train.txt
+dataset_type, dataset_brat_folders[dataset_type]:  train data/20110202_3_input/train
+dataset_type, dataset_compatible_with_brat_filepath:  train data/20110202_3_input/train_compatible_with_brat.txt
+[] 0
+dataset_type, dataset_filepaths[dataset_type]:  valid data/20110202_3_input/valid.txt
+dataset_type, dataset_brat_folders[dataset_type]:  valid data/20110202_3_input/valid
+dataset_type, dataset_compatible_with_brat_filepath:  valid data/20110202_3_input/valid_compatible_with_brat.txt
+[] 0
+dataset_type, dataset_filepaths[dataset_type]:  test data/20110202_3_input/test.txt
+dataset_type, dataset_brat_folders[dataset_type]:  test data/20110202_3_input/test
+dataset_type, dataset_compatible_with_brat_filepath:  test data/20110202_3_input/test_compatible_with_brat.txt
+[] 0
+dataset_type, dataset_filepaths[dataset_type]:  deploy data/20110202_3_input/deploy.txt
+dataset_type, dataset_brat_folders[dataset_type]:  deploy data/20110202_3_input/deploy
+dataset_type, dataset_compatible_with_brat_filepath:  deploy data/20110202_3_input/deploy_compatible_with_brat.txt
+['data/20110202_3_input/deploy/20110202_36.txt', 'data/20110202_3_input/deploy/20110202_35.txt', 'data/20110202_3_input/deploy/20110202_37.txt', 'data/20110202_3_input/deploy/20110202_32.txt', 'data/20110202_3_input/deploy/20110202_39.txt', 'data/20110202_3_input/deploy/20110202_31.txt', 'data/20110202_3_input/deploy/20110202_38.txt', 'data/20110202_3_input/deploy/20110202_34.txt', 'data/20110202_3_input/deploy/20110202_33.txt', 'data/20110202_3_input/deploy/20110202_30.txt'] 10
+dataset_type, dataset_brat_folders[dataset_type]:  deploy data/20110202_3_input/deploy
+Formatting deploy set from BRAT to CONLL... data/20110202_3_input/deploy_spacy.txt
+Done.
+Converting CONLL from BIO to BIOES format... Done.
+dataset_filepaths: {'deploy': 'data/20110202_3_input/deploy_spacy_bioes.txt'}
+dataset_filepaths: {'deploy': 'data/20110202_3_input/deploy_spacy_bioes.txt'}
+Load dataset... done (243.05 seconds)
+Load token embeddings... done (1.13 seconds)
+number_of_token_original_case_found: 400000
+number_of_token_lowercase_found: 38048
+number_of_token_digits_replaced_with_zeros_found: 373
+number_of_token_lowercase_and_digits_replaced_with_zeros_found: 16
+number_of_loaded_word_vectors: 438437
+dataset.vocabulary_size: 440946
+Load token embeddings from pretrained model... done (0.32 seconds)
+number_of_loaded_vectors: 28985
+dataset.vocabulary_size: 440946
+Load character embeddings from pretrained model... done (0.07 seconds)
+number_of_loaded_vectors: 86
+dataset.alphabet_size: 97
+
+Starting epoch 0
+Training completed in 0.00 seconds
+=> Predict labels for the deploy set
+output_file:  output/20110202_3_input_2019-06-14_23-26-13-895051/000_deploy.txt
+mentions_output_file:  output/20110202_3_input_2019-06-14_23-26-13-895051/mentions_output.txt
+tally: 100000 100000 total mentions discovered: 79813
+=> Formatting 000_deploy set from CONLL to BRAT... Done.
+Finishing the experiment
+990.053472995758
+lets begin here
+{'dataset_text_folder': 'data/20110202_4_input', 'train_model': 'False', 'use_pretrained_model': 'True', 'pretrained_model_folder': 'trained_models/conll_2003_en', 'fetch_trained_model': '', 'fetch_data': ''}
+hello
+here1
+here2
+printing the parameters_filepath /home/satadisha/Desktop/GitProjects/NeuroNER-master/parameters.ini
+{'token_lstm_hidden_state_dimension': 1, 'number_of_gpus': 0, 'reload_character_lstm': 1, 'maximum_number_of_epochs': 100, 'experiment_name': 'test', 'character_embedding_dimension': 25, 'reload_token_lstm': 1, 'spacylanguage': 'en', 'main_evaluation_mode': 'conll', 'plot_format': 'pdf', 'dataset_text_folder': 'data/20110202_4_input', 'reload_token_embeddings': 1, 'learning_rate': 0.005, 'number_of_cpu_threads': 8, 'reload_character_embeddings': 1, 'output_folder': 'output', 'dropout_rate': 0.5, 'tokenizer': 'spacy', 'fetch_data': '', 'fetch_trained_model': '', 'use_character_lstm': 1, 'check_for_lowercase': 1, 'use_crf': 1, 'patience': 10, 'freeze_token_embeddings': 0, 'load_all_pretrained_token_embeddings': 'False', 'token_embedding_dimension': 100, 'reload_crf': 1, 'check_for_digits_replaced_with_zeros': 1, 'token_pretrained_embedding_filepath': '/home/satadisha/Desktop/GitProjects/NeuroNER-master/data/word_vectors/glove.6B.100d.txt', 'output_scores': 0, 'use_pretrained_model': 1, 'verbose': 0, 'pretrained_model_folder': 'trained_models/conll_2003_en', 'remap_unknown_tokens_to_unk': 1, 'debug': 0, 'tagging_format': 'bioes', 'character_lstm_hidden_state_dimension': 25, 'gradient_clipping_value': 5.0, 'optimizer': 'sgd', 'load_only_pretrained_token_embeddings': 0, 'train_model': 0, 'parameters_filepath': 'parameters.ini', 'reload_feedforward': 1}
+printing the pretrain path trained_models/conll_2003_en/parameters.ini
+WARNING: parameter 'token_lstm_hidden_state_dimension' was overwritten from '1' to '100'
+                        for consistency with the pretrained model
+dataset_type, dataset_filepaths[dataset_type]:  train data/20110202_4_input/train.txt
+dataset_type, dataset_brat_folders[dataset_type]:  train data/20110202_4_input/train
+dataset_type, dataset_compatible_with_brat_filepath:  train data/20110202_4_input/train_compatible_with_brat.txt
+[] 0
+dataset_type, dataset_filepaths[dataset_type]:  valid data/20110202_4_input/valid.txt
+dataset_type, dataset_brat_folders[dataset_type]:  valid data/20110202_4_input/valid
+dataset_type, dataset_compatible_with_brat_filepath:  valid data/20110202_4_input/valid_compatible_with_brat.txt
+[] 0
+dataset_type, dataset_filepaths[dataset_type]:  test data/20110202_4_input/test.txt
+dataset_type, dataset_brat_folders[dataset_type]:  test data/20110202_4_input/test
+dataset_type, dataset_compatible_with_brat_filepath:  test data/20110202_4_input/test_compatible_with_brat.txt
+[] 0
+dataset_type, dataset_filepaths[dataset_type]:  deploy data/20110202_4_input/deploy.txt
+dataset_type, dataset_brat_folders[dataset_type]:  deploy data/20110202_4_input/deploy
+dataset_type, dataset_compatible_with_brat_filepath:  deploy data/20110202_4_input/deploy_compatible_with_brat.txt
+['data/20110202_4_input/deploy/20110202_41.txt', 'data/20110202_4_input/deploy/20110202_40.txt', 'data/20110202_4_input/deploy/20110202_44.txt', 'data/20110202_4_input/deploy/20110202_42.txt', 'data/20110202_4_input/deploy/20110202_43.txt', 'data/20110202_4_input/deploy/20110202_46.txt', 'data/20110202_4_input/deploy/20110202_49.txt', 'data/20110202_4_input/deploy/20110202_45.txt', 'data/20110202_4_input/deploy/20110202_48.txt', 'data/20110202_4_input/deploy/20110202_47.txt'] 10
+dataset_type, dataset_brat_folders[dataset_type]:  deploy data/20110202_4_input/deploy
+Formatting deploy set from BRAT to CONLL... data/20110202_4_input/deploy_spacy.txt
+Done.
+Converting CONLL from BIO to BIOES format... Done.
+dataset_filepaths: {'deploy': 'data/20110202_4_input/deploy_spacy_bioes.txt'}
+dataset_filepaths: {'deploy': 'data/20110202_4_input/deploy_spacy_bioes.txt'}
+Load dataset... done (246.44 seconds)
+Load token embeddings... done (1.15 seconds)
+number_of_token_original_case_found: 400000
+number_of_token_lowercase_found: 37769
+number_of_token_digits_replaced_with_zeros_found: 393
+number_of_token_lowercase_and_digits_replaced_with_zeros_found: 16
+number_of_loaded_word_vectors: 438178
+dataset.vocabulary_size: 440687
+Load token embeddings from pretrained model... done (0.33 seconds)
+number_of_loaded_vectors: 28985
+dataset.vocabulary_size: 440687
+Load character embeddings from pretrained model... done (0.10 seconds)
+number_of_loaded_vectors: 86
+dataset.alphabet_size: 96
+
+Starting epoch 0
+Training completed in 0.00 seconds
+=> Predict labels for the deploy set
+output_file:  output/20110202_4_input_2019-06-14_23-43-03-604651/000_deploy.txt
+mentions_output_file:  output/20110202_4_input_2019-06-14_23-43-03-604651/mentions_output.txt
+tally: 100000 100000 total mentions discovered: 79858
+=> Formatting 000_deploy set from CONLL to BRAT... Done.
+Finishing the experiment
+1006.3562653064728
+lets begin here
+{'pretrained_model_folder': 'trained_models/conll_2003_en', 'fetch_trained_model': '', 'fetch_data': '', 'dataset_text_folder': 'data/20110202_5_input', 'use_pretrained_model': 'True', 'train_model': 'False'}
+hello
+here1
+here2
+printing the parameters_filepath /home/satadisha/Desktop/GitProjects/NeuroNER-master/parameters.ini
+{'maximum_number_of_epochs': 100, 'dropout_rate': 0.5, 'fetch_trained_model': '', 'use_character_lstm': 1, 'fetch_data': '', 'use_pretrained_model': 1, 'debug': 0, 'spacylanguage': 'en', 'learning_rate': 0.005, 'train_model': 0, 'reload_token_embeddings': 1, 'number_of_cpu_threads': 8, 'freeze_token_embeddings': 0, 'load_only_pretrained_token_embeddings': 0, 'output_folder': 'output', 'optimizer': 'sgd', 'pretrained_model_folder': 'trained_models/conll_2003_en', 'main_evaluation_mode': 'conll', 'tagging_format': 'bioes', 'dataset_text_folder': 'data/20110202_5_input', 'check_for_lowercase': 1, 'token_embedding_dimension': 100, 'experiment_name': 'test', 'patience': 10, 'gradient_clipping_value': 5.0, 'verbose': 0, 'use_crf': 1, 'token_pretrained_embedding_filepath': '/home/satadisha/Desktop/GitProjects/NeuroNER-master/data/word_vectors/glove.6B.100d.txt', 'reload_character_lstm': 1, 'reload_feedforward': 1, 'character_lstm_hidden_state_dimension': 25, 'character_embedding_dimension': 25, 'check_for_digits_replaced_with_zeros': 1, 'token_lstm_hidden_state_dimension': 1, 'load_all_pretrained_token_embeddings': 'False', 'number_of_gpus': 0, 'parameters_filepath': 'parameters.ini', 'reload_character_embeddings': 1, 'reload_token_lstm': 1, 'reload_crf': 1, 'plot_format': 'pdf', 'remap_unknown_tokens_to_unk': 1, 'output_scores': 0, 'tokenizer': 'spacy'}
+printing the pretrain path trained_models/conll_2003_en/parameters.ini
+WARNING: parameter 'token_lstm_hidden_state_dimension' was overwritten from '1' to '100'
+                        for consistency with the pretrained model
+dataset_type, dataset_filepaths[dataset_type]:  train data/20110202_5_input/train.txt
+dataset_type, dataset_brat_folders[dataset_type]:  train data/20110202_5_input/train
+dataset_type, dataset_compatible_with_brat_filepath:  train data/20110202_5_input/train_compatible_with_brat.txt
+[] 0
+dataset_type, dataset_filepaths[dataset_type]:  valid data/20110202_5_input/valid.txt
+dataset_type, dataset_brat_folders[dataset_type]:  valid data/20110202_5_input/valid
+dataset_type, dataset_compatible_with_brat_filepath:  valid data/20110202_5_input/valid_compatible_with_brat.txt
+[] 0
+dataset_type, dataset_filepaths[dataset_type]:  test data/20110202_5_input/test.txt
+dataset_type, dataset_brat_folders[dataset_type]:  test data/20110202_5_input/test
+dataset_type, dataset_compatible_with_brat_filepath:  test data/20110202_5_input/test_compatible_with_brat.txt
+[] 0
+dataset_type, dataset_filepaths[dataset_type]:  deploy data/20110202_5_input/deploy.txt
+dataset_type, dataset_brat_folders[dataset_type]:  deploy data/20110202_5_input/deploy
+dataset_type, dataset_compatible_with_brat_filepath:  deploy data/20110202_5_input/deploy_compatible_with_brat.txt
+['data/20110202_5_input/deploy/20110202_56.txt', 'data/20110202_5_input/deploy/20110202_51.txt', 'data/20110202_5_input/deploy/20110202_53.txt', 'data/20110202_5_input/deploy/20110202_58.txt', 'data/20110202_5_input/deploy/20110202_55.txt', 'data/20110202_5_input/deploy/20110202_52.txt', 'data/20110202_5_input/deploy/20110202_57.txt', 'data/20110202_5_input/deploy/20110202_54.txt', 'data/20110202_5_input/deploy/20110202_59.txt', 'data/20110202_5_input/deploy/20110202_50.txt'] 10
+dataset_type, dataset_brat_folders[dataset_type]:  deploy data/20110202_5_input/deploy
+Formatting deploy set from BRAT to CONLL... data/20110202_5_input/deploy_spacy.txt
+Done.
+Converting CONLL from BIO to BIOES format... Done.
+dataset_filepaths: {'deploy': 'data/20110202_5_input/deploy_spacy_bioes.txt'}
+dataset_filepaths: {'deploy': 'data/20110202_5_input/deploy_spacy_bioes.txt'}
+Load dataset... done (246.56 seconds)
+Load token embeddings... done (1.12 seconds)
+number_of_token_original_case_found: 400000
+number_of_token_lowercase_found: 38715
+number_of_token_digits_replaced_with_zeros_found: 394
+number_of_token_lowercase_and_digits_replaced_with_zeros_found: 17
+number_of_loaded_word_vectors: 439126
+dataset.vocabulary_size: 441635
+Load token embeddings from pretrained model... done (0.33 seconds)
+number_of_loaded_vectors: 28985
+dataset.vocabulary_size: 441635
+Load character embeddings from pretrained model... done (0.07 seconds)
+number_of_loaded_vectors: 86
+dataset.alphabet_size: 97
+
+Starting epoch 0
+Training completed in 0.00 seconds
+=> Predict labels for the deploy set
+output_file:  output/20110202_5_input_2019-06-15_00-00-15-953576/000_deploy.txt
+mentions_output_file:  output/20110202_5_input_2019-06-15_00-00-15-953576/mentions_output.txt
+tally: 100000 100000 total mentions discovered: 83566
+=> Formatting 000_deploy set from CONLL to BRAT... Done.
+Finishing the experiment
+996.3381795883179
+lets begin here
+{'pretrained_model_folder': 'trained_models/conll_2003_en', 'dataset_text_folder': 'data/20110202_6_input', 'use_pretrained_model': 'True', 'fetch_trained_model': '', 'fetch_data': '', 'train_model': 'False'}
+hello
+here1
+here2
+printing the parameters_filepath /home/satadisha/Desktop/GitProjects/NeuroNER-master/parameters.ini
+{'number_of_cpu_threads': 8, 'gradient_clipping_value': 5.0, 'dropout_rate': 0.5, 'maximum_number_of_epochs': 100, 'train_model': 0, 'reload_character_lstm': 1, 'pretrained_model_folder': 'trained_models/conll_2003_en', 'load_all_pretrained_token_embeddings': 'False', 'parameters_filepath': 'parameters.ini', 'patience': 10, 'tokenizer': 'spacy', 'reload_token_lstm': 1, 'reload_character_embeddings': 1, 'remap_unknown_tokens_to_unk': 1, 'check_for_lowercase': 1, 'character_lstm_hidden_state_dimension': 25, 'use_pretrained_model': 1, 'debug': 0, 'number_of_gpus': 0, 'reload_token_embeddings': 1, 'use_crf': 1, 'optimizer': 'sgd', 'dataset_text_folder': 'data/20110202_6_input', 'tagging_format': 'bioes', 'learning_rate': 0.005, 'token_pretrained_embedding_filepath': '/home/satadisha/Desktop/GitProjects/NeuroNER-master/data/word_vectors/glove.6B.100d.txt', 'spacylanguage': 'en', 'fetch_trained_model': '', 'fetch_data': '', 'reload_crf': 1, 'token_lstm_hidden_state_dimension': 1, 'character_embedding_dimension': 25, 'freeze_token_embeddings': 0, 'output_folder': 'output', 'experiment_name': 'test', 'token_embedding_dimension': 100, 'plot_format': 'pdf', 'reload_feedforward': 1, 'check_for_digits_replaced_with_zeros': 1, 'use_character_lstm': 1, 'verbose': 0, 'output_scores': 0, 'main_evaluation_mode': 'conll', 'load_only_pretrained_token_embeddings': 0}
+printing the pretrain path trained_models/conll_2003_en/parameters.ini
+WARNING: parameter 'token_lstm_hidden_state_dimension' was overwritten from '1' to '100'
+                        for consistency with the pretrained model
+dataset_type, dataset_filepaths[dataset_type]:  train data/20110202_6_input/train.txt
+dataset_type, dataset_brat_folders[dataset_type]:  train data/20110202_6_input/train
+dataset_type, dataset_compatible_with_brat_filepath:  train data/20110202_6_input/train_compatible_with_brat.txt
+[] 0
+dataset_type, dataset_filepaths[dataset_type]:  valid data/20110202_6_input/valid.txt
+dataset_type, dataset_brat_folders[dataset_type]:  valid data/20110202_6_input/valid
+dataset_type, dataset_compatible_with_brat_filepath:  valid data/20110202_6_input/valid_compatible_with_brat.txt
+[] 0
+dataset_type, dataset_filepaths[dataset_type]:  test data/20110202_6_input/test.txt
+dataset_type, dataset_brat_folders[dataset_type]:  test data/20110202_6_input/test
+dataset_type, dataset_compatible_with_brat_filepath:  test data/20110202_6_input/test_compatible_with_brat.txt
+[] 0
+dataset_type, dataset_filepaths[dataset_type]:  deploy data/20110202_6_input/deploy.txt
+dataset_type, dataset_brat_folders[dataset_type]:  deploy data/20110202_6_input/deploy
+dataset_type, dataset_compatible_with_brat_filepath:  deploy data/20110202_6_input/deploy_compatible_with_brat.txt
+['data/20110202_6_input/deploy/20110202_60.txt', 'data/20110202_6_input/deploy/20110202_61.txt'] 2
+dataset_type, dataset_brat_folders[dataset_type]:  deploy data/20110202_6_input/deploy
+Formatting deploy set from BRAT to CONLL... data/20110202_6_input/deploy_spacy.txt
+Done.
+Converting CONLL from BIO to BIOES format... Done.
+dataset_filepaths: {'deploy': 'data/20110202_6_input/deploy_spacy_bioes.txt'}
+dataset_filepaths: {'deploy': 'data/20110202_6_input/deploy_spacy_bioes.txt'}
+Load dataset... done (67.19 seconds)
+Load token embeddings... done (0.82 seconds)
+number_of_token_original_case_found: 400000
+number_of_token_lowercase_found: 20425
+number_of_token_digits_replaced_with_zeros_found: 167
+number_of_token_lowercase_and_digits_replaced_with_zeros_found: 17
+number_of_loaded_word_vectors: 420609
+dataset.vocabulary_size: 423118
+Load token embeddings from pretrained model... done (0.31 seconds)
+number_of_loaded_vectors: 28985
+dataset.vocabulary_size: 423118
+Load character embeddings from pretrained model... done (0.07 seconds)
+number_of_loaded_vectors: 86
+dataset.alphabet_size: 95
+
+Starting epoch 0
+Training completed in 0.00 seconds
+=> Predict labels for the deploy set
+output_file:  output/20110202_6_input_2019-06-15_00-11-34-530266/000_deploy.txt
+mentions_output_file:  output/20110202_6_input_2019-06-15_00-11-34-530266/mentions_output.txt
+tally: 19657 19657 total mentions discovered: 15481
+=> Formatting 000_deploy set from CONLL to BRAT... Done.
+Finishing the experiment
+226.33327460289001
+lets begin here
+{'use_pretrained_model': 'True', 'train_model': 'False', 'pretrained_model_folder': 'trained_models/conll_2003_en', 'dataset_text_folder': 'data/20110203_0_input', 'fetch_trained_model': '', 'fetch_data': ''}
+hello
+here1
+here2
+printing the parameters_filepath /home/satadisha/Desktop/GitProjects/NeuroNER-master/parameters.ini
+{'main_evaluation_mode': 'conll', 'pretrained_model_folder': 'trained_models/conll_2003_en', 'dataset_text_folder': 'data/20110203_0_input', 'number_of_gpus': 0, 'optimizer': 'sgd', 'spacylanguage': 'en', 'fetch_data': '', 'load_all_pretrained_token_embeddings': 'False', 'fetch_trained_model': '', 'verbose': 0, 'character_embedding_dimension': 25, 'tagging_format': 'bioes', 'number_of_cpu_threads': 8, 'character_lstm_hidden_state_dimension': 25, 'use_character_lstm': 1, 'dropout_rate': 0.5, 'token_pretrained_embedding_filepath': '/home/satadisha/Desktop/GitProjects/NeuroNER-master/data/word_vectors/glove.6B.100d.txt', 'debug': 0, 'reload_token_embeddings': 1, 'patience': 10, 'check_for_lowercase': 1, 'parameters_filepath': 'parameters.ini', 'experiment_name': 'test', 'freeze_token_embeddings': 0, 'output_scores': 0, 'check_for_digits_replaced_with_zeros': 1, 'reload_crf': 1, 'reload_character_embeddings': 1, 'plot_format': 'pdf', 'learning_rate': 0.005, 'token_embedding_dimension': 100, 'gradient_clipping_value': 5.0, 'reload_feedforward': 1, 'reload_character_lstm': 1, 'output_folder': 'output', 'maximum_number_of_epochs': 100, 'train_model': 0, 'token_lstm_hidden_state_dimension': 1, 'remap_unknown_tokens_to_unk': 1, 'use_pretrained_model': 1, 'reload_token_lstm': 1, 'use_crf': 1, 'load_only_pretrained_token_embeddings': 0, 'tokenizer': 'spacy'}
+printing the pretrain path trained_models/conll_2003_en/parameters.ini
+WARNING: parameter 'token_lstm_hidden_state_dimension' was overwritten from '1' to '100'
+                        for consistency with the pretrained model
+dataset_type, dataset_filepaths[dataset_type]:  train data/20110203_0_input/train.txt
+dataset_type, dataset_brat_folders[dataset_type]:  train data/20110203_0_input/train
+dataset_type, dataset_compatible_with_brat_filepath:  train data/20110203_0_input/train_compatible_with_brat.txt
+[] 0
+dataset_type, dataset_filepaths[dataset_type]:  valid data/20110203_0_input/valid.txt
+dataset_type, dataset_brat_folders[dataset_type]:  valid data/20110203_0_input/valid
+dataset_type, dataset_compatible_with_brat_filepath:  valid data/20110203_0_input/valid_compatible_with_brat.txt
+[] 0
+dataset_type, dataset_filepaths[dataset_type]:  test data/20110203_0_input/test.txt
+dataset_type, dataset_brat_folders[dataset_type]:  test data/20110203_0_input/test
+dataset_type, dataset_compatible_with_brat_filepath:  test data/20110203_0_input/test_compatible_with_brat.txt
+[] 0
+dataset_type, dataset_filepaths[dataset_type]:  deploy data/20110203_0_input/deploy.txt
+dataset_type, dataset_brat_folders[dataset_type]:  deploy data/20110203_0_input/deploy
+dataset_type, dataset_compatible_with_brat_filepath:  deploy data/20110203_0_input/deploy_compatible_with_brat.txt
+['data/20110203_0_input/deploy/20110203_0.txt', 'data/20110203_0_input/deploy/20110203_5.txt', 'data/20110203_0_input/deploy/20110203_4.txt', 'data/20110203_0_input/deploy/20110203_3.txt', 'data/20110203_0_input/deploy/20110203_8.txt', 'data/20110203_0_input/deploy/20110203_2.txt', 'data/20110203_0_input/deploy/20110203_9.txt', 'data/20110203_0_input/deploy/20110203_6.txt', 'data/20110203_0_input/deploy/20110203_1.txt', 'data/20110203_0_input/deploy/20110203_7.txt'] 10
+dataset_type, dataset_brat_folders[dataset_type]:  deploy data/20110203_0_input/deploy
+Formatting deploy set from BRAT to CONLL... data/20110203_0_input/deploy_spacy.txt
+Done.
+Converting CONLL from BIO to BIOES format... Done.
+dataset_filepaths: {'deploy': 'data/20110203_0_input/deploy_spacy_bioes.txt'}
+dataset_filepaths: {'deploy': 'data/20110203_0_input/deploy_spacy_bioes.txt'}
+Load dataset... done (247.60 seconds)
+Load token embeddings... done (1.13 seconds)
+number_of_token_original_case_found: 400000
+number_of_token_lowercase_found: 37621
+number_of_token_digits_replaced_with_zeros_found: 399
+number_of_token_lowercase_and_digits_replaced_with_zeros_found: 17
+number_of_loaded_word_vectors: 438037
+dataset.vocabulary_size: 440546
+Load token embeddings from pretrained model... done (0.31 seconds)
+number_of_loaded_vectors: 28985
+dataset.vocabulary_size: 440546
+Load character embeddings from pretrained model... done (0.07 seconds)
+number_of_loaded_vectors: 86
+dataset.alphabet_size: 97
+
+Starting epoch 0
+Training completed in 0.00 seconds
+=> Predict labels for the deploy set
+output_file:  output/20110203_0_input_2019-06-15_00-20-59-137562/000_deploy.txt
+mentions_output_file:  output/20110203_0_input_2019-06-15_00-20-59-137562/mentions_output.txt
+tally: 100000 100000 total mentions discovered: 80693
+=> Formatting 000_deploy set from CONLL to BRAT... Done.
+Finishing the experiment
+994.2255792617798
+lets begin here
+{'fetch_data': '', 'use_pretrained_model': 'True', 'dataset_text_folder': 'data/20110203_1_input', 'train_model': 'False', 'pretrained_model_folder': 'trained_models/conll_2003_en', 'fetch_trained_model': ''}
+hello
+here1
+here2
+printing the parameters_filepath /home/satadisha/Desktop/GitProjects/NeuroNER-master/parameters.ini
+{'load_only_pretrained_token_embeddings': 0, 'load_all_pretrained_token_embeddings': 'False', 'dataset_text_folder': 'data/20110203_1_input', 'remap_unknown_tokens_to_unk': 1, 'parameters_filepath': 'parameters.ini', 'experiment_name': 'test', 'spacylanguage': 'en', 'number_of_cpu_threads': 8, 'token_embedding_dimension': 100, 'maximum_number_of_epochs': 100, 'output_scores': 0, 'debug': 0, 'reload_token_embeddings': 1, 'train_model': 0, 'optimizer': 'sgd', 'character_lstm_hidden_state_dimension': 25, 'reload_token_lstm': 1, 'freeze_token_embeddings': 0, 'use_pretrained_model': 1, 'patience': 10, 'token_pretrained_embedding_filepath': '/home/satadisha/Desktop/GitProjects/NeuroNER-master/data/word_vectors/glove.6B.100d.txt', 'reload_character_embeddings': 1, 'plot_format': 'pdf', 'check_for_lowercase': 1, 'pretrained_model_folder': 'trained_models/conll_2003_en', 'gradient_clipping_value': 5.0, 'main_evaluation_mode': 'conll', 'output_folder': 'output', 'fetch_data': '', 'reload_feedforward': 1, 'use_crf': 1, 'dropout_rate': 0.5, 'fetch_trained_model': '', 'learning_rate': 0.005, 'tokenizer': 'spacy', 'number_of_gpus': 0, 'check_for_digits_replaced_with_zeros': 1, 'use_character_lstm': 1, 'verbose': 0, 'reload_character_lstm': 1, 'tagging_format': 'bioes', 'token_lstm_hidden_state_dimension': 1, 'character_embedding_dimension': 25, 'reload_crf': 1}
+printing the pretrain path trained_models/conll_2003_en/parameters.ini
+WARNING: parameter 'token_lstm_hidden_state_dimension' was overwritten from '1' to '100'
+                        for consistency with the pretrained model
+dataset_type, dataset_filepaths[dataset_type]:  train data/20110203_1_input/train.txt
+dataset_type, dataset_brat_folders[dataset_type]:  train data/20110203_1_input/train
+dataset_type, dataset_compatible_with_brat_filepath:  train data/20110203_1_input/train_compatible_with_brat.txt
+[] 0
+dataset_type, dataset_filepaths[dataset_type]:  valid data/20110203_1_input/valid.txt
+dataset_type, dataset_brat_folders[dataset_type]:  valid data/20110203_1_input/valid
+dataset_type, dataset_compatible_with_brat_filepath:  valid data/20110203_1_input/valid_compatible_with_brat.txt
+[] 0
+dataset_type, dataset_filepaths[dataset_type]:  test data/20110203_1_input/test.txt
+dataset_type, dataset_brat_folders[dataset_type]:  test data/20110203_1_input/test
+dataset_type, dataset_compatible_with_brat_filepath:  test data/20110203_1_input/test_compatible_with_brat.txt
+[] 0
+dataset_type, dataset_filepaths[dataset_type]:  deploy data/20110203_1_input/deploy.txt
+dataset_type, dataset_brat_folders[dataset_type]:  deploy data/20110203_1_input/deploy
+dataset_type, dataset_compatible_with_brat_filepath:  deploy data/20110203_1_input/deploy_compatible_with_brat.txt
+['data/20110203_1_input/deploy/20110203_14.txt', 'data/20110203_1_input/deploy/20110203_19.txt', 'data/20110203_1_input/deploy/20110203_17.txt', 'data/20110203_1_input/deploy/20110203_11.txt', 'data/20110203_1_input/deploy/20110203_16.txt', 'data/20110203_1_input/deploy/20110203_12.txt', 'data/20110203_1_input/deploy/20110203_13.txt', 'data/20110203_1_input/deploy/20110203_18.txt', 'data/20110203_1_input/deploy/20110203_15.txt', 'data/20110203_1_input/deploy/20110203_10.txt'] 10
+dataset_type, dataset_brat_folders[dataset_type]:  deploy data/20110203_1_input/deploy
+Formatting deploy set from BRAT to CONLL... data/20110203_1_input/deploy_spacy.txt
+Done.
+Converting CONLL from BIO to BIOES format... Done.
+dataset_filepaths: {'deploy': 'data/20110203_1_input/deploy_spacy_bioes.txt'}
+dataset_filepaths: {'deploy': 'data/20110203_1_input/deploy_spacy_bioes.txt'}
+Load dataset... done (248.72 seconds)
+Load token embeddings... done (1.16 seconds)
+number_of_token_original_case_found: 400000
+number_of_token_lowercase_found: 37265
+number_of_token_digits_replaced_with_zeros_found: 381
+number_of_token_lowercase_and_digits_replaced_with_zeros_found: 19
+number_of_loaded_word_vectors: 437665
+dataset.vocabulary_size: 440174
+Load token embeddings from pretrained model... done (0.31 seconds)
+number_of_loaded_vectors: 28985
+dataset.vocabulary_size: 440174
+Load character embeddings from pretrained model... done (0.07 seconds)
+number_of_loaded_vectors: 86
+dataset.alphabet_size: 97
+
+Starting epoch 0
+Training completed in 0.00 seconds
+=> Predict labels for the deploy set
+output_file:  output/20110203_1_input_2019-06-15_00-38-03-729422/000_deploy.txt
+mentions_output_file:  output/20110203_1_input_2019-06-15_00-38-03-729422/mentions_output.txt
+tally: 100000 100000 total mentions discovered: 81541
+=> Formatting 000_deploy set from CONLL to BRAT... Done.
+Finishing the experiment
+1004.5873188972473
+lets begin here
+{'train_model': 'False', 'use_pretrained_model': 'True', 'fetch_data': '', 'pretrained_model_folder': 'trained_models/conll_2003_en', 'dataset_text_folder': 'data/20110203_2_input', 'fetch_trained_model': ''}
+hello
+here1
+here2
+printing the parameters_filepath /home/satadisha/Desktop/GitProjects/NeuroNER-master/parameters.ini
+{'tagging_format': 'bioes', 'character_embedding_dimension': 25, 'output_scores': 0, 'gradient_clipping_value': 5.0, 'freeze_token_embeddings': 0, 'train_model': 0, 'character_lstm_hidden_state_dimension': 25, 'remap_unknown_tokens_to_unk': 1, 'fetch_data': '', 'spacylanguage': 'en', 'optimizer': 'sgd', 'load_all_pretrained_token_embeddings': 'False', 'reload_feedforward': 1, 'token_lstm_hidden_state_dimension': 1, 'patience': 10, 'token_embedding_dimension': 100, 'use_character_lstm': 1, 'dropout_rate': 0.5, 'number_of_cpu_threads': 8, 'reload_character_lstm': 1, 'debug': 0, 'plot_format': 'pdf', 'reload_token_embeddings': 1, 'experiment_name': 'test', 'fetch_trained_model': '', 'pretrained_model_folder': 'trained_models/conll_2003_en', 'main_evaluation_mode': 'conll', 'reload_token_lstm': 1, 'check_for_lowercase': 1, 'use_pretrained_model': 1, 'parameters_filepath': 'parameters.ini', 'check_for_digits_replaced_with_zeros': 1, 'output_folder': 'output', 'reload_crf': 1, 'number_of_gpus': 0, 'dataset_text_folder': 'data/20110203_2_input', 'learning_rate': 0.005, 'reload_character_embeddings': 1, 'tokenizer': 'spacy', 'token_pretrained_embedding_filepath': '/home/satadisha/Desktop/GitProjects/NeuroNER-master/data/word_vectors/glove.6B.100d.txt', 'use_crf': 1, 'verbose': 0, 'maximum_number_of_epochs': 100, 'load_only_pretrained_token_embeddings': 0}
+printing the pretrain path trained_models/conll_2003_en/parameters.ini
+WARNING: parameter 'token_lstm_hidden_state_dimension' was overwritten from '1' to '100'
+                        for consistency with the pretrained model
+dataset_type, dataset_filepaths[dataset_type]:  train data/20110203_2_input/train.txt
+dataset_type, dataset_brat_folders[dataset_type]:  train data/20110203_2_input/train
+dataset_type, dataset_compatible_with_brat_filepath:  train data/20110203_2_input/train_compatible_with_brat.txt
+[] 0
+dataset_type, dataset_filepaths[dataset_type]:  valid data/20110203_2_input/valid.txt
+dataset_type, dataset_brat_folders[dataset_type]:  valid data/20110203_2_input/valid
+dataset_type, dataset_compatible_with_brat_filepath:  valid data/20110203_2_input/valid_compatible_with_brat.txt
+[] 0
+dataset_type, dataset_filepaths[dataset_type]:  test data/20110203_2_input/test.txt
+dataset_type, dataset_brat_folders[dataset_type]:  test data/20110203_2_input/test
+dataset_type, dataset_compatible_with_brat_filepath:  test data/20110203_2_input/test_compatible_with_brat.txt
+[] 0
+dataset_type, dataset_filepaths[dataset_type]:  deploy data/20110203_2_input/deploy.txt
+dataset_type, dataset_brat_folders[dataset_type]:  deploy data/20110203_2_input/deploy
+dataset_type, dataset_compatible_with_brat_filepath:  deploy data/20110203_2_input/deploy_compatible_with_brat.txt
+['data/20110203_2_input/deploy/20110203_29.txt', 'data/20110203_2_input/deploy/20110203_25.txt', 'data/20110203_2_input/deploy/20110203_20.txt', 'data/20110203_2_input/deploy/20110203_23.txt', 'data/20110203_2_input/deploy/20110203_28.txt', 'data/20110203_2_input/deploy/20110203_26.txt', 'data/20110203_2_input/deploy/20110203_22.txt', 'data/20110203_2_input/deploy/20110203_21.txt', 'data/20110203_2_input/deploy/20110203_24.txt', 'data/20110203_2_input/deploy/20110203_27.txt'] 10
+dataset_type, dataset_brat_folders[dataset_type]:  deploy data/20110203_2_input/deploy
+Formatting deploy set from BRAT to CONLL... data/20110203_2_input/deploy_spacy.txt
+Done.
+Converting CONLL from BIO to BIOES format... Done.
+dataset_filepaths: {'deploy': 'data/20110203_2_input/deploy_spacy_bioes.txt'}
+dataset_filepaths: {'deploy': 'data/20110203_2_input/deploy_spacy_bioes.txt'}
+Load dataset... done (249.38 seconds)
+Load token embeddings... done (1.15 seconds)
+number_of_token_original_case_found: 400000
+number_of_token_lowercase_found: 38079
+number_of_token_digits_replaced_with_zeros_found: 368
+number_of_token_lowercase_and_digits_replaced_with_zeros_found: 17
+number_of_loaded_word_vectors: 438464
+dataset.vocabulary_size: 440973
+Load token embeddings from pretrained model... done (0.32 seconds)
+number_of_loaded_vectors: 28985
+dataset.vocabulary_size: 440973
+Load character embeddings from pretrained model... done (0.07 seconds)
+number_of_loaded_vectors: 86
+dataset.alphabet_size: 96
+
+Starting epoch 0
+Training completed in 0.00 seconds
+=> Predict labels for the deploy set
+output_file:  output/20110203_2_input_2019-06-15_00-55-03-959772/000_deploy.txt
+mentions_output_file:  output/20110203_2_input_2019-06-15_00-55-03-959772/mentions_output.txt
+tally: 100000 100000 total mentions discovered: 81462
+=> Formatting 000_deploy set from CONLL to BRAT... Done.
+Finishing the experiment
+994.6720976829529
+lets begin here
+{'fetch_data': '', 'pretrained_model_folder': 'trained_models/conll_2003_en', 'fetch_trained_model': '', 'use_pretrained_model': 'True', 'train_model': 'False', 'dataset_text_folder': 'data/20110203_3_input'}
+hello
+here1
+here2
+printing the parameters_filepath /home/satadisha/Desktop/GitProjects/NeuroNER-master/parameters.ini
+{'reload_character_lstm': 1, 'debug': 0, 'reload_character_embeddings': 1, 'reload_token_embeddings': 1, 'use_pretrained_model': 1, 'dropout_rate': 0.5, 'fetch_trained_model': '', 'spacylanguage': 'en', 'reload_feedforward': 1, 'remap_unknown_tokens_to_unk': 1, 'reload_crf': 1, 'check_for_digits_replaced_with_zeros': 1, 'train_model': 0, 'tagging_format': 'bioes', 'pretrained_model_folder': 'trained_models/conll_2003_en', 'tokenizer': 'spacy', 'output_scores': 0, 'token_pretrained_embedding_filepath': '/home/satadisha/Desktop/GitProjects/NeuroNER-master/data/word_vectors/glove.6B.100d.txt', 'dataset_text_folder': 'data/20110203_3_input', 'token_lstm_hidden_state_dimension': 1, 'maximum_number_of_epochs': 100, 'use_character_lstm': 1, 'optimizer': 'sgd', 'plot_format': 'pdf', 'experiment_name': 'test', 'fetch_data': '', 'use_crf': 1, 'token_embedding_dimension': 100, 'output_folder': 'output', 'reload_token_lstm': 1, 'patience': 10, 'main_evaluation_mode': 'conll', 'gradient_clipping_value': 5.0, 'load_all_pretrained_token_embeddings': 'False', 'freeze_token_embeddings': 0, 'character_embedding_dimension': 25, 'number_of_cpu_threads': 8, 'learning_rate': 0.005, 'verbose': 0, 'character_lstm_hidden_state_dimension': 25, 'number_of_gpus': 0, 'load_only_pretrained_token_embeddings': 0, 'parameters_filepath': 'parameters.ini', 'check_for_lowercase': 1}
+printing the pretrain path trained_models/conll_2003_en/parameters.ini
+WARNING: parameter 'token_lstm_hidden_state_dimension' was overwritten from '1' to '100'
+                        for consistency with the pretrained model
+dataset_type, dataset_filepaths[dataset_type]:  train data/20110203_3_input/train.txt
+dataset_type, dataset_brat_folders[dataset_type]:  train data/20110203_3_input/train
+dataset_type, dataset_compatible_with_brat_filepath:  train data/20110203_3_input/train_compatible_with_brat.txt
+[] 0
+dataset_type, dataset_filepaths[dataset_type]:  valid data/20110203_3_input/valid.txt
+dataset_type, dataset_brat_folders[dataset_type]:  valid data/20110203_3_input/valid
+dataset_type, dataset_compatible_with_brat_filepath:  valid data/20110203_3_input/valid_compatible_with_brat.txt
+[] 0
+dataset_type, dataset_filepaths[dataset_type]:  test data/20110203_3_input/test.txt
+dataset_type, dataset_brat_folders[dataset_type]:  test data/20110203_3_input/test
+dataset_type, dataset_compatible_with_brat_filepath:  test data/20110203_3_input/test_compatible_with_brat.txt
+[] 0
+dataset_type, dataset_filepaths[dataset_type]:  deploy data/20110203_3_input/deploy.txt
+dataset_type, dataset_brat_folders[dataset_type]:  deploy data/20110203_3_input/deploy
+dataset_type, dataset_compatible_with_brat_filepath:  deploy data/20110203_3_input/deploy_compatible_with_brat.txt
+['data/20110203_3_input/deploy/20110203_36.txt', 'data/20110203_3_input/deploy/20110203_34.txt', 'data/20110203_3_input/deploy/20110203_35.txt', 'data/20110203_3_input/deploy/20110203_37.txt', 'data/20110203_3_input/deploy/20110203_33.txt', 'data/20110203_3_input/deploy/20110203_31.txt', 'data/20110203_3_input/deploy/20110203_32.txt', 'data/20110203_3_input/deploy/20110203_38.txt', 'data/20110203_3_input/deploy/20110203_39.txt', 'data/20110203_3_input/deploy/20110203_30.txt'] 10
+dataset_type, dataset_brat_folders[dataset_type]:  deploy data/20110203_3_input/deploy
+Formatting deploy set from BRAT to CONLL... data/20110203_3_input/deploy_spacy.txt
+Done.
+Converting CONLL from BIO to BIOES format... Done.
+dataset_filepaths: {'deploy': 'data/20110203_3_input/deploy_spacy_bioes.txt'}
+dataset_filepaths: {'deploy': 'data/20110203_3_input/deploy_spacy_bioes.txt'}
+Load dataset... done (250.44 seconds)
+Load token embeddings... done (1.11 seconds)
+number_of_token_original_case_found: 400000
+number_of_token_lowercase_found: 38021
+number_of_token_digits_replaced_with_zeros_found: 384
+number_of_token_lowercase_and_digits_replaced_with_zeros_found: 17
+number_of_loaded_word_vectors: 438422
+dataset.vocabulary_size: 440931
+Load token embeddings from pretrained model... done (0.31 seconds)
+number_of_loaded_vectors: 28985
+dataset.vocabulary_size: 440931
+Load character embeddings from pretrained model... done (0.07 seconds)
+number_of_loaded_vectors: 86
+dataset.alphabet_size: 97
+
+Starting epoch 0
+Training completed in 0.00 seconds
+=> Predict labels for the deploy set
+output_file:  output/20110203_3_input_2019-06-15_01-11-58-80000/000_deploy.txt
+mentions_output_file:  output/20110203_3_input_2019-06-15_01-11-58-80000/mentions_output.txt
+tally: 100000 100000 total mentions discovered: 82747
+=> Formatting 000_deploy set from CONLL to BRAT... Done.
+Finishing the experiment
+1001.6219711303711
+lets begin here
+{'train_model': 'False', 'pretrained_model_folder': 'trained_models/conll_2003_en', 'fetch_data': '', 'dataset_text_folder': 'data/20110203_4_input', 'use_pretrained_model': 'True', 'fetch_trained_model': ''}
+hello
+here1
+here2
+printing the parameters_filepath /home/satadisha/Desktop/GitProjects/NeuroNER-master/parameters.ini
+{'load_only_pretrained_token_embeddings': 0, 'tagging_format': 'bioes', 'remap_unknown_tokens_to_unk': 1, 'check_for_lowercase': 1, 'fetch_trained_model': '', 'learning_rate': 0.005, 'token_embedding_dimension': 100, 'reload_token_embeddings': 1, 'reload_token_lstm': 1, 'token_pretrained_embedding_filepath': '/home/satadisha/Desktop/GitProjects/NeuroNER-master/data/word_vectors/glove.6B.100d.txt', 'number_of_gpus': 0, 'use_crf': 1, 'number_of_cpu_threads': 8, 'reload_feedforward': 1, 'dropout_rate': 0.5, 'debug': 0, 'output_folder': 'output', 'load_all_pretrained_token_embeddings': 'False', 'use_character_lstm': 1, 'use_pretrained_model': 1, 'pretrained_model_folder': 'trained_models/conll_2003_en', 'token_lstm_hidden_state_dimension': 1, 'reload_character_embeddings': 1, 'spacylanguage': 'en', 'train_model': 0, 'freeze_token_embeddings': 0, 'dataset_text_folder': 'data/20110203_4_input', 'optimizer': 'sgd', 'tokenizer': 'spacy', 'fetch_data': '', 'gradient_clipping_value': 5.0, 'parameters_filepath': 'parameters.ini', 'patience': 10, 'plot_format': 'pdf', 'main_evaluation_mode': 'conll', 'maximum_number_of_epochs': 100, 'reload_crf': 1, 'verbose': 0, 'output_scores': 0, 'reload_character_lstm': 1, 'character_lstm_hidden_state_dimension': 25, 'character_embedding_dimension': 25, 'check_for_digits_replaced_with_zeros': 1, 'experiment_name': 'test'}
+printing the pretrain path trained_models/conll_2003_en/parameters.ini
+WARNING: parameter 'token_lstm_hidden_state_dimension' was overwritten from '1' to '100'
+                        for consistency with the pretrained model
+dataset_type, dataset_filepaths[dataset_type]:  train data/20110203_4_input/train.txt
+dataset_type, dataset_brat_folders[dataset_type]:  train data/20110203_4_input/train
+dataset_type, dataset_compatible_with_brat_filepath:  train data/20110203_4_input/train_compatible_with_brat.txt
+[] 0
+dataset_type, dataset_filepaths[dataset_type]:  valid data/20110203_4_input/valid.txt
+dataset_type, dataset_brat_folders[dataset_type]:  valid data/20110203_4_input/valid
+dataset_type, dataset_compatible_with_brat_filepath:  valid data/20110203_4_input/valid_compatible_with_brat.txt
+[] 0
+dataset_type, dataset_filepaths[dataset_type]:  test data/20110203_4_input/test.txt
+dataset_type, dataset_brat_folders[dataset_type]:  test data/20110203_4_input/test
+dataset_type, dataset_compatible_with_brat_filepath:  test data/20110203_4_input/test_compatible_with_brat.txt
+[] 0
+dataset_type, dataset_filepaths[dataset_type]:  deploy data/20110203_4_input/deploy.txt
+dataset_type, dataset_brat_folders[dataset_type]:  deploy data/20110203_4_input/deploy
+dataset_type, dataset_compatible_with_brat_filepath:  deploy data/20110203_4_input/deploy_compatible_with_brat.txt
+['data/20110203_4_input/deploy/20110203_40.txt', 'data/20110203_4_input/deploy/20110203_48.txt', 'data/20110203_4_input/deploy/20110203_45.txt', 'data/20110203_4_input/deploy/20110203_49.txt', 'data/20110203_4_input/deploy/20110203_46.txt', 'data/20110203_4_input/deploy/20110203_47.txt', 'data/20110203_4_input/deploy/20110203_41.txt', 'data/20110203_4_input/deploy/20110203_44.txt', 'data/20110203_4_input/deploy/20110203_43.txt', 'data/20110203_4_input/deploy/20110203_42.txt'] 10
+dataset_type, dataset_brat_folders[dataset_type]:  deploy data/20110203_4_input/deploy
+Formatting deploy set from BRAT to CONLL... data/20110203_4_input/deploy_spacy.txt
+Done.
+Converting CONLL from BIO to BIOES format... Done.
+dataset_filepaths: {'deploy': 'data/20110203_4_input/deploy_spacy_bioes.txt'}
+dataset_filepaths: {'deploy': 'data/20110203_4_input/deploy_spacy_bioes.txt'}
+Load dataset... done (243.67 seconds)
+Load token embeddings... done (1.14 seconds)
+number_of_token_original_case_found: 400000
+number_of_token_lowercase_found: 38596
+number_of_token_digits_replaced_with_zeros_found: 356
+number_of_token_lowercase_and_digits_replaced_with_zeros_found: 16
+number_of_loaded_word_vectors: 438968
+dataset.vocabulary_size: 441477
+Load token embeddings from pretrained model... done (0.31 seconds)
+number_of_loaded_vectors: 28985
+dataset.vocabulary_size: 441477
+Load character embeddings from pretrained model... done (0.07 seconds)
+number_of_loaded_vectors: 86
+dataset.alphabet_size: 95
+
+Starting epoch 0
+Training completed in 0.00 seconds
+=> Predict labels for the deploy set
+output_file:  output/20110203_4_input_2019-06-15_01-28-50-600806/000_deploy.txt
+mentions_output_file:  output/20110203_4_input_2019-06-15_01-28-50-600806/mentions_output.txt
+tally: 100000 100000 total mentions discovered: 82357
+=> Formatting 000_deploy set from CONLL to BRAT... Done.
+Finishing the experiment
+986.1801052093506
+lets begin here
+{'fetch_trained_model': '', 'dataset_text_folder': 'data/20110203_5_input', 'fetch_data': '', 'use_pretrained_model': 'True', 'train_model': 'False', 'pretrained_model_folder': 'trained_models/conll_2003_en'}
+hello
+here1
+here2
+printing the parameters_filepath /home/satadisha/Desktop/GitProjects/NeuroNER-master/parameters.ini
+{'remap_unknown_tokens_to_unk': 1, 'spacylanguage': 'en', 'optimizer': 'sgd', 'patience': 10, 'reload_token_lstm': 1, 'train_model': 0, 'reload_token_embeddings': 1, 'token_lstm_hidden_state_dimension': 1, 'experiment_name': 'test', 'use_character_lstm': 1, 'reload_feedforward': 1, 'maximum_number_of_epochs': 100, 'tagging_format': 'bioes', 'parameters_filepath': 'parameters.ini', 'dataset_text_folder': 'data/20110203_5_input', 'gradient_clipping_value': 5.0, 'learning_rate': 0.005, 'token_pretrained_embedding_filepath': '/home/satadisha/Desktop/GitProjects/NeuroNER-master/data/word_vectors/glove.6B.100d.txt', 'character_lstm_hidden_state_dimension': 25, 'fetch_data': '', 'plot_format': 'pdf', 'token_embedding_dimension': 100, 'pretrained_model_folder': 'trained_models/conll_2003_en', 'tokenizer': 'spacy', 'use_crf': 1, 'reload_crf': 1, 'number_of_cpu_threads': 8, 'check_for_lowercase': 1, 'number_of_gpus': 0, 'main_evaluation_mode': 'conll', 'check_for_digits_replaced_with_zeros': 1, 'freeze_token_embeddings': 0, 'reload_character_embeddings': 1, 'output_folder': 'output', 'debug': 0, 'verbose': 0, 'load_only_pretrained_token_embeddings': 0, 'dropout_rate': 0.5, 'use_pretrained_model': 1, 'output_scores': 0, 'load_all_pretrained_token_embeddings': 'False', 'character_embedding_dimension': 25, 'fetch_trained_model': '', 'reload_character_lstm': 1}
+printing the pretrain path trained_models/conll_2003_en/parameters.ini
+WARNING: parameter 'token_lstm_hidden_state_dimension' was overwritten from '1' to '100'
+                        for consistency with the pretrained model
+dataset_type, dataset_filepaths[dataset_type]:  train data/20110203_5_input/train.txt
+dataset_type, dataset_brat_folders[dataset_type]:  train data/20110203_5_input/train
+dataset_type, dataset_compatible_with_brat_filepath:  train data/20110203_5_input/train_compatible_with_brat.txt
+[] 0
+dataset_type, dataset_filepaths[dataset_type]:  valid data/20110203_5_input/valid.txt
+dataset_type, dataset_brat_folders[dataset_type]:  valid data/20110203_5_input/valid
+dataset_type, dataset_compatible_with_brat_filepath:  valid data/20110203_5_input/valid_compatible_with_brat.txt
+[] 0
+dataset_type, dataset_filepaths[dataset_type]:  test data/20110203_5_input/test.txt
+dataset_type, dataset_brat_folders[dataset_type]:  test data/20110203_5_input/test
+dataset_type, dataset_compatible_with_brat_filepath:  test data/20110203_5_input/test_compatible_with_brat.txt
+[] 0
+dataset_type, dataset_filepaths[dataset_type]:  deploy data/20110203_5_input/deploy.txt
+dataset_type, dataset_brat_folders[dataset_type]:  deploy data/20110203_5_input/deploy
+dataset_type, dataset_compatible_with_brat_filepath:  deploy data/20110203_5_input/deploy_compatible_with_brat.txt
+['data/20110203_5_input/deploy/20110203_54.txt', 'data/20110203_5_input/deploy/20110203_50.txt', 'data/20110203_5_input/deploy/20110203_53.txt', 'data/20110203_5_input/deploy/20110203_57.txt', 'data/20110203_5_input/deploy/20110203_59.txt', 'data/20110203_5_input/deploy/20110203_58.txt', 'data/20110203_5_input/deploy/20110203_51.txt', 'data/20110203_5_input/deploy/20110203_55.txt', 'data/20110203_5_input/deploy/20110203_56.txt', 'data/20110203_5_input/deploy/20110203_52.txt'] 10
+dataset_type, dataset_brat_folders[dataset_type]:  deploy data/20110203_5_input/deploy
+Formatting deploy set from BRAT to CONLL... data/20110203_5_input/deploy_spacy.txt
+Done.
+Converting CONLL from BIO to BIOES format... Done.
+dataset_filepaths: {'deploy': 'data/20110203_5_input/deploy_spacy_bioes.txt'}
+dataset_filepaths: {'deploy': 'data/20110203_5_input/deploy_spacy_bioes.txt'}
+Load dataset... done (247.21 seconds)
+Load token embeddings... done (1.23 seconds)
+number_of_token_original_case_found: 400000
+number_of_token_lowercase_found: 38483
+number_of_token_digits_replaced_with_zeros_found: 393
+number_of_token_lowercase_and_digits_replaced_with_zeros_found: 17
+number_of_loaded_word_vectors: 438893
+dataset.vocabulary_size: 441402
+Load token embeddings from pretrained model... done (0.32 seconds)
+number_of_loaded_vectors: 28985
+dataset.vocabulary_size: 441402
+Load character embeddings from pretrained model... done (0.07 seconds)
+number_of_loaded_vectors: 86
+dataset.alphabet_size: 95
+
+Starting epoch 0
+Training completed in 0.00 seconds
+=> Predict labels for the deploy set
+output_file:  output/20110203_5_input_2019-06-15_01-45-36-725892/000_deploy.txt
+mentions_output_file:  output/20110203_5_input_2019-06-15_01-45-36-725892/mentions_output.txt
+tally: 100000 100000 total mentions discovered: 82436
+=> Formatting 000_deploy set from CONLL to BRAT... Done.
+Finishing the experiment
+987.1630928516388
+lets begin here
+{'fetch_trained_model': '', 'train_model': 'False', 'dataset_text_folder': 'data/20110203_6_input', 'use_pretrained_model': 'True', 'fetch_data': '', 'pretrained_model_folder': 'trained_models/conll_2003_en'}
+hello
+here1
+here2
+printing the parameters_filepath /home/satadisha/Desktop/GitProjects/NeuroNER-master/parameters.ini
+{'reload_character_embeddings': 1, 'dropout_rate': 0.5, 'reload_feedforward': 1, 'number_of_cpu_threads': 8, 'gradient_clipping_value': 5.0, 'spacylanguage': 'en', 'freeze_token_embeddings': 0, 'token_pretrained_embedding_filepath': '/home/satadisha/Desktop/GitProjects/NeuroNER-master/data/word_vectors/glove.6B.100d.txt', 'output_scores': 0, 'use_pretrained_model': 1, 'dataset_text_folder': 'data/20110203_6_input', 'reload_crf': 1, 'optimizer': 'sgd', 'main_evaluation_mode': 'conll', 'maximum_number_of_epochs': 100, 'plot_format': 'pdf', 'train_model': 0, 'parameters_filepath': 'parameters.ini', 'patience': 10, 'check_for_lowercase': 1, 'fetch_trained_model': '', 'debug': 0, 'pretrained_model_folder': 'trained_models/conll_2003_en', 'reload_token_embeddings': 1, 'check_for_digits_replaced_with_zeros': 1, 'learning_rate': 0.005, 'tokenizer': 'spacy', 'output_folder': 'output', 'tagging_format': 'bioes', 'remap_unknown_tokens_to_unk': 1, 'reload_character_lstm': 1, 'reload_token_lstm': 1, 'character_lstm_hidden_state_dimension': 25, 'token_lstm_hidden_state_dimension': 1, 'number_of_gpus': 0, 'use_crf': 1, 'character_embedding_dimension': 25, 'experiment_name': 'test', 'verbose': 0, 'token_embedding_dimension': 100, 'load_all_pretrained_token_embeddings': 'False', 'load_only_pretrained_token_embeddings': 0, 'use_character_lstm': 1, 'fetch_data': ''}
+printing the pretrain path trained_models/conll_2003_en/parameters.ini
+WARNING: parameter 'token_lstm_hidden_state_dimension' was overwritten from '1' to '100'
+                        for consistency with the pretrained model
+dataset_type, dataset_filepaths[dataset_type]:  train data/20110203_6_input/train.txt
+dataset_type, dataset_brat_folders[dataset_type]:  train data/20110203_6_input/train
+dataset_type, dataset_compatible_with_brat_filepath:  train data/20110203_6_input/train_compatible_with_brat.txt
+[] 0
+dataset_type, dataset_filepaths[dataset_type]:  valid data/20110203_6_input/valid.txt
+dataset_type, dataset_brat_folders[dataset_type]:  valid data/20110203_6_input/valid
+dataset_type, dataset_compatible_with_brat_filepath:  valid data/20110203_6_input/valid_compatible_with_brat.txt
+[] 0
+dataset_type, dataset_filepaths[dataset_type]:  test data/20110203_6_input/test.txt
+dataset_type, dataset_brat_folders[dataset_type]:  test data/20110203_6_input/test
+dataset_type, dataset_compatible_with_brat_filepath:  test data/20110203_6_input/test_compatible_with_brat.txt
+[] 0
+dataset_type, dataset_filepaths[dataset_type]:  deploy data/20110203_6_input/deploy.txt
+dataset_type, dataset_brat_folders[dataset_type]:  deploy data/20110203_6_input/deploy
+dataset_type, dataset_compatible_with_brat_filepath:  deploy data/20110203_6_input/deploy_compatible_with_brat.txt
+['data/20110203_6_input/deploy/20110203_60.txt', 'data/20110203_6_input/deploy/20110203_63.txt', 'data/20110203_6_input/deploy/20110203_61.txt', 'data/20110203_6_input/deploy/20110203_62.txt'] 4
+dataset_type, dataset_brat_folders[dataset_type]:  deploy data/20110203_6_input/deploy
+Formatting deploy set from BRAT to CONLL... data/20110203_6_input/deploy_spacy.txt
+Done.
+Converting CONLL from BIO to BIOES format... Done.
+dataset_filepaths: {'deploy': 'data/20110203_6_input/deploy_spacy_bioes.txt'}
+dataset_filepaths: {'deploy': 'data/20110203_6_input/deploy_spacy_bioes.txt'}
+Load dataset... done (114.35 seconds)
+Load token embeddings... done (0.93 seconds)
+number_of_token_original_case_found: 400000
+number_of_token_lowercase_found: 25428
+number_of_token_digits_replaced_with_zeros_found: 228
+number_of_token_lowercase_and_digits_replaced_with_zeros_found: 16
+number_of_loaded_word_vectors: 425672
+dataset.vocabulary_size: 428181
+Load token embeddings from pretrained model... done (0.30 seconds)
+number_of_loaded_vectors: 28985
+dataset.vocabulary_size: 428181
+Load character embeddings from pretrained model... done (0.07 seconds)
+number_of_loaded_vectors: 86
+dataset.alphabet_size: 96
+
+Starting epoch 0
+Training completed in 0.00 seconds
+=> Predict labels for the deploy set
+output_file:  output/20110203_6_input_2019-06-15_01-58-03-508393/000_deploy.txt
+mentions_output_file:  output/20110203_6_input_2019-06-15_01-58-03-508393/mentions_output.txt
+tally: 38340 38340 total mentions discovered: 31444
+=> Formatting 000_deploy set from CONLL to BRAT... Done.
+Finishing the experiment
+414.48208689689636
+lets begin here
+{'fetch_data': '', 'pretrained_model_folder': 'trained_models/conll_2003_en', 'fetch_trained_model': '', 'dataset_text_folder': 'data/20110204_0_input', 'use_pretrained_model': 'True', 'train_model': 'False'}
+hello
+here1
+here2
+printing the parameters_filepath /home/satadisha/Desktop/GitProjects/NeuroNER-master/parameters.ini
+{'token_embedding_dimension': 100, 'verbose': 0, 'load_all_pretrained_token_embeddings': 'False', 'gradient_clipping_value': 5.0, 'dataset_text_folder': 'data/20110204_0_input', 'maximum_number_of_epochs': 100, 'character_lstm_hidden_state_dimension': 25, 'remap_unknown_tokens_to_unk': 1, 'dropout_rate': 0.5, 'patience': 10, 'output_folder': 'output', 'token_lstm_hidden_state_dimension': 1, 'reload_character_lstm': 1, 'token_pretrained_embedding_filepath': '/home/satadisha/Desktop/GitProjects/NeuroNER-master/data/word_vectors/glove.6B.100d.txt', 'experiment_name': 'test', 'number_of_cpu_threads': 8, 'check_for_lowercase': 1, 'parameters_filepath': 'parameters.ini', 'character_embedding_dimension': 25, 'use_character_lstm': 1, 'check_for_digits_replaced_with_zeros': 1, 'reload_character_embeddings': 1, 'tagging_format': 'bioes', 'reload_token_embeddings': 1, 'fetch_data': '', 'reload_crf': 1, 'use_crf': 1, 'reload_token_lstm': 1, 'freeze_token_embeddings': 0, 'tokenizer': 'spacy', 'use_pretrained_model': 1, 'train_model': 0, 'optimizer': 'sgd', 'learning_rate': 0.005, 'output_scores': 0, 'pretrained_model_folder': 'trained_models/conll_2003_en', 'fetch_trained_model': '', 'spacylanguage': 'en', 'plot_format': 'pdf', 'main_evaluation_mode': 'conll', 'load_only_pretrained_token_embeddings': 0, 'debug': 0, 'number_of_gpus': 0, 'reload_feedforward': 1}
+printing the pretrain path trained_models/conll_2003_en/parameters.ini
+WARNING: parameter 'token_lstm_hidden_state_dimension' was overwritten from '1' to '100'
+                        for consistency with the pretrained model
+dataset_type, dataset_filepaths[dataset_type]:  train data/20110204_0_input/train.txt
+dataset_type, dataset_brat_folders[dataset_type]:  train data/20110204_0_input/train
+dataset_type, dataset_compatible_with_brat_filepath:  train data/20110204_0_input/train_compatible_with_brat.txt
+[] 0
+dataset_type, dataset_filepaths[dataset_type]:  valid data/20110204_0_input/valid.txt
+dataset_type, dataset_brat_folders[dataset_type]:  valid data/20110204_0_input/valid
+dataset_type, dataset_compatible_with_brat_filepath:  valid data/20110204_0_input/valid_compatible_with_brat.txt
+[] 0
+dataset_type, dataset_filepaths[dataset_type]:  test data/20110204_0_input/test.txt
+dataset_type, dataset_brat_folders[dataset_type]:  test data/20110204_0_input/test
+dataset_type, dataset_compatible_with_brat_filepath:  test data/20110204_0_input/test_compatible_with_brat.txt
+[] 0
+dataset_type, dataset_filepaths[dataset_type]:  deploy data/20110204_0_input/deploy.txt
+dataset_type, dataset_brat_folders[dataset_type]:  deploy data/20110204_0_input/deploy
+dataset_type, dataset_compatible_with_brat_filepath:  deploy data/20110204_0_input/deploy_compatible_with_brat.txt
+['data/20110204_0_input/deploy/20110204_8.txt', 'data/20110204_0_input/deploy/20110204_0.txt', 'data/20110204_0_input/deploy/20110204_7.txt', 'data/20110204_0_input/deploy/20110204_2.txt', 'data/20110204_0_input/deploy/20110204_4.txt', 'data/20110204_0_input/deploy/20110204_9.txt', 'data/20110204_0_input/deploy/20110204_5.txt', 'data/20110204_0_input/deploy/20110204_1.txt', 'data/20110204_0_input/deploy/20110204_6.txt', 'data/20110204_0_input/deploy/20110204_3.txt'] 10
+dataset_type, dataset_brat_folders[dataset_type]:  deploy data/20110204_0_input/deploy
+Formatting deploy set from BRAT to CONLL... data/20110204_0_input/deploy_spacy.txt
+Done.
+Converting CONLL from BIO to BIOES format... Done.
+dataset_filepaths: {'deploy': 'data/20110204_0_input/deploy_spacy_bioes.txt'}
+dataset_filepaths: {'deploy': 'data/20110204_0_input/deploy_spacy_bioes.txt'}
+Load dataset... done (252.01 seconds)
+Load token embeddings... done (1.14 seconds)
+number_of_token_original_case_found: 400000
+number_of_token_lowercase_found: 37590
+number_of_token_digits_replaced_with_zeros_found: 415
+number_of_token_lowercase_and_digits_replaced_with_zeros_found: 17
+number_of_loaded_word_vectors: 438022
+dataset.vocabulary_size: 440531
+Load token embeddings from pretrained model... done (0.32 seconds)
+number_of_loaded_vectors: 28985
+dataset.vocabulary_size: 440531
+Load character embeddings from pretrained model... done (0.07 seconds)
+number_of_loaded_vectors: 86
+dataset.alphabet_size: 95
+
+Starting epoch 0
+Training completed in 0.00 seconds
+=> Predict labels for the deploy set
+output_file:  output/20110204_0_input_2019-06-15_02-09-15-430558/000_deploy.txt
+mentions_output_file:  output/20110204_0_input_2019-06-15_02-09-15-430558/mentions_output.txt
+tally: 100000 100000 total mentions discovered: 80539
+=> Formatting 000_deploy set from CONLL to BRAT... Done.
+Finishing the experiment
+1002.6363258361816
+lets begin here
+{'use_pretrained_model': 'True', 'fetch_data': '', 'pretrained_model_folder': 'trained_models/conll_2003_en', 'fetch_trained_model': '', 'train_model': 'False', 'dataset_text_folder': 'data/20110204_1_input'}
+hello
+here1
+here2
+printing the parameters_filepath /home/satadisha/Desktop/GitProjects/NeuroNER-master/parameters.ini
+{'train_model': 0, 'use_character_lstm': 1, 'experiment_name': 'test', 'spacylanguage': 'en', 'main_evaluation_mode': 'conll', 'patience': 10, 'number_of_cpu_threads': 8, 'use_crf': 1, 'fetch_data': '', 'dropout_rate': 0.5, 'maximum_number_of_epochs': 100, 'learning_rate': 0.005, 'verbose': 0, 'debug': 0, 'reload_character_lstm': 1, 'reload_feedforward': 1, 'character_embedding_dimension': 25, 'reload_token_embeddings': 1, 'reload_token_lstm': 1, 'tagging_format': 'bioes', 'character_lstm_hidden_state_dimension': 25, 'token_pretrained_embedding_filepath': '/home/satadisha/Desktop/GitProjects/NeuroNER-master/data/word_vectors/glove.6B.100d.txt', 'load_all_pretrained_token_embeddings': 'False', 'output_scores': 0, 'gradient_clipping_value': 5.0, 'use_pretrained_model': 1, 'load_only_pretrained_token_embeddings': 0, 'optimizer': 'sgd', 'freeze_token_embeddings': 0, 'number_of_gpus': 0, 'check_for_lowercase': 1, 'tokenizer': 'spacy', 'parameters_filepath': 'parameters.ini', 'reload_character_embeddings': 1, 'fetch_trained_model': '', 'check_for_digits_replaced_with_zeros': 1, 'dataset_text_folder': 'data/20110204_1_input', 'plot_format': 'pdf', 'output_folder': 'output', 'remap_unknown_tokens_to_unk': 1, 'token_embedding_dimension': 100, 'reload_crf': 1, 'pretrained_model_folder': 'trained_models/conll_2003_en', 'token_lstm_hidden_state_dimension': 1}
+printing the pretrain path trained_models/conll_2003_en/parameters.ini
+WARNING: parameter 'token_lstm_hidden_state_dimension' was overwritten from '1' to '100'
+                        for consistency with the pretrained model
+dataset_type, dataset_filepaths[dataset_type]:  train data/20110204_1_input/train.txt
+dataset_type, dataset_brat_folders[dataset_type]:  train data/20110204_1_input/train
+dataset_type, dataset_compatible_with_brat_filepath:  train data/20110204_1_input/train_compatible_with_brat.txt
+[] 0
+dataset_type, dataset_filepaths[dataset_type]:  valid data/20110204_1_input/valid.txt
+dataset_type, dataset_brat_folders[dataset_type]:  valid data/20110204_1_input/valid
+dataset_type, dataset_compatible_with_brat_filepath:  valid data/20110204_1_input/valid_compatible_with_brat.txt
+[] 0
+dataset_type, dataset_filepaths[dataset_type]:  test data/20110204_1_input/test.txt
+dataset_type, dataset_brat_folders[dataset_type]:  test data/20110204_1_input/test
+dataset_type, dataset_compatible_with_brat_filepath:  test data/20110204_1_input/test_compatible_with_brat.txt
+[] 0
+dataset_type, dataset_filepaths[dataset_type]:  deploy data/20110204_1_input/deploy.txt
+dataset_type, dataset_brat_folders[dataset_type]:  deploy data/20110204_1_input/deploy
+dataset_type, dataset_compatible_with_brat_filepath:  deploy data/20110204_1_input/deploy_compatible_with_brat.txt
+['data/20110204_1_input/deploy/20110204_11.txt', 'data/20110204_1_input/deploy/20110204_17.txt', 'data/20110204_1_input/deploy/20110204_15.txt', 'data/20110204_1_input/deploy/20110204_16.txt', 'data/20110204_1_input/deploy/20110204_10.txt', 'data/20110204_1_input/deploy/20110204_12.txt', 'data/20110204_1_input/deploy/20110204_19.txt', 'data/20110204_1_input/deploy/20110204_18.txt', 'data/20110204_1_input/deploy/20110204_14.txt', 'data/20110204_1_input/deploy/20110204_13.txt'] 10
+dataset_type, dataset_brat_folders[dataset_type]:  deploy data/20110204_1_input/deploy
+Formatting deploy set from BRAT to CONLL... data/20110204_1_input/deploy_spacy.txt
+Done.
+Converting CONLL from BIO to BIOES format... Done.
+dataset_filepaths: {'deploy': 'data/20110204_1_input/deploy_spacy_bioes.txt'}
+dataset_filepaths: {'deploy': 'data/20110204_1_input/deploy_spacy_bioes.txt'}
+Load dataset... done (251.82 seconds)
+Load token embeddings... done (1.16 seconds)
+number_of_token_original_case_found: 400000
+number_of_token_lowercase_found: 38498
+number_of_token_digits_replaced_with_zeros_found: 377
+number_of_token_lowercase_and_digits_replaced_with_zeros_found: 17
+number_of_loaded_word_vectors: 438892
+dataset.vocabulary_size: 441401
+Load token embeddings from pretrained model... done (0.31 seconds)
+number_of_loaded_vectors: 28985
+dataset.vocabulary_size: 441401
+Load character embeddings from pretrained model... done (0.07 seconds)
+number_of_loaded_vectors: 86
+dataset.alphabet_size: 95
+
+Starting epoch 0
+Training completed in 0.00 seconds
+=> Predict labels for the deploy set
+output_file:  output/20110204_1_input_2019-06-15_02-26-27-755841/000_deploy.txt
+mentions_output_file:  output/20110204_1_input_2019-06-15_02-26-27-755841/mentions_output.txt
+tally: 100000 100000 total mentions discovered: 82973
+=> Formatting 000_deploy set from CONLL to BRAT... Done.
+Finishing the experiment
+994.0639300346375
+lets begin here
+{'pretrained_model_folder': 'trained_models/conll_2003_en', 'fetch_data': '', 'use_pretrained_model': 'True', 'fetch_trained_model': '', 'dataset_text_folder': 'data/20110204_2_input', 'train_model': 'False'}
+hello
+here1
+here2
+printing the parameters_filepath /home/satadisha/Desktop/GitProjects/NeuroNER-master/parameters.ini
+{'number_of_gpus': 0, 'check_for_lowercase': 1, 'character_embedding_dimension': 25, 'dataset_text_folder': 'data/20110204_2_input', 'pretrained_model_folder': 'trained_models/conll_2003_en', 'experiment_name': 'test', 'output_scores': 0, 'reload_token_embeddings': 1, 'maximum_number_of_epochs': 100, 'load_only_pretrained_token_embeddings': 0, 'debug': 0, 'reload_character_lstm': 1, 'fetch_data': '', 'token_pretrained_embedding_filepath': '/home/satadisha/Desktop/GitProjects/NeuroNER-master/data/word_vectors/glove.6B.100d.txt', 'use_crf': 1, 'optimizer': 'sgd', 'freeze_token_embeddings': 0, 'tokenizer': 'spacy', 'token_embedding_dimension': 100, 'verbose': 0, 'dropout_rate': 0.5, 'character_lstm_hidden_state_dimension': 25, 'parameters_filepath': 'parameters.ini', 'plot_format': 'pdf', 'gradient_clipping_value': 5.0, 'remap_unknown_tokens_to_unk': 1, 'fetch_trained_model': '', 'load_all_pretrained_token_embeddings': 'False', 'reload_token_lstm': 1, 'learning_rate': 0.005, 'train_model': 0, 'reload_feedforward': 1, 'use_character_lstm': 1, 'number_of_cpu_threads': 8, 'spacylanguage': 'en', 'reload_character_embeddings': 1, 'main_evaluation_mode': 'conll', 'reload_crf': 1, 'check_for_digits_replaced_with_zeros': 1, 'output_folder': 'output', 'use_pretrained_model': 1, 'tagging_format': 'bioes', 'patience': 10, 'token_lstm_hidden_state_dimension': 1}
+printing the pretrain path trained_models/conll_2003_en/parameters.ini
+WARNING: parameter 'token_lstm_hidden_state_dimension' was overwritten from '1' to '100'
+                        for consistency with the pretrained model
+dataset_type, dataset_filepaths[dataset_type]:  train data/20110204_2_input/train.txt
+dataset_type, dataset_brat_folders[dataset_type]:  train data/20110204_2_input/train
+dataset_type, dataset_compatible_with_brat_filepath:  train data/20110204_2_input/train_compatible_with_brat.txt
+[] 0
+dataset_type, dataset_filepaths[dataset_type]:  valid data/20110204_2_input/valid.txt
+dataset_type, dataset_brat_folders[dataset_type]:  valid data/20110204_2_input/valid
+dataset_type, dataset_compatible_with_brat_filepath:  valid data/20110204_2_input/valid_compatible_with_brat.txt
+[] 0
+dataset_type, dataset_filepaths[dataset_type]:  test data/20110204_2_input/test.txt
+dataset_type, dataset_brat_folders[dataset_type]:  test data/20110204_2_input/test
+dataset_type, dataset_compatible_with_brat_filepath:  test data/20110204_2_input/test_compatible_with_brat.txt
+[] 0
+dataset_type, dataset_filepaths[dataset_type]:  deploy data/20110204_2_input/deploy.txt
+dataset_type, dataset_brat_folders[dataset_type]:  deploy data/20110204_2_input/deploy
+dataset_type, dataset_compatible_with_brat_filepath:  deploy data/20110204_2_input/deploy_compatible_with_brat.txt
+['data/20110204_2_input/deploy/20110204_26.txt', 'data/20110204_2_input/deploy/20110204_22.txt', 'data/20110204_2_input/deploy/20110204_23.txt', 'data/20110204_2_input/deploy/20110204_20.txt', 'data/20110204_2_input/deploy/20110204_24.txt', 'data/20110204_2_input/deploy/20110204_29.txt', 'data/20110204_2_input/deploy/20110204_25.txt', 'data/20110204_2_input/deploy/20110204_21.txt', 'data/20110204_2_input/deploy/20110204_28.txt', 'data/20110204_2_input/deploy/20110204_27.txt'] 10
+dataset_type, dataset_brat_folders[dataset_type]:  deploy data/20110204_2_input/deploy
+Formatting deploy set from BRAT to CONLL... data/20110204_2_input/deploy_spacy.txt
+Done.
+Converting CONLL from BIO to BIOES format... Done.
+dataset_filepaths: {'deploy': 'data/20110204_2_input/deploy_spacy_bioes.txt'}
+dataset_filepaths: {'deploy': 'data/20110204_2_input/deploy_spacy_bioes.txt'}
+Load dataset... done (255.44 seconds)
+Load token embeddings... done (1.15 seconds)
+number_of_token_original_case_found: 400000
+number_of_token_lowercase_found: 38322
+number_of_token_digits_replaced_with_zeros_found: 381
+number_of_token_lowercase_and_digits_replaced_with_zeros_found: 16
+number_of_loaded_word_vectors: 438719
+dataset.vocabulary_size: 441228
+Load token embeddings from pretrained model... done (0.31 seconds)
+number_of_loaded_vectors: 28985
+dataset.vocabulary_size: 441228
+Load character embeddings from pretrained model... done (0.07 seconds)
+number_of_loaded_vectors: 86
+dataset.alphabet_size: 97
+
+Starting epoch 0
+Training completed in 0.00 seconds
+=> Predict labels for the deploy set
+output_file:  output/20110204_2_input_2019-06-15_02-43-19-629668/000_deploy.txt
+mentions_output_file:  output/20110204_2_input_2019-06-15_02-43-19-629668/mentions_output.txt
+tally: 100000 100000 total mentions discovered: 82182
+=> Formatting 000_deploy set from CONLL to BRAT... Done.
+Finishing the experiment
+1001.9913067817688
+lets begin here
+{'pretrained_model_folder': 'trained_models/conll_2003_en', 'fetch_data': '', 'train_model': 'False', 'dataset_text_folder': 'data/20110204_3_input', 'use_pretrained_model': 'True', 'fetch_trained_model': ''}
+hello
+here1
+here2
+printing the parameters_filepath /home/satadisha/Desktop/GitProjects/NeuroNER-master/parameters.ini
+{'use_character_lstm': 1, 'number_of_gpus': 0, 'dataset_text_folder': 'data/20110204_3_input', 'spacylanguage': 'en', 'fetch_data': '', 'number_of_cpu_threads': 8, 'load_all_pretrained_token_embeddings': 'False', 'output_scores': 0, 'reload_crf': 1, 'experiment_name': 'test', 'parameters_filepath': 'parameters.ini', 'use_pretrained_model': 1, 'learning_rate': 0.005, 'check_for_lowercase': 1, 'output_folder': 'output', 'verbose': 0, 'reload_character_embeddings': 1, 'train_model': 0, 'dropout_rate': 0.5, 'reload_character_lstm': 1, 'character_embedding_dimension': 25, 'debug': 0, 'maximum_number_of_epochs': 100, 'main_evaluation_mode': 'conll', 'gradient_clipping_value': 5.0, 'tokenizer': 'spacy', 'reload_feedforward': 1, 'optimizer': 'sgd', 'freeze_token_embeddings': 0, 'tagging_format': 'bioes', 'plot_format': 'pdf', 'character_lstm_hidden_state_dimension': 25, 'use_crf': 1, 'reload_token_lstm': 1, 'fetch_trained_model': '', 'token_embedding_dimension': 100, 'pretrained_model_folder': 'trained_models/conll_2003_en', 'reload_token_embeddings': 1, 'patience': 10, 'token_pretrained_embedding_filepath': '/home/satadisha/Desktop/GitProjects/NeuroNER-master/data/word_vectors/glove.6B.100d.txt', 'check_for_digits_replaced_with_zeros': 1, 'token_lstm_hidden_state_dimension': 1, 'load_only_pretrained_token_embeddings': 0, 'remap_unknown_tokens_to_unk': 1}
+printing the pretrain path trained_models/conll_2003_en/parameters.ini
+WARNING: parameter 'token_lstm_hidden_state_dimension' was overwritten from '1' to '100'
+                        for consistency with the pretrained model
+dataset_type, dataset_filepaths[dataset_type]:  train data/20110204_3_input/train.txt
+dataset_type, dataset_brat_folders[dataset_type]:  train data/20110204_3_input/train
+dataset_type, dataset_compatible_with_brat_filepath:  train data/20110204_3_input/train_compatible_with_brat.txt
+[] 0
+dataset_type, dataset_filepaths[dataset_type]:  valid data/20110204_3_input/valid.txt
+dataset_type, dataset_brat_folders[dataset_type]:  valid data/20110204_3_input/valid
+dataset_type, dataset_compatible_with_brat_filepath:  valid data/20110204_3_input/valid_compatible_with_brat.txt
+[] 0
+dataset_type, dataset_filepaths[dataset_type]:  test data/20110204_3_input/test.txt
+dataset_type, dataset_brat_folders[dataset_type]:  test data/20110204_3_input/test
+dataset_type, dataset_compatible_with_brat_filepath:  test data/20110204_3_input/test_compatible_with_brat.txt
+[] 0
+dataset_type, dataset_filepaths[dataset_type]:  deploy data/20110204_3_input/deploy.txt
+dataset_type, dataset_brat_folders[dataset_type]:  deploy data/20110204_3_input/deploy
+dataset_type, dataset_compatible_with_brat_filepath:  deploy data/20110204_3_input/deploy_compatible_with_brat.txt
+['data/20110204_3_input/deploy/20110204_31.txt', 'data/20110204_3_input/deploy/20110204_35.txt', 'data/20110204_3_input/deploy/20110204_34.txt', 'data/20110204_3_input/deploy/20110204_37.txt', 'data/20110204_3_input/deploy/20110204_38.txt', 'data/20110204_3_input/deploy/20110204_33.txt', 'data/20110204_3_input/deploy/20110204_36.txt', 'data/20110204_3_input/deploy/20110204_30.txt', 'data/20110204_3_input/deploy/20110204_32.txt', 'data/20110204_3_input/deploy/20110204_39.txt'] 10
+dataset_type, dataset_brat_folders[dataset_type]:  deploy data/20110204_3_input/deploy
+Formatting deploy set from BRAT to CONLL... data/20110204_3_input/deploy_spacy.txt
+Done.
+Converting CONLL from BIO to BIOES format... Done.
+dataset_filepaths: {'deploy': 'data/20110204_3_input/deploy_spacy_bioes.txt'}
+dataset_filepaths: {'deploy': 'data/20110204_3_input/deploy_spacy_bioes.txt'}
+Load dataset... done (249.83 seconds)
+Load token embeddings... done (1.15 seconds)
+number_of_token_original_case_found: 400000
+number_of_token_lowercase_found: 37718
+number_of_token_digits_replaced_with_zeros_found: 371
+number_of_token_lowercase_and_digits_replaced_with_zeros_found: 17
+number_of_loaded_word_vectors: 438106
+dataset.vocabulary_size: 440615
+Load token embeddings from pretrained model... done (0.31 seconds)
+number_of_loaded_vectors: 28985
+dataset.vocabulary_size: 440615
+Load character embeddings from pretrained model... done (0.07 seconds)
+number_of_loaded_vectors: 86
+dataset.alphabet_size: 95
+
+Starting epoch 0
+Training completed in 0.00 seconds
+=> Predict labels for the deploy set
+output_file:  output/20110204_3_input_2019-06-15_03-00-20-553397/000_deploy.txt
+mentions_output_file:  output/20110204_3_input_2019-06-15_03-00-20-553397/mentions_output.txt
+tally: 100000 100000 total mentions discovered: 81282
+=> Formatting 000_deploy set from CONLL to BRAT... Done.
+Finishing the experiment
+998.724778175354
+lets begin here
+{'train_model': 'False', 'pretrained_model_folder': 'trained_models/conll_2003_en', 'use_pretrained_model': 'True', 'fetch_data': '', 'fetch_trained_model': '', 'dataset_text_folder': 'data/20110204_4_input'}
+hello
+here1
+here2
+printing the parameters_filepath /home/satadisha/Desktop/GitProjects/NeuroNER-master/parameters.ini
+{'output_folder': 'output', 'load_only_pretrained_token_embeddings': 0, 'patience': 10, 'reload_crf': 1, 'learning_rate': 0.005, 'use_character_lstm': 1, 'main_evaluation_mode': 'conll', 'token_embedding_dimension': 100, 'train_model': 0, 'check_for_lowercase': 1, 'use_crf': 1, 'spacylanguage': 'en', 'check_for_digits_replaced_with_zeros': 1, 'fetch_trained_model': '', 'character_embedding_dimension': 25, 'reload_character_lstm': 1, 'debug': 0, 'load_all_pretrained_token_embeddings': 'False', 'maximum_number_of_epochs': 100, 'reload_token_embeddings': 1, 'reload_token_lstm': 1, 'token_lstm_hidden_state_dimension': 1, 'token_pretrained_embedding_filepath': '/home/satadisha/Desktop/GitProjects/NeuroNER-master/data/word_vectors/glove.6B.100d.txt', 'dropout_rate': 0.5, 'number_of_cpu_threads': 8, 'freeze_token_embeddings': 0, 'verbose': 0, 'reload_character_embeddings': 1, 'number_of_gpus': 0, 'tokenizer': 'spacy', 'fetch_data': '', 'pretrained_model_folder': 'trained_models/conll_2003_en', 'character_lstm_hidden_state_dimension': 25, 'use_pretrained_model': 1, 'tagging_format': 'bioes', 'dataset_text_folder': 'data/20110204_4_input', 'optimizer': 'sgd', 'output_scores': 0, 'reload_feedforward': 1, 'experiment_name': 'test', 'parameters_filepath': 'parameters.ini', 'gradient_clipping_value': 5.0, 'remap_unknown_tokens_to_unk': 1, 'plot_format': 'pdf'}
+printing the pretrain path trained_models/conll_2003_en/parameters.ini
+WARNING: parameter 'token_lstm_hidden_state_dimension' was overwritten from '1' to '100'
+                        for consistency with the pretrained model
+dataset_type, dataset_filepaths[dataset_type]:  train data/20110204_4_input/train.txt
+dataset_type, dataset_brat_folders[dataset_type]:  train data/20110204_4_input/train
+dataset_type, dataset_compatible_with_brat_filepath:  train data/20110204_4_input/train_compatible_with_brat.txt
+[] 0
+dataset_type, dataset_filepaths[dataset_type]:  valid data/20110204_4_input/valid.txt
+dataset_type, dataset_brat_folders[dataset_type]:  valid data/20110204_4_input/valid
+dataset_type, dataset_compatible_with_brat_filepath:  valid data/20110204_4_input/valid_compatible_with_brat.txt
+[] 0
+dataset_type, dataset_filepaths[dataset_type]:  test data/20110204_4_input/test.txt
+dataset_type, dataset_brat_folders[dataset_type]:  test data/20110204_4_input/test
+dataset_type, dataset_compatible_with_brat_filepath:  test data/20110204_4_input/test_compatible_with_brat.txt
+[] 0
+dataset_type, dataset_filepaths[dataset_type]:  deploy data/20110204_4_input/deploy.txt
+dataset_type, dataset_brat_folders[dataset_type]:  deploy data/20110204_4_input/deploy
+dataset_type, dataset_compatible_with_brat_filepath:  deploy data/20110204_4_input/deploy_compatible_with_brat.txt
+['data/20110204_4_input/deploy/20110204_44.txt', 'data/20110204_4_input/deploy/20110204_40.txt', 'data/20110204_4_input/deploy/20110204_43.txt', 'data/20110204_4_input/deploy/20110204_45.txt', 'data/20110204_4_input/deploy/20110204_41.txt', 'data/20110204_4_input/deploy/20110204_48.txt', 'data/20110204_4_input/deploy/20110204_42.txt', 'data/20110204_4_input/deploy/20110204_47.txt', 'data/20110204_4_input/deploy/20110204_46.txt', 'data/20110204_4_input/deploy/20110204_49.txt'] 10
+dataset_type, dataset_brat_folders[dataset_type]:  deploy data/20110204_4_input/deploy
+Formatting deploy set from BRAT to CONLL... data/20110204_4_input/deploy_spacy.txt
+Done.
+Converting CONLL from BIO to BIOES format... Done.
+dataset_filepaths: {'deploy': 'data/20110204_4_input/deploy_spacy_bioes.txt'}
+dataset_filepaths: {'deploy': 'data/20110204_4_input/deploy_spacy_bioes.txt'}
+Load dataset... done (250.34 seconds)
+Load token embeddings... done (1.15 seconds)
+number_of_token_original_case_found: 400000
+number_of_token_lowercase_found: 38252
+number_of_token_digits_replaced_with_zeros_found: 373
+number_of_token_lowercase_and_digits_replaced_with_zeros_found: 18
+number_of_loaded_word_vectors: 438643
+dataset.vocabulary_size: 441152
+Load token embeddings from pretrained model... done (0.32 seconds)
+number_of_loaded_vectors: 28985
+dataset.vocabulary_size: 441152
+Load character embeddings from pretrained model... done (0.08 seconds)
+number_of_loaded_vectors: 86
+dataset.alphabet_size: 97
+
+Starting epoch 0
+Training completed in 0.00 seconds
+=> Predict labels for the deploy set
+output_file:  output/20110204_4_input_2019-06-15_03-17-18-42977/000_deploy.txt
+mentions_output_file:  output/20110204_4_input_2019-06-15_03-17-18-42977/mentions_output.txt
+tally: 100000 100000 total mentions discovered: 81965
+=> Formatting 000_deploy set from CONLL to BRAT... Done.
+Finishing the experiment
+994.8401489257812
+lets begin here
+{'fetch_data': '', 'train_model': 'False', 'use_pretrained_model': 'True', 'pretrained_model_folder': 'trained_models/conll_2003_en', 'dataset_text_folder': 'data/20110204_5_input', 'fetch_trained_model': ''}
+hello
+here1
+here2
+printing the parameters_filepath /home/satadisha/Desktop/GitProjects/NeuroNER-master/parameters.ini
+{'number_of_gpus': 0, 'verbose': 0, 'use_character_lstm': 1, 'pretrained_model_folder': 'trained_models/conll_2003_en', 'main_evaluation_mode': 'conll', 'load_all_pretrained_token_embeddings': 'False', 'character_embedding_dimension': 25, 'token_lstm_hidden_state_dimension': 1, 'fetch_data': '', 'tokenizer': 'spacy', 'debug': 0, 'tagging_format': 'bioes', 'check_for_digits_replaced_with_zeros': 1, 'patience': 10, 'number_of_cpu_threads': 8, 'reload_character_embeddings': 1, 'reload_character_lstm': 1, 'token_pretrained_embedding_filepath': '/home/satadisha/Desktop/GitProjects/NeuroNER-master/data/word_vectors/glove.6B.100d.txt', 'plot_format': 'pdf', 'maximum_number_of_epochs': 100, 'dropout_rate': 0.5, 'use_pretrained_model': 1, 'check_for_lowercase': 1, 'reload_token_embeddings': 1, 'output_scores': 0, 'freeze_token_embeddings': 0, 'reload_token_lstm': 1, 'dataset_text_folder': 'data/20110204_5_input', 'train_model': 0, 'parameters_filepath': 'parameters.ini', 'experiment_name': 'test', 'gradient_clipping_value': 5.0, 'optimizer': 'sgd', 'load_only_pretrained_token_embeddings': 0, 'use_crf': 1, 'spacylanguage': 'en', 'reload_feedforward': 1, 'output_folder': 'output', 'remap_unknown_tokens_to_unk': 1, 'character_lstm_hidden_state_dimension': 25, 'learning_rate': 0.005, 'fetch_trained_model': '', 'reload_crf': 1, 'token_embedding_dimension': 100}
+printing the pretrain path trained_models/conll_2003_en/parameters.ini
+WARNING: parameter 'token_lstm_hidden_state_dimension' was overwritten from '1' to '100'
+                        for consistency with the pretrained model
+dataset_type, dataset_filepaths[dataset_type]:  train data/20110204_5_input/train.txt
+dataset_type, dataset_brat_folders[dataset_type]:  train data/20110204_5_input/train
+dataset_type, dataset_compatible_with_brat_filepath:  train data/20110204_5_input/train_compatible_with_brat.txt
+[] 0
+dataset_type, dataset_filepaths[dataset_type]:  valid data/20110204_5_input/valid.txt
+dataset_type, dataset_brat_folders[dataset_type]:  valid data/20110204_5_input/valid
+dataset_type, dataset_compatible_with_brat_filepath:  valid data/20110204_5_input/valid_compatible_with_brat.txt
+[] 0
+dataset_type, dataset_filepaths[dataset_type]:  test data/20110204_5_input/test.txt
+dataset_type, dataset_brat_folders[dataset_type]:  test data/20110204_5_input/test
+dataset_type, dataset_compatible_with_brat_filepath:  test data/20110204_5_input/test_compatible_with_brat.txt
+[] 0
+dataset_type, dataset_filepaths[dataset_type]:  deploy data/20110204_5_input/deploy.txt
+dataset_type, dataset_brat_folders[dataset_type]:  deploy data/20110204_5_input/deploy
+dataset_type, dataset_compatible_with_brat_filepath:  deploy data/20110204_5_input/deploy_compatible_with_brat.txt
+['data/20110204_5_input/deploy/20110204_59.txt', 'data/20110204_5_input/deploy/20110204_52.txt', 'data/20110204_5_input/deploy/20110204_51.txt', 'data/20110204_5_input/deploy/20110204_50.txt', 'data/20110204_5_input/deploy/20110204_58.txt', 'data/20110204_5_input/deploy/20110204_53.txt', 'data/20110204_5_input/deploy/20110204_55.txt', 'data/20110204_5_input/deploy/20110204_57.txt', 'data/20110204_5_input/deploy/20110204_56.txt', 'data/20110204_5_input/deploy/20110204_54.txt'] 10
+dataset_type, dataset_brat_folders[dataset_type]:  deploy data/20110204_5_input/deploy
+Formatting deploy set from BRAT to CONLL... data/20110204_5_input/deploy_spacy.txt
+Done.
+Converting CONLL from BIO to BIOES format... Done.
+dataset_filepaths: {'deploy': 'data/20110204_5_input/deploy_spacy_bioes.txt'}
+dataset_filepaths: {'deploy': 'data/20110204_5_input/deploy_spacy_bioes.txt'}
+Load dataset... done (250.49 seconds)
+Load token embeddings... done (1.13 seconds)
+number_of_token_original_case_found: 400000
+number_of_token_lowercase_found: 37730
+number_of_token_digits_replaced_with_zeros_found: 348
+number_of_token_lowercase_and_digits_replaced_with_zeros_found: 16
+number_of_loaded_word_vectors: 438094
+dataset.vocabulary_size: 440603
+Load token embeddings from pretrained model... done (0.31 seconds)
+number_of_loaded_vectors: 28985
+dataset.vocabulary_size: 440603
+Load character embeddings from pretrained model... done (0.07 seconds)
+number_of_loaded_vectors: 86
+dataset.alphabet_size: 95
+
+Starting epoch 0
+Training completed in 0.00 seconds
+=> Predict labels for the deploy set
+output_file:  output/20110204_5_input_2019-06-15_03-34-06-516775/000_deploy.txt
+mentions_output_file:  output/20110204_5_input_2019-06-15_03-34-06-516775/mentions_output.txt
+tally: 100000 100000 total mentions discovered: 80985
+=> Formatting 000_deploy set from CONLL to BRAT... Done.
+Finishing the experiment
+1000.1362857818604
+lets begin here
+{'fetch_trained_model': '', 'train_model': 'False', 'fetch_data': '', 'use_pretrained_model': 'True', 'dataset_text_folder': 'data/20110204_6_input', 'pretrained_model_folder': 'trained_models/conll_2003_en'}
+hello
+here1
+here2
+printing the parameters_filepath /home/satadisha/Desktop/GitProjects/NeuroNER-master/parameters.ini
+{'fetch_trained_model': '', 'check_for_digits_replaced_with_zeros': 1, 'load_only_pretrained_token_embeddings': 0, 'learning_rate': 0.005, 'reload_character_embeddings': 1, 'main_evaluation_mode': 'conll', 'use_pretrained_model': 1, 'dataset_text_folder': 'data/20110204_6_input', 'debug': 0, 'tokenizer': 'spacy', 'token_lstm_hidden_state_dimension': 1, 'use_crf': 1, 'number_of_cpu_threads': 8, 'token_embedding_dimension': 100, 'plot_format': 'pdf', 'output_scores': 0, 'number_of_gpus': 0, 'maximum_number_of_epochs': 100, 'spacylanguage': 'en', 'gradient_clipping_value': 5.0, 'load_all_pretrained_token_embeddings': 'False', 'fetch_data': '', 'character_lstm_hidden_state_dimension': 25, 'use_character_lstm': 1, 'freeze_token_embeddings': 0, 'reload_feedforward': 1, 'tagging_format': 'bioes', 'output_folder': 'output', 'reload_token_embeddings': 1, 'remap_unknown_tokens_to_unk': 1, 'train_model': 0, 'verbose': 0, 'parameters_filepath': 'parameters.ini', 'reload_token_lstm': 1, 'dropout_rate': 0.5, 'experiment_name': 'test', 'reload_crf': 1, 'patience': 10, 'check_for_lowercase': 1, 'token_pretrained_embedding_filepath': '/home/satadisha/Desktop/GitProjects/NeuroNER-master/data/word_vectors/glove.6B.100d.txt', 'character_embedding_dimension': 25, 'optimizer': 'sgd', 'pretrained_model_folder': 'trained_models/conll_2003_en', 'reload_character_lstm': 1}
+printing the pretrain path trained_models/conll_2003_en/parameters.ini
+WARNING: parameter 'token_lstm_hidden_state_dimension' was overwritten from '1' to '100'
+                        for consistency with the pretrained model
+dataset_type, dataset_filepaths[dataset_type]:  train data/20110204_6_input/train.txt
+dataset_type, dataset_brat_folders[dataset_type]:  train data/20110204_6_input/train
+dataset_type, dataset_compatible_with_brat_filepath:  train data/20110204_6_input/train_compatible_with_brat.txt
+[] 0
+dataset_type, dataset_filepaths[dataset_type]:  valid data/20110204_6_input/valid.txt
+dataset_type, dataset_brat_folders[dataset_type]:  valid data/20110204_6_input/valid
+dataset_type, dataset_compatible_with_brat_filepath:  valid data/20110204_6_input/valid_compatible_with_brat.txt
+[] 0
+dataset_type, dataset_filepaths[dataset_type]:  test data/20110204_6_input/test.txt
+dataset_type, dataset_brat_folders[dataset_type]:  test data/20110204_6_input/test
+dataset_type, dataset_compatible_with_brat_filepath:  test data/20110204_6_input/test_compatible_with_brat.txt
+[] 0
+dataset_type, dataset_filepaths[dataset_type]:  deploy data/20110204_6_input/deploy.txt
+dataset_type, dataset_brat_folders[dataset_type]:  deploy data/20110204_6_input/deploy
+dataset_type, dataset_compatible_with_brat_filepath:  deploy data/20110204_6_input/deploy_compatible_with_brat.txt
+['data/20110204_6_input/deploy/20110204_62.txt', 'data/20110204_6_input/deploy/20110204_60.txt', 'data/20110204_6_input/deploy/20110204_61.txt'] 3
+dataset_type, dataset_brat_folders[dataset_type]:  deploy data/20110204_6_input/deploy
+Formatting deploy set from BRAT to CONLL... data/20110204_6_input/deploy_spacy.txt
+Done.
+Converting CONLL from BIO to BIOES format... Done.
+dataset_filepaths: {'deploy': 'data/20110204_6_input/deploy_spacy_bioes.txt'}
+dataset_filepaths: {'deploy': 'data/20110204_6_input/deploy_spacy_bioes.txt'}
+Load dataset... done (81.07 seconds)
+Load token embeddings... done (0.83 seconds)
+number_of_token_original_case_found: 400000
+number_of_token_lowercase_found: 21863
+number_of_token_digits_replaced_with_zeros_found: 181
+number_of_token_lowercase_and_digits_replaced_with_zeros_found: 17
+number_of_loaded_word_vectors: 422061
+dataset.vocabulary_size: 424570
+Load token embeddings from pretrained model... done (0.30 seconds)
+number_of_loaded_vectors: 28985
+dataset.vocabulary_size: 424570
+Load character embeddings from pretrained model... done (0.07 seconds)
+number_of_loaded_vectors: 86
+dataset.alphabet_size: 96
+
+Starting epoch 0
+Training completed in 0.00 seconds
+=> Predict labels for the deploy set
+output_file:  output/20110204_6_input_2019-06-15_03-45-45-838197/000_deploy.txt
+mentions_output_file:  output/20110204_6_input_2019-06-15_03-45-45-838197/mentions_output.txt
+tally: 24631 24631 total mentions discovered: 19974
+=> Formatting 000_deploy set from CONLL to BRAT... Done.
+Finishing the experiment
+273.48842906951904

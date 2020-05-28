@@ -1,0 +1,4 @@
+Game of Thrones is a TV show. daenerys targaryen appears in it. --eosc
+Arya Stark is a character in it. --eosc
+Donald Trump is the president of US. --eosc
+Trump is a republican. --eosc

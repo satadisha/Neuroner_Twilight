@@ -1,0 +1,1287 @@
+lets begin here
+hello
+here1
+here2
+
+Starting epoch 0
+Training completed in 0.00 seconds
+=> Predict labels for the deploy set
+output_file:  output/1M_0_input_2019-06-28_12-34-43-654642/000_deploy.txt
+mentions_output_file:  output/1M_0_input_2019-06-28_12-34-43-654642/mentions_output.txt
+tally: 25000 25000 total mentions discovered: 43218
+=> Formatting 000_deploy set from CONLL to BRAT... Done.
+Finishing the experiment
+462.7764301300049
+=====================================================================================
+
+
+lets begin here
+hello
+here1
+here2
+Formatting deploy set from BRAT to CONLL... data/1M_1_input/deploy_spacy.txt
+Done.
+Converting CONLL from BIO to BIOES format... Done.
+Load dataset... done (78.91 seconds)
+Load token embeddings... done (1.00 seconds)
+number_of_token_original_case_found: 400000
+number_of_token_lowercase_found: 13590
+number_of_token_digits_replaced_with_zeros_found: 120
+number_of_token_lowercase_and_digits_replaced_with_zeros_found: 16
+number_of_loaded_word_vectors: 413726
+dataset.vocabulary_size: 416235
+Load token embeddings from pretrained model... done (0.44 seconds)
+number_of_loaded_vectors: 28985
+dataset.vocabulary_size: 416235
+Load character embeddings from pretrained model... done (0.11 seconds)
+number_of_loaded_vectors: 86
+dataset.alphabet_size: 269
+=> Predict labels for the deploy set
+output_file:  output/1M_1_input_2019-06-28_12-51-36-493050/000_deploy.txt
+mentions_output_file:  output/1M_1_input_2019-06-28_12-51-36-493050/mentions_output.txt
+tally: 25000 25000 total mentions discovered: 51075
+=> Formatting 000_deploy set from CONLL to BRAT... Done.
+Finishing the experiment
+461.9337775707245
+=====================================================================================
+
+
+lets begin here
+hello
+here1
+here2
+Formatting deploy set from BRAT to CONLL... data/1M_2_input/deploy_spacy.txt
+Done.
+Converting CONLL from BIO to BIOES format... Done.
+Load dataset... done (77.99 seconds)
+Load token embeddings... done (0.94 seconds)
+number_of_token_original_case_found: 400000
+number_of_token_lowercase_found: 13664
+number_of_token_digits_replaced_with_zeros_found: 119
+number_of_token_lowercase_and_digits_replaced_with_zeros_found: 16
+number_of_loaded_word_vectors: 413799
+dataset.vocabulary_size: 416308
+Load token embeddings from pretrained model... done (0.37 seconds)
+number_of_loaded_vectors: 28985
+dataset.vocabulary_size: 416308
+Load character embeddings from pretrained model... done (0.10 seconds)
+number_of_loaded_vectors: 86
+dataset.alphabet_size: 259
+=> Predict labels for the deploy set
+output_file:  output/1M_2_input_2019-06-28_12-59-25-764433/000_deploy.txt
+mentions_output_file:  output/1M_2_input_2019-06-28_12-59-25-764433/mentions_output.txt
+tally: 25000 25000 total mentions discovered: 50331
+=> Formatting 000_deploy set from CONLL to BRAT... Done.
+Finishing the experiment
+458.55785369873047
+=====================================================================================
+
+
+lets begin here
+hello
+here1
+here2
+Formatting deploy set from BRAT to CONLL... data/1M_3_input/deploy_spacy.txt
+Done.
+Converting CONLL from BIO to BIOES format... Done.
+Load dataset... done (79.90 seconds)
+Load token embeddings... done (0.95 seconds)
+number_of_token_original_case_found: 400000
+number_of_token_lowercase_found: 13513
+number_of_token_digits_replaced_with_zeros_found: 120
+number_of_token_lowercase_and_digits_replaced_with_zeros_found: 16
+number_of_loaded_word_vectors: 413649
+dataset.vocabulary_size: 416158
+Load token embeddings from pretrained model... done (0.41 seconds)
+number_of_loaded_vectors: 28985
+dataset.vocabulary_size: 416158
+Load character embeddings from pretrained model... done (0.16 seconds)
+number_of_loaded_vectors: 86
+dataset.alphabet_size: 298
+=> Predict labels for the deploy set
+output_file:  output/1M_3_input_2019-06-28_13-07-22-879880/000_deploy.txt
+mentions_output_file:  output/1M_3_input_2019-06-28_13-07-22-879880/mentions_output.txt
+tally: 25000 25000 total mentions discovered: 55327
+=> Formatting 000_deploy set from CONLL to BRAT... Done.
+Finishing the experiment
+489.30336236953735
+=====================================================================================
+
+
+lets begin here
+hello
+here1
+here2
+Formatting deploy set from BRAT to CONLL... data/1M_4_input/deploy_spacy.txt
+Done.
+Converting CONLL from BIO to BIOES format... Done.
+Load dataset... done (85.44 seconds)
+Load token embeddings... done (1.02 seconds)
+number_of_token_original_case_found: 400000
+number_of_token_lowercase_found: 13597
+number_of_token_digits_replaced_with_zeros_found: 121
+number_of_token_lowercase_and_digits_replaced_with_zeros_found: 16
+number_of_loaded_word_vectors: 413734
+dataset.vocabulary_size: 416243
+Load token embeddings from pretrained model... done (0.37 seconds)
+number_of_loaded_vectors: 28985
+dataset.vocabulary_size: 416243
+Load character embeddings from pretrained model... done (0.11 seconds)
+number_of_loaded_vectors: 86
+dataset.alphabet_size: 262
+=> Predict labels for the deploy set
+output_file:  output/1M_4_input_2019-06-28_13-16-18-778826/000_deploy.txt
+mentions_output_file:  output/1M_4_input_2019-06-28_13-16-18-778826/mentions_output.txt
+tally: 25000 25000 total mentions discovered: 54125
+=> Formatting 000_deploy set from CONLL to BRAT... Done.
+Finishing the experiment
+498.94304895401
+=====================================================================================
+
+
+lets begin here
+hello
+here1
+here2
+Formatting deploy set from BRAT to CONLL... data/1M_5_input/deploy_spacy.txt
+Done.
+Converting CONLL from BIO to BIOES format... Done.
+Load dataset... done (83.14 seconds)
+Load token embeddings... done (0.98 seconds)
+number_of_token_original_case_found: 400000
+number_of_token_lowercase_found: 13415
+number_of_token_digits_replaced_with_zeros_found: 121
+number_of_token_lowercase_and_digits_replaced_with_zeros_found: 16
+number_of_loaded_word_vectors: 413552
+dataset.vocabulary_size: 416061
+Load token embeddings from pretrained model... done (0.43 seconds)
+number_of_loaded_vectors: 28985
+dataset.vocabulary_size: 416061
+Load character embeddings from pretrained model... done (0.11 seconds)
+number_of_loaded_vectors: 86
+dataset.alphabet_size: 272
+=> Predict labels for the deploy set
+output_file:  output/1M_5_input_2019-06-28_13-24-50-645487/000_deploy.txt
+mentions_output_file:  output/1M_5_input_2019-06-28_13-24-50-645487/mentions_output.txt
+tally: 25000 25000 total mentions discovered: 55250
+=> Formatting 000_deploy set from CONLL to BRAT... Done.
+Finishing the experiment
+487.8393738269806
+=====================================================================================
+
+
+lets begin here
+hello
+here1
+here2
+Formatting deploy set from BRAT to CONLL... data/1M_6_input/deploy_spacy.txt
+Done.
+Converting CONLL from BIO to BIOES format... Done.
+Load dataset... done (81.74 seconds)
+Load token embeddings... done (0.92 seconds)
+number_of_token_original_case_found: 400000
+number_of_token_lowercase_found: 13760
+number_of_token_digits_replaced_with_zeros_found: 120
+number_of_token_lowercase_and_digits_replaced_with_zeros_found: 16
+number_of_loaded_word_vectors: 413896
+dataset.vocabulary_size: 416405
+Load token embeddings from pretrained model... done (0.42 seconds)
+number_of_loaded_vectors: 28985
+dataset.vocabulary_size: 416405
+Load character embeddings from pretrained model... done (0.14 seconds)
+number_of_loaded_vectors: 86
+dataset.alphabet_size: 306
+=> Predict labels for the deploy set
+output_file:  output/1M_6_input_2019-06-28_13-33-09-824974/000_deploy.txt
+mentions_output_file:  output/1M_6_input_2019-06-28_13-33-09-824974/mentions_output.txt
+tally: 25000 25000 total mentions discovered: 38500
+=> Formatting 000_deploy set from CONLL to BRAT... Done.
+Finishing the experiment
+474.40713119506836
+=====================================================================================
+
+
+lets begin here
+hello
+here1
+here2
+Formatting deploy set from BRAT to CONLL... data/1M_7_input/deploy_spacy.txt
+Done.
+Converting CONLL from BIO to BIOES format... Done.
+Load dataset... done (80.22 seconds)
+Load token embeddings... done (1.05 seconds)
+number_of_token_original_case_found: 400000
+number_of_token_lowercase_found: 13285
+number_of_token_digits_replaced_with_zeros_found: 125
+number_of_token_lowercase_and_digits_replaced_with_zeros_found: 16
+number_of_loaded_word_vectors: 413426
+dataset.vocabulary_size: 415935
+Load token embeddings from pretrained model... done (0.46 seconds)
+number_of_loaded_vectors: 28985
+dataset.vocabulary_size: 415935
+Load character embeddings from pretrained model... done (0.10 seconds)
+number_of_loaded_vectors: 86
+dataset.alphabet_size: 286
+=> Predict labels for the deploy set
+output_file:  output/1M_7_input_2019-06-28_13-41-12-499584/000_deploy.txt
+mentions_output_file:  output/1M_7_input_2019-06-28_13-41-12-499584/mentions_output.txt
+tally: 25000 25000 total mentions discovered: 29807
+=> Formatting 000_deploy set from CONLL to BRAT... Done.
+Finishing the experiment
+488.2925281524658
+=====================================================================================
+
+
+lets begin here
+hello
+here1
+here2
+Formatting deploy set from BRAT to CONLL... data/1M_8_input/deploy_spacy.txt
+Done.
+Converting CONLL from BIO to BIOES format... Done.
+Load dataset... done (77.60 seconds)
+Load token embeddings... done (0.89 seconds)
+number_of_token_original_case_found: 400000
+number_of_token_lowercase_found: 13070
+number_of_token_digits_replaced_with_zeros_found: 121
+number_of_token_lowercase_and_digits_replaced_with_zeros_found: 16
+number_of_loaded_word_vectors: 413207
+dataset.vocabulary_size: 415716
+Load token embeddings from pretrained model... done (0.46 seconds)
+number_of_loaded_vectors: 28985
+dataset.vocabulary_size: 415716
+Load character embeddings from pretrained model... done (0.12 seconds)
+number_of_loaded_vectors: 86
+dataset.alphabet_size: 285
+=> Predict labels for the deploy set
+output_file:  output/1M_8_input_2019-06-28_13-49-39-302513/000_deploy.txt
+mentions_output_file:  output/1M_8_input_2019-06-28_13-49-39-302513/mentions_output.txt
+tally: 25000 25000 total mentions discovered: 27222
+=> Formatting 000_deploy set from CONLL to BRAT... Done.
+Finishing the experiment
+469.9932310581207
+=====================================================================================
+
+
+lets begin here
+hello
+here1
+here2
+Formatting deploy set from BRAT to CONLL... data/1M_9_input/deploy_spacy.txt
+Done.
+Converting CONLL from BIO to BIOES format... Done.
+Load dataset... done (84.59 seconds)
+Load token embeddings... done (0.93 seconds)
+number_of_token_original_case_found: 400000
+number_of_token_lowercase_found: 13762
+number_of_token_digits_replaced_with_zeros_found: 128
+number_of_token_lowercase_and_digits_replaced_with_zeros_found: 16
+number_of_loaded_word_vectors: 413906
+dataset.vocabulary_size: 416415
+Load token embeddings from pretrained model... done (0.40 seconds)
+number_of_loaded_vectors: 28985
+dataset.vocabulary_size: 416415
+Load character embeddings from pretrained model... done (0.14 seconds)
+number_of_loaded_vectors: 86
+dataset.alphabet_size: 380
+=> Predict labels for the deploy set
+output_file:  output/1M_9_input_2019-06-28_13-57-45-950282/000_deploy.txt
+mentions_output_file:  output/1M_9_input_2019-06-28_13-57-45-950282/mentions_output.txt
+tally: 25000 25000 total mentions discovered: 45159
+=> Formatting 000_deploy set from CONLL to BRAT... Done.
+Finishing the experiment
+437.2318186759949
+=====================================================================================
+
+
+lets begin here
+hello
+here1
+here2
+Formatting deploy set from BRAT to CONLL... data/1M_10_input/deploy_spacy.txt
+Done.
+Converting CONLL from BIO to BIOES format... Done.
+Load dataset... done (79.71 seconds)
+Load token embeddings... done (1.03 seconds)
+number_of_token_original_case_found: 400000
+number_of_token_lowercase_found: 13693
+number_of_token_digits_replaced_with_zeros_found: 135
+number_of_token_lowercase_and_digits_replaced_with_zeros_found: 16
+number_of_loaded_word_vectors: 413844
+dataset.vocabulary_size: 416353
+Load token embeddings from pretrained model... done (0.44 seconds)
+number_of_loaded_vectors: 28985
+dataset.vocabulary_size: 416353
+Load character embeddings from pretrained model... done (0.10 seconds)
+number_of_loaded_vectors: 86
+dataset.alphabet_size: 341
+=> Predict labels for the deploy set
+output_file:  output/1M_10_input_2019-06-28_14-05-12-416312/000_deploy.txt
+mentions_output_file:  output/1M_10_input_2019-06-28_14-05-12-416312/mentions_output.txt
+tally: 25000 25000 total mentions discovered: 46857
+=> Formatting 000_deploy set from CONLL to BRAT... Done.
+Finishing the experiment
+434.31463861465454
+=====================================================================================
+
+
+lets begin here
+hello
+here1
+here2
+Formatting deploy set from BRAT to CONLL... data/1M_11_input/deploy_spacy.txt
+Done.
+Converting CONLL from BIO to BIOES format... Done.
+Load dataset... done (99.88 seconds)
+Load token embeddings... done (1.18 seconds)
+number_of_token_original_case_found: 400000
+number_of_token_lowercase_found: 14083
+number_of_token_digits_replaced_with_zeros_found: 138
+number_of_token_lowercase_and_digits_replaced_with_zeros_found: 16
+number_of_loaded_word_vectors: 414237
+dataset.vocabulary_size: 416746
+Load token embeddings from pretrained model... done (0.38 seconds)
+number_of_loaded_vectors: 28985
+dataset.vocabulary_size: 416746
+Load character embeddings from pretrained model... done (0.12 seconds)
+number_of_loaded_vectors: 86
+dataset.alphabet_size: 362
+=> Predict labels for the deploy set
+output_file:  output/1M_11_input_2019-06-28_14-12-59-804681/000_deploy.txt
+mentions_output_file:  output/1M_11_input_2019-06-28_14-12-59-804681/mentions_output.txt
+tally: 25000 25000 total mentions discovered: 46829
+=> Formatting 000_deploy set from CONLL to BRAT... Done.
+Finishing the experiment
+460.6016638278961
+=====================================================================================
+
+
+lets begin here
+hello
+here1
+here2
+Formatting deploy set from BRAT to CONLL... data/1M_12_input/deploy_spacy.txt
+Done.
+Converting CONLL from BIO to BIOES format... Done.
+Load dataset... done (79.99 seconds)
+Load token embeddings... done (1.08 seconds)
+number_of_token_original_case_found: 400000
+number_of_token_lowercase_found: 15055
+number_of_token_digits_replaced_with_zeros_found: 160
+number_of_token_lowercase_and_digits_replaced_with_zeros_found: 16
+number_of_loaded_word_vectors: 415231
+dataset.vocabulary_size: 417740
+Load token embeddings from pretrained model... done (0.47 seconds)
+number_of_loaded_vectors: 28985
+dataset.vocabulary_size: 417740
+Load character embeddings from pretrained model... done (0.11 seconds)
+number_of_loaded_vectors: 86
+dataset.alphabet_size: 406
+=> Predict labels for the deploy set
+output_file:  output/1M_12_input_2019-06-28_14-21-03-695946/000_deploy.txt
+mentions_output_file:  output/1M_12_input_2019-06-28_14-21-03-695946/mentions_output.txt
+tally: 25000 25000 total mentions discovered: 39898
+=> Formatting 000_deploy set from CONLL to BRAT... Done.
+Finishing the experiment
+416.94615745544434
+=====================================================================================
+
+
+lets begin here
+hello
+here1
+here2
+Formatting deploy set from BRAT to CONLL... data/1M_13_input/deploy_spacy.txt
+Done.
+Converting CONLL from BIO to BIOES format... Done.
+Load dataset... done (76.07 seconds)
+Load token embeddings... done (0.88 seconds)
+number_of_token_original_case_found: 400000
+number_of_token_lowercase_found: 13811
+number_of_token_digits_replaced_with_zeros_found: 137
+number_of_token_lowercase_and_digits_replaced_with_zeros_found: 16
+number_of_loaded_word_vectors: 413964
+dataset.vocabulary_size: 416473
+Load token embeddings from pretrained model... done (0.37 seconds)
+number_of_loaded_vectors: 28985
+dataset.vocabulary_size: 416473
+Load character embeddings from pretrained model... done (0.13 seconds)
+number_of_loaded_vectors: 86
+dataset.alphabet_size: 348
+=> Predict labels for the deploy set
+output_file:  output/1M_13_input_2019-06-28_14-28-19-965974/000_deploy.txt
+mentions_output_file:  output/1M_13_input_2019-06-28_14-28-19-965974/mentions_output.txt
+tally: 25000 25000 total mentions discovered: 37320
+=> Formatting 000_deploy set from CONLL to BRAT... Done.
+Finishing the experiment
+414.4289174079895
+=====================================================================================
+
+
+lets begin here
+hello
+here1
+here2
+Formatting deploy set from BRAT to CONLL... data/1M_14_input/deploy_spacy.txt
+Done.
+Converting CONLL from BIO to BIOES format... Done.
+Load dataset... done (79.69 seconds)
+Load token embeddings... done (0.89 seconds)
+number_of_token_original_case_found: 400000
+number_of_token_lowercase_found: 13756
+number_of_token_digits_replaced_with_zeros_found: 123
+number_of_token_lowercase_and_digits_replaced_with_zeros_found: 17
+number_of_loaded_word_vectors: 413896
+dataset.vocabulary_size: 416405
+Load token embeddings from pretrained model... done (0.41 seconds)
+number_of_loaded_vectors: 28985
+dataset.vocabulary_size: 416405
+Load character embeddings from pretrained model... done (0.11 seconds)
+number_of_loaded_vectors: 86
+dataset.alphabet_size: 355
+=> Predict labels for the deploy set
+output_file:  output/1M_14_input_2019-06-28_14-35-43-152836/000_deploy.txt
+mentions_output_file:  output/1M_14_input_2019-06-28_14-35-43-152836/mentions_output.txt
+tally: 25000 25000 total mentions discovered: 40119
+=> Formatting 000_deploy set from CONLL to BRAT... Done.
+Finishing the experiment
+427.5867655277252
+=====================================================================================
+
+
+lets begin here
+hello
+here1
+here2
+Formatting deploy set from BRAT to CONLL... data/1M_15_input/deploy_spacy.txt
+Done.
+Converting CONLL from BIO to BIOES format... Done.
+Load dataset... done (91.85 seconds)
+Load token embeddings... done (0.89 seconds)
+number_of_token_original_case_found: 400000
+number_of_token_lowercase_found: 15816
+number_of_token_digits_replaced_with_zeros_found: 153
+number_of_token_lowercase_and_digits_replaced_with_zeros_found: 16
+number_of_loaded_word_vectors: 415985
+dataset.vocabulary_size: 418494
+Load token embeddings from pretrained model... done (0.41 seconds)
+number_of_loaded_vectors: 28985
+dataset.vocabulary_size: 418494
+Load character embeddings from pretrained model... done (0.14 seconds)
+number_of_loaded_vectors: 86
+dataset.alphabet_size: 466
+=> Predict labels for the deploy set
+output_file:  output/1M_15_input_2019-06-28_14-43-27-187096/000_deploy.txt
+mentions_output_file:  output/1M_15_input_2019-06-28_14-43-27-187096/mentions_output.txt
+tally: 25000 25000 total mentions discovered: 41374
+=> Formatting 000_deploy set from CONLL to BRAT... Done.
+Finishing the experiment
+427.9887375831604
+=====================================================================================
+
+
+lets begin here
+hello
+here1
+here2
+Formatting deploy set from BRAT to CONLL... data/1M_16_input/deploy_spacy.txt
+Done.
+Converting CONLL from BIO to BIOES format... Done.
+Load dataset... done (86.95 seconds)
+Load token embeddings... done (1.03 seconds)
+number_of_token_original_case_found: 400000
+number_of_token_lowercase_found: 15174
+number_of_token_digits_replaced_with_zeros_found: 146
+number_of_token_lowercase_and_digits_replaced_with_zeros_found: 16
+number_of_loaded_word_vectors: 415336
+dataset.vocabulary_size: 417845
+Load token embeddings from pretrained model... done (0.37 seconds)
+number_of_loaded_vectors: 28985
+dataset.vocabulary_size: 417845
+Load character embeddings from pretrained model... done (0.10 seconds)
+number_of_loaded_vectors: 86
+dataset.alphabet_size: 551
+=> Predict labels for the deploy set
+output_file:  output/1M_16_input_2019-06-28_14-50-47-632500/000_deploy.txt
+mentions_output_file:  output/1M_16_input_2019-06-28_14-50-47-632500/mentions_output.txt
+tally: 25000 25000 total mentions discovered: 28014
+=> Formatting 000_deploy set from CONLL to BRAT... Done.
+Finishing the experiment
+389.7924966812134
+=====================================================================================
+
+
+lets begin here
+hello
+here1
+here2
+Checking compatibility between CONLL and BRAT for deploy_spacy set ... Done.
+Checking validity of CONLL BIOES format... Done.
+Load dataset... done (43.78 seconds)
+Load token embeddings... done (0.77 seconds)
+number_of_token_original_case_found: 400000
+number_of_token_lowercase_found: 13454
+number_of_token_digits_replaced_with_zeros_found: 123
+number_of_token_lowercase_and_digits_replaced_with_zeros_found: 16
+number_of_loaded_word_vectors: 413593
+dataset.vocabulary_size: 416102
+Load token embeddings from pretrained model... done (0.31 seconds)
+number_of_loaded_vectors: 28985
+dataset.vocabulary_size: 416102
+Load character embeddings from pretrained model... done (0.08 seconds)
+number_of_loaded_vectors: 86
+dataset.alphabet_size: 339
+=> Predict labels for the deploy set
+output_file:  output/1M_17_input_2019-06-28_18-30-54-799438/000_deploy.txt
+mentions_output_file:  output/1M_17_input_2019-06-28_18-30-54-799438/mentions_output.txt
+tally: 15000 15000 total mentions discovered: 11269
+=> Formatting 000_deploy set from CONLL to BRAT... Done.
+Finishing the experiment
+125.20245718955994
+=====================================================================================
+
+
+lets begin here
+hello
+here1
+here2
+Formatting deploy set from BRAT to CONLL... data/1M_18_input/deploy_spacy.txt
+Done.
+Converting CONLL from BIO to BIOES format... Done.
+Load dataset... done (64.79 seconds)
+Load token embeddings... done (0.74 seconds)
+number_of_token_original_case_found: 400000
+number_of_token_lowercase_found: 14033
+number_of_token_digits_replaced_with_zeros_found: 138
+number_of_token_lowercase_and_digits_replaced_with_zeros_found: 16
+number_of_loaded_word_vectors: 414187
+dataset.vocabulary_size: 416696
+Load token embeddings from pretrained model... done (0.33 seconds)
+number_of_loaded_vectors: 28985
+dataset.vocabulary_size: 416696
+Load character embeddings from pretrained model... done (0.07 seconds)
+number_of_loaded_vectors: 86
+dataset.alphabet_size: 493
+=> Predict labels for the deploy set
+output_file:  output/1M_18_input_2019-06-28_18-34-23-682262/000_deploy.txt
+mentions_output_file:  output/1M_18_input_2019-06-28_18-34-23-682262/mentions_output.txt
+tally: 25000 25000 total mentions discovered: 44673
+=> Formatting 000_deploy set from CONLL to BRAT... Done.
+Finishing the experiment
+258.8918514251709
+=====================================================================================
+
+
+lets begin here
+hello
+here1
+here2
+Formatting deploy set from BRAT to CONLL... data/1M_19_input/deploy_spacy.txt
+Done.
+Converting CONLL from BIO to BIOES format... Done.
+Load dataset... done (79.70 seconds)
+Load token embeddings... done (0.79 seconds)
+number_of_token_original_case_found: 400000
+number_of_token_lowercase_found: 16733
+number_of_token_digits_replaced_with_zeros_found: 149
+number_of_token_lowercase_and_digits_replaced_with_zeros_found: 18
+number_of_loaded_word_vectors: 416900
+dataset.vocabulary_size: 419409
+Load token embeddings from pretrained model... done (0.31 seconds)
+number_of_loaded_vectors: 28985
+dataset.vocabulary_size: 419409
+Load character embeddings from pretrained model... done (0.07 seconds)
+number_of_loaded_vectors: 86
+dataset.alphabet_size: 583
+=> Predict labels for the deploy set
+output_file:  output/1M_19_input_2019-06-28_18-39-07-572348/000_deploy.txt
+mentions_output_file:  output/1M_19_input_2019-06-28_18-39-07-572348/mentions_output.txt
+tally: 25000 25000 total mentions discovered: 37623
+=> Formatting 000_deploy set from CONLL to BRAT... Done.
+Finishing the experiment
+287.7612564563751
+=====================================================================================
+
+
+lets begin here
+hello
+here1
+here2
+Formatting deploy set from BRAT to CONLL... data/1M_20_input/deploy_spacy.txt
+Done.
+Converting CONLL from BIO to BIOES format... Done.
+Load dataset... done (64.77 seconds)
+Load token embeddings... done (0.74 seconds)
+number_of_token_original_case_found: 400000
+number_of_token_lowercase_found: 14153
+number_of_token_digits_replaced_with_zeros_found: 145
+number_of_token_lowercase_and_digits_replaced_with_zeros_found: 17
+number_of_loaded_word_vectors: 414315
+dataset.vocabulary_size: 416824
+Load token embeddings from pretrained model... done (0.31 seconds)
+number_of_loaded_vectors: 28985
+dataset.vocabulary_size: 416824
+Load character embeddings from pretrained model... done (0.08 seconds)
+number_of_loaded_vectors: 86
+dataset.alphabet_size: 404
+=> Predict labels for the deploy set
+output_file:  output/1M_20_input_2019-06-28_18-43-42-102427/000_deploy.txt
+mentions_output_file:  output/1M_20_input_2019-06-28_18-43-42-102427/mentions_output.txt
+tally: 25000 25000 total mentions discovered: 35256
+=> Formatting 000_deploy set from CONLL to BRAT... Done.
+Finishing the experiment
+266.4490842819214
+=====================================================================================
+
+
+lets begin here
+hello
+here1
+here2
+Formatting deploy set from BRAT to CONLL... data/1M_21_input/deploy_spacy.txt
+Done.
+Converting CONLL from BIO to BIOES format... Done.
+Load dataset... done (59.13 seconds)
+Load token embeddings... done (0.76 seconds)
+number_of_token_original_case_found: 400000
+number_of_token_lowercase_found: 13067
+number_of_token_digits_replaced_with_zeros_found: 121
+number_of_token_lowercase_and_digits_replaced_with_zeros_found: 16
+number_of_loaded_word_vectors: 413204
+dataset.vocabulary_size: 415713
+Load token embeddings from pretrained model... done (0.31 seconds)
+number_of_loaded_vectors: 28985
+dataset.vocabulary_size: 415713
+Load character embeddings from pretrained model... done (0.08 seconds)
+number_of_loaded_vectors: 86
+dataset.alphabet_size: 289
+=> Predict labels for the deploy set
+output_file:  output/1M_21_input_2019-06-28_18-48-16-691210/000_deploy.txt
+mentions_output_file:  output/1M_21_input_2019-06-28_18-48-16-691210/mentions_output.txt
+tally: 25000 25000 total mentions discovered: 41042
+=> Formatting 000_deploy set from CONLL to BRAT... Done.
+Finishing the experiment
+274.98597526550293
+=====================================================================================
+
+
+lets begin here
+hello
+here1
+here2
+Formatting deploy set from BRAT to CONLL... data/1M_22_input/deploy_spacy.txt
+Done.
+Converting CONLL from BIO to BIOES format... Done.
+Load dataset... done (59.74 seconds)
+Load token embeddings... done (0.76 seconds)
+number_of_token_original_case_found: 400000
+number_of_token_lowercase_found: 13170
+number_of_token_digits_replaced_with_zeros_found: 121
+number_of_token_lowercase_and_digits_replaced_with_zeros_found: 16
+number_of_loaded_word_vectors: 413307
+dataset.vocabulary_size: 415816
+Load token embeddings from pretrained model... done (0.31 seconds)
+number_of_loaded_vectors: 28985
+dataset.vocabulary_size: 415816
+Load character embeddings from pretrained model... done (0.07 seconds)
+number_of_loaded_vectors: 86
+dataset.alphabet_size: 311
+=> Predict labels for the deploy set
+output_file:  output/1M_22_input_2019-06-28_18-52-59-502520/000_deploy.txt
+mentions_output_file:  output/1M_22_input_2019-06-28_18-52-59-502520/mentions_output.txt
+tally: 25000 25000 total mentions discovered: 39465
+=> Formatting 000_deploy set from CONLL to BRAT... Done.
+Finishing the experiment
+274.3671236038208
+=====================================================================================
+
+
+lets begin here
+hello
+here1
+here2
+Formatting deploy set from BRAT to CONLL... data/1M_23_input/deploy_spacy.txt
+Done.
+Converting CONLL from BIO to BIOES format... Done.
+Load dataset... done (67.73 seconds)
+Load token embeddings... done (0.85 seconds)
+number_of_token_original_case_found: 400000
+number_of_token_lowercase_found: 15534
+number_of_token_digits_replaced_with_zeros_found: 131
+number_of_token_lowercase_and_digits_replaced_with_zeros_found: 16
+number_of_loaded_word_vectors: 415681
+dataset.vocabulary_size: 418190
+Load token embeddings from pretrained model... done (0.38 seconds)
+number_of_loaded_vectors: 28985
+dataset.vocabulary_size: 418190
+Load character embeddings from pretrained model... done (0.09 seconds)
+number_of_loaded_vectors: 86
+dataset.alphabet_size: 440
+=> Predict labels for the deploy set
+output_file:  output/1M_23_input_2019-06-28_18-57-59-317862/000_deploy.txt
+mentions_output_file:  output/1M_23_input_2019-06-28_18-57-59-317862/mentions_output.txt
+tally: 25000 25000 total mentions discovered: 40669
+=> Formatting 000_deploy set from CONLL to BRAT... Done.
+Finishing the experiment
+264.9722032546997
+=====================================================================================
+
+
+lets begin here
+hello
+here1
+here2
+Formatting deploy set from BRAT to CONLL... data/1M_24_input/deploy_spacy.txt
+Done.
+Converting CONLL from BIO to BIOES format... Done.
+Load dataset... done (67.60 seconds)
+Load token embeddings... done (0.79 seconds)
+number_of_token_original_case_found: 400000
+number_of_token_lowercase_found: 14690
+number_of_token_digits_replaced_with_zeros_found: 124
+number_of_token_lowercase_and_digits_replaced_with_zeros_found: 16
+number_of_loaded_word_vectors: 414830
+dataset.vocabulary_size: 417339
+Load token embeddings from pretrained model... done (0.32 seconds)
+number_of_loaded_vectors: 28985
+dataset.vocabulary_size: 417339
+Load character embeddings from pretrained model... done (0.08 seconds)
+number_of_loaded_vectors: 86
+dataset.alphabet_size: 344
+=> Predict labels for the deploy set
+output_file:  output/1M_24_input_2019-06-28_19-03-00-508034/000_deploy.txt
+mentions_output_file:  output/1M_24_input_2019-06-28_19-03-00-508034/mentions_output.txt
+tally: 25000 25000 total mentions discovered: 54812
+=> Formatting 000_deploy set from CONLL to BRAT... Done.
+Finishing the experiment
+283.6763937473297
+=====================================================================================
+
+
+lets begin here
+hello
+here1
+here2
+Formatting deploy set from BRAT to CONLL... data/1M_25_input/deploy_spacy.txt
+Done.
+Converting CONLL from BIO to BIOES format... Done.
+Load dataset... done (67.61 seconds)
+Load token embeddings... done (0.82 seconds)
+number_of_token_original_case_found: 400000
+number_of_token_lowercase_found: 16665
+number_of_token_digits_replaced_with_zeros_found: 124
+number_of_token_lowercase_and_digits_replaced_with_zeros_found: 16
+number_of_loaded_word_vectors: 416805
+dataset.vocabulary_size: 419314
+Load token embeddings from pretrained model... done (0.35 seconds)
+number_of_loaded_vectors: 28985
+dataset.vocabulary_size: 419314
+Load character embeddings from pretrained model... done (0.08 seconds)
+number_of_loaded_vectors: 86
+dataset.alphabet_size: 377
+=> Predict labels for the deploy set
+output_file:  output/1M_25_input_2019-06-28_19-07-57-844102/000_deploy.txt
+mentions_output_file:  output/1M_25_input_2019-06-28_19-07-57-844102/mentions_output.txt
+tally: 25000 25000 total mentions discovered: 55284
+=> Formatting 000_deploy set from CONLL to BRAT... Done.
+Finishing the experiment
+276.9365975856781
+=====================================================================================
+
+
+lets begin here
+hello
+here1
+here2
+Formatting deploy set from BRAT to CONLL... data/1M_26_input/deploy_spacy.txt
+Done.
+Converting CONLL from BIO to BIOES format... Done.
+Load dataset... done (65.12 seconds)
+Load token embeddings... done (0.80 seconds)
+number_of_token_original_case_found: 400000
+number_of_token_lowercase_found: 16437
+number_of_token_digits_replaced_with_zeros_found: 127
+number_of_token_lowercase_and_digits_replaced_with_zeros_found: 16
+number_of_loaded_word_vectors: 416580
+dataset.vocabulary_size: 419089
+Load token embeddings from pretrained model... done (0.33 seconds)
+number_of_loaded_vectors: 28985
+dataset.vocabulary_size: 419089
+Load character embeddings from pretrained model... done (0.08 seconds)
+number_of_loaded_vectors: 86
+dataset.alphabet_size: 381
+=> Predict labels for the deploy set
+output_file:  output/1M_26_input_2019-06-28_19-12-37-276935/000_deploy.txt
+mentions_output_file:  output/1M_26_input_2019-06-28_19-12-37-276935/mentions_output.txt
+tally: 25000 25000 total mentions discovered: 54355
+=> Formatting 000_deploy set from CONLL to BRAT... Done.
+Finishing the experiment
+265.9086482524872
+=====================================================================================
+
+
+lets begin here
+hello
+here1
+here2
+Formatting deploy set from BRAT to CONLL... data/1M_27_input/deploy_spacy.txt
+Done.
+Converting CONLL from BIO to BIOES format... Done.
+Load dataset... done (63.15 seconds)
+Load token embeddings... done (0.82 seconds)
+number_of_token_original_case_found: 400000
+number_of_token_lowercase_found: 16184
+number_of_token_digits_replaced_with_zeros_found: 124
+number_of_token_lowercase_and_digits_replaced_with_zeros_found: 16
+number_of_loaded_word_vectors: 416324
+dataset.vocabulary_size: 418833
+Load token embeddings from pretrained model... done (0.32 seconds)
+number_of_loaded_vectors: 28985
+dataset.vocabulary_size: 418833
+Load character embeddings from pretrained model... done (0.08 seconds)
+number_of_loaded_vectors: 86
+dataset.alphabet_size: 371
+=> Predict labels for the deploy set
+output_file:  output/1M_27_input_2019-06-28_19-17-20-559876/000_deploy.txt
+mentions_output_file:  output/1M_27_input_2019-06-28_19-17-20-559876/mentions_output.txt
+tally: 25000 25000 total mentions discovered: 53240
+=> Formatting 000_deploy set from CONLL to BRAT... Done.
+Finishing the experiment
+250.9873125553131
+=====================================================================================
+
+
+lets begin here
+hello
+here1
+here2
+Formatting deploy set from BRAT to CONLL... data/1M_28_input/deploy_spacy.txt
+Done.
+Converting CONLL from BIO to BIOES format... Done.
+Load dataset... done (62.85 seconds)
+Load token embeddings... done (0.76 seconds)
+number_of_token_original_case_found: 400000
+number_of_token_lowercase_found: 16447
+number_of_token_digits_replaced_with_zeros_found: 122
+number_of_token_lowercase_and_digits_replaced_with_zeros_found: 16
+number_of_loaded_word_vectors: 416585
+dataset.vocabulary_size: 419094
+Load token embeddings from pretrained model... done (0.32 seconds)
+number_of_loaded_vectors: 28985
+dataset.vocabulary_size: 419094
+Load character embeddings from pretrained model... done (0.08 seconds)
+number_of_loaded_vectors: 86
+dataset.alphabet_size: 356
+=> Predict labels for the deploy set
+output_file:  output/1M_28_input_2019-06-28_19-21-40-276582/000_deploy.txt
+mentions_output_file:  output/1M_28_input_2019-06-28_19-21-40-276582/mentions_output.txt
+tally: 25000 25000 total mentions discovered: 54359
+=> Formatting 000_deploy set from CONLL to BRAT... Done.
+Finishing the experiment
+256.31757974624634
+=====================================================================================
+
+
+lets begin here
+hello
+here1
+here2
+Formatting deploy set from BRAT to CONLL... data/1M_29_input/deploy_spacy.txt
+Done.
+Converting CONLL from BIO to BIOES format... Done.
+Load dataset... done (62.99 seconds)
+Load token embeddings... done (0.77 seconds)
+number_of_token_original_case_found: 400000
+number_of_token_lowercase_found: 16240
+number_of_token_digits_replaced_with_zeros_found: 122
+number_of_token_lowercase_and_digits_replaced_with_zeros_found: 16
+number_of_loaded_word_vectors: 416378
+dataset.vocabulary_size: 418887
+Load token embeddings from pretrained model... done (0.31 seconds)
+number_of_loaded_vectors: 28985
+dataset.vocabulary_size: 418887
+Load character embeddings from pretrained model... done (0.08 seconds)
+number_of_loaded_vectors: 86
+dataset.alphabet_size: 386
+=> Predict labels for the deploy set
+output_file:  output/1M_29_input_2019-06-28_19-26-02-59630/000_deploy.txt
+mentions_output_file:  output/1M_29_input_2019-06-28_19-26-02-59630/mentions_output.txt
+tally: 25000 25000 total mentions discovered: 53277
+=> Formatting 000_deploy set from CONLL to BRAT... Done.
+Finishing the experiment
+247.8535933494568
+=====================================================================================
+
+
+lets begin here
+hello
+here1
+here2
+Formatting deploy set from BRAT to CONLL... data/1M_30_input/deploy_spacy.txt
+Done.
+Converting CONLL from BIO to BIOES format... Done.
+Load dataset... done (65.36 seconds)
+Load token embeddings... done (0.77 seconds)
+number_of_token_original_case_found: 400000
+number_of_token_lowercase_found: 16513
+number_of_token_digits_replaced_with_zeros_found: 123
+number_of_token_lowercase_and_digits_replaced_with_zeros_found: 16
+number_of_loaded_word_vectors: 416652
+dataset.vocabulary_size: 419161
+Load token embeddings from pretrained model... done (0.31 seconds)
+number_of_loaded_vectors: 28985
+dataset.vocabulary_size: 419161
+Load character embeddings from pretrained model... done (0.07 seconds)
+number_of_loaded_vectors: 86
+dataset.alphabet_size: 409
+=> Predict labels for the deploy set
+output_file:  output/1M_30_input_2019-06-28_19-30-25-34125/000_deploy.txt
+mentions_output_file:  output/1M_30_input_2019-06-28_19-30-25-34125/mentions_output.txt
+tally: 25000 25000 total mentions discovered: 55331
+=> Formatting 000_deploy set from CONLL to BRAT... Done.
+Finishing the experiment
+259.0314335823059
+=====================================================================================
+
+
+lets begin here
+hello
+here1
+here2
+Formatting deploy set from BRAT to CONLL... data/1M_31_input/deploy_spacy.txt
+Done.
+Converting CONLL from BIO to BIOES format... Done.
+Load dataset... done (67.65 seconds)
+Load token embeddings... done (0.77 seconds)
+number_of_token_original_case_found: 400000
+number_of_token_lowercase_found: 16460
+number_of_token_digits_replaced_with_zeros_found: 128
+number_of_token_lowercase_and_digits_replaced_with_zeros_found: 16
+number_of_loaded_word_vectors: 416604
+dataset.vocabulary_size: 419113
+Load token embeddings from pretrained model... done (0.31 seconds)
+number_of_loaded_vectors: 28985
+dataset.vocabulary_size: 419113
+Load character embeddings from pretrained model... done (0.08 seconds)
+number_of_loaded_vectors: 86
+dataset.alphabet_size: 382
+=> Predict labels for the deploy set
+output_file:  output/1M_31_input_2019-06-28_19-34-57-958782/000_deploy.txt
+mentions_output_file:  output/1M_31_input_2019-06-28_19-34-57-958782/mentions_output.txt
+tally: 25000 25000 total mentions discovered: 53785
+=> Formatting 000_deploy set from CONLL to BRAT... Done.
+Finishing the experiment
+266.83915734291077
+=====================================================================================
+
+
+lets begin here
+hello
+here1
+here2
+Formatting deploy set from BRAT to CONLL... data/1M_32_input/deploy_spacy.txt
+Done.
+Converting CONLL from BIO to BIOES format... Done.
+Load dataset... done (67.34 seconds)
+Load token embeddings... done (0.76 seconds)
+number_of_token_original_case_found: 400000
+number_of_token_lowercase_found: 16214
+number_of_token_digits_replaced_with_zeros_found: 122
+number_of_token_lowercase_and_digits_replaced_with_zeros_found: 16
+number_of_loaded_word_vectors: 416352
+dataset.vocabulary_size: 418861
+Load token embeddings from pretrained model... done (0.33 seconds)
+number_of_loaded_vectors: 28985
+dataset.vocabulary_size: 418861
+Load character embeddings from pretrained model... done (0.08 seconds)
+number_of_loaded_vectors: 86
+dataset.alphabet_size: 379
+=> Predict labels for the deploy set
+output_file:  output/1M_32_input_2019-06-28_19-39-42-984590/000_deploy.txt
+mentions_output_file:  output/1M_32_input_2019-06-28_19-39-42-984590/mentions_output.txt
+tally: 25000 25000 total mentions discovered: 53365
+=> Formatting 000_deploy set from CONLL to BRAT... Done.
+Finishing the experiment
+270.47040939331055
+=====================================================================================
+
+
+lets begin here
+hello
+here1
+here2
+Formatting deploy set from BRAT to CONLL... data/1M_33_input/deploy_spacy.txt
+Done.
+Converting CONLL from BIO to BIOES format... Done.
+Load dataset... done (65.03 seconds)
+Load token embeddings... done (0.75 seconds)
+number_of_token_original_case_found: 400000
+number_of_token_lowercase_found: 15776
+number_of_token_digits_replaced_with_zeros_found: 120
+number_of_token_lowercase_and_digits_replaced_with_zeros_found: 17
+number_of_loaded_word_vectors: 415913
+dataset.vocabulary_size: 418422
+Load token embeddings from pretrained model... done (0.31 seconds)
+number_of_loaded_vectors: 28985
+dataset.vocabulary_size: 418422
+Load character embeddings from pretrained model... done (0.08 seconds)
+number_of_loaded_vectors: 86
+dataset.alphabet_size: 374
+=> Predict labels for the deploy set
+output_file:  output/1M_33_input_2019-06-28_19-44-12-324956/000_deploy.txt
+mentions_output_file:  output/1M_33_input_2019-06-28_19-44-12-324956/mentions_output.txt
+tally: 25000 25000 total mentions discovered: 52646
+=> Formatting 000_deploy set from CONLL to BRAT... Done.
+Finishing the experiment
+268.1513419151306
+=====================================================================================
+
+
+lets begin here
+hello
+here1
+here2
+Formatting deploy set from BRAT to CONLL... data/1M_34_input/deploy_spacy.txt
+Done.
+Converting CONLL from BIO to BIOES format... Done.
+Load dataset... done (66.90 seconds)
+Load token embeddings... done (0.80 seconds)
+number_of_token_original_case_found: 400000
+number_of_token_lowercase_found: 16221
+number_of_token_digits_replaced_with_zeros_found: 122
+number_of_token_lowercase_and_digits_replaced_with_zeros_found: 16
+number_of_loaded_word_vectors: 416359
+dataset.vocabulary_size: 418868
+Load token embeddings from pretrained model... done (0.33 seconds)
+number_of_loaded_vectors: 28985
+dataset.vocabulary_size: 418868
+Load character embeddings from pretrained model... done (0.08 seconds)
+number_of_loaded_vectors: 86
+dataset.alphabet_size: 357
+=> Predict labels for the deploy set
+output_file:  output/1M_34_input_2019-06-28_19-48-45-324369/000_deploy.txt
+mentions_output_file:  output/1M_34_input_2019-06-28_19-48-45-324369/mentions_output.txt
+tally: 25000 25000 total mentions discovered: 54157
+=> Formatting 000_deploy set from CONLL to BRAT... Done.
+Finishing the experiment
+280.9545931816101
+=====================================================================================
+
+
+lets begin here
+hello
+here1
+here2
+Formatting deploy set from BRAT to CONLL... data/1M_35_input/deploy_spacy.txt
+Done.
+Converting CONLL from BIO to BIOES format... Done.
+Load dataset... done (67.84 seconds)
+Load token embeddings... done (0.80 seconds)
+number_of_token_original_case_found: 400000
+number_of_token_lowercase_found: 16245
+number_of_token_digits_replaced_with_zeros_found: 120
+number_of_token_lowercase_and_digits_replaced_with_zeros_found: 16
+number_of_loaded_word_vectors: 416381
+dataset.vocabulary_size: 418890
+Load token embeddings from pretrained model... done (0.33 seconds)
+number_of_loaded_vectors: 28985
+dataset.vocabulary_size: 418890
+Load character embeddings from pretrained model... done (0.08 seconds)
+number_of_loaded_vectors: 86
+dataset.alphabet_size: 367
+=> Predict labels for the deploy set
+output_file:  output/1M_35_input_2019-06-28_19-53-36-722189/000_deploy.txt
+mentions_output_file:  output/1M_35_input_2019-06-28_19-53-36-722189/mentions_output.txt
+tally: 25000 25000 total mentions discovered: 53032
+=> Formatting 000_deploy set from CONLL to BRAT... Done.
+Finishing the experiment
+278.89222979545593
+=====================================================================================
+
+
+lets begin here
+hello
+here1
+here2
+Formatting deploy set from BRAT to CONLL... data/1M_36_input/deploy_spacy.txt
+Done.
+Converting CONLL from BIO to BIOES format... Done.
+Load dataset... done (67.10 seconds)
+Load token embeddings... done (0.80 seconds)
+number_of_token_original_case_found: 400000
+number_of_token_lowercase_found: 16148
+number_of_token_digits_replaced_with_zeros_found: 121
+number_of_token_lowercase_and_digits_replaced_with_zeros_found: 16
+number_of_loaded_word_vectors: 416285
+dataset.vocabulary_size: 418794
+Load token embeddings from pretrained model... done (0.33 seconds)
+number_of_loaded_vectors: 28985
+dataset.vocabulary_size: 418794
+Load character embeddings from pretrained model... done (0.08 seconds)
+number_of_loaded_vectors: 86
+dataset.alphabet_size: 369
+=> Predict labels for the deploy set
+output_file:  output/1M_36_input_2019-06-28_19-58-17-149212/000_deploy.txt
+mentions_output_file:  output/1M_36_input_2019-06-28_19-58-17-149212/mentions_output.txt
+tally: 25000 25000 total mentions discovered: 53076
+=> Formatting 000_deploy set from CONLL to BRAT... Done.
+Finishing the experiment
+276.3840699195862
+=====================================================================================
+
+
+lets begin here
+hello
+here1
+here2
+Formatting deploy set from BRAT to CONLL... data/1M_37_input/deploy_spacy.txt
+Done.
+Converting CONLL from BIO to BIOES format... Done.
+Load dataset... done (68.46 seconds)
+Load token embeddings... done (0.79 seconds)
+number_of_token_original_case_found: 400000
+number_of_token_lowercase_found: 16307
+number_of_token_digits_replaced_with_zeros_found: 121
+number_of_token_lowercase_and_digits_replaced_with_zeros_found: 16
+number_of_loaded_word_vectors: 416444
+dataset.vocabulary_size: 418953
+Load token embeddings from pretrained model... done (0.32 seconds)
+number_of_loaded_vectors: 28985
+dataset.vocabulary_size: 418953
+Load character embeddings from pretrained model... done (0.08 seconds)
+number_of_loaded_vectors: 86
+dataset.alphabet_size: 371
+=> Predict labels for the deploy set
+output_file:  output/1M_37_input_2019-06-28_20-03-13-750994/000_deploy.txt
+mentions_output_file:  output/1M_37_input_2019-06-28_20-03-13-750994/mentions_output.txt
+tally: 25000 25000 total mentions discovered: 53085
+=> Formatting 000_deploy set from CONLL to BRAT... Done.
+Finishing the experiment
+280.5728096961975
+=====================================================================================
+
+
+lets begin here
+hello
+here1
+here2
+Formatting deploy set from BRAT to CONLL... data/1M_38_input/deploy_spacy.txt
+Done.
+Converting CONLL from BIO to BIOES format... Done.
+Load dataset... done (77.87 seconds)
+Load token embeddings... done (0.77 seconds)
+number_of_token_original_case_found: 400000
+number_of_token_lowercase_found: 16137
+number_of_token_digits_replaced_with_zeros_found: 123
+number_of_token_lowercase_and_digits_replaced_with_zeros_found: 16
+number_of_loaded_word_vectors: 416276
+dataset.vocabulary_size: 418785
+Load token embeddings from pretrained model... done (0.31 seconds)
+number_of_loaded_vectors: 28985
+dataset.vocabulary_size: 418785
+Load character embeddings from pretrained model... done (0.08 seconds)
+number_of_loaded_vectors: 86
+dataset.alphabet_size: 360
+=> Predict labels for the deploy set
+output_file:  output/1M_38_input_2019-06-28_20-08-24-357497/000_deploy.txt
+mentions_output_file:  output/1M_38_input_2019-06-28_20-08-24-357497/mentions_output.txt
+tally: 25000 25000 total mentions discovered: 53191
+=> Formatting 000_deploy set from CONLL to BRAT... Done.
+Finishing the experiment
+288.81465315818787
+=====================================================================================
+
+
+lets begin here
+hello
+here1
+here2
+Formatting deploy set from BRAT to CONLL... data/1M_39_input/deploy_spacy.txt
+Done.
+Converting CONLL from BIO to BIOES format... Done.
+Load dataset... done (135.19 seconds)
+Load token embeddings... done (0.77 seconds)
+number_of_token_original_case_found: 400000
+number_of_token_lowercase_found: 16367
+number_of_token_digits_replaced_with_zeros_found: 122
+number_of_token_lowercase_and_digits_replaced_with_zeros_found: 16
+number_of_loaded_word_vectors: 416505
+dataset.vocabulary_size: 419014
+Load token embeddings from pretrained model... done (0.34 seconds)
+number_of_loaded_vectors: 28985
+dataset.vocabulary_size: 419014
+Load character embeddings from pretrained model... done (0.07 seconds)
+number_of_loaded_vectors: 86
+dataset.alphabet_size: 361
+=> Predict labels for the deploy set
+output_file:  output/1M_39_input_2019-06-28_20-14-36-615604/000_deploy.txt
+mentions_output_file:  output/1M_39_input_2019-06-28_20-14-36-615604/mentions_output.txt
+tally: 25000 25000 total mentions discovered: 52323
+=> Formatting 000_deploy set from CONLL to BRAT... Done.
+Finishing the experiment
+340.9367117881775
+=====================================================================================
+
+
+lets begin here
+hello
+here1
+here2
+Formatting deploy set from BRAT to CONLL... data/1M_40_input/deploy_spacy.txt
+Done.
+Converting CONLL from BIO to BIOES format... Done.
+Load dataset... done (63.08 seconds)
+Load token embeddings... done (0.73 seconds)
+number_of_token_original_case_found: 400000
+number_of_token_lowercase_found: 16131
+number_of_token_digits_replaced_with_zeros_found: 120
+number_of_token_lowercase_and_digits_replaced_with_zeros_found: 16
+number_of_loaded_word_vectors: 416267
+dataset.vocabulary_size: 418776
+Load token embeddings from pretrained model... done (0.30 seconds)
+number_of_loaded_vectors: 28985
+dataset.vocabulary_size: 418776
+Load character embeddings from pretrained model... done (0.08 seconds)
+number_of_loaded_vectors: 86
+dataset.alphabet_size: 349
+=> Predict labels for the deploy set
+output_file:  output/1M_40_input_2019-06-28_20-19-15-2323/000_deploy.txt
+mentions_output_file:  output/1M_40_input_2019-06-28_20-19-15-2323/mentions_output.txt
+tally: 25000 25000 total mentions discovered: 52033
+=> Formatting 000_deploy set from CONLL to BRAT... Done.
+Finishing the experiment
+263.16509079933167
+=====================================================================================
+
+
+lets begin here
+hello
+here1
+here2
+Formatting deploy set from BRAT to CONLL... data/1M_41_input/deploy_spacy.txt
+Done.
+Converting CONLL from BIO to BIOES format... Done.
+Load dataset... done (35.17 seconds)
+Load token embeddings... done (0.75 seconds)
+number_of_token_original_case_found: 400000
+number_of_token_lowercase_found: 14583
+number_of_token_digits_replaced_with_zeros_found: 122
+number_of_token_lowercase_and_digits_replaced_with_zeros_found: 16
+number_of_loaded_word_vectors: 414721
+dataset.vocabulary_size: 417230
+Load token embeddings from pretrained model... done (0.30 seconds)
+number_of_loaded_vectors: 28985
+dataset.vocabulary_size: 417230
+Load character embeddings from pretrained model... done (0.07 seconds)
+number_of_loaded_vectors: 86
+dataset.alphabet_size: 257
+=> Predict labels for the deploy set
+output_file:  output/1M_41_input_2019-06-28_20-22-33-551014/000_deploy.txt
+mentions_output_file:  output/1M_41_input_2019-06-28_20-22-33-551014/mentions_output.txt
+tally: 10292 10292 total mentions discovered: 21678
+=> Formatting 000_deploy set from CONLL to BRAT... Done.
+Finishing the experiment
+120.47679424285889
+=====================================================================================
+
+

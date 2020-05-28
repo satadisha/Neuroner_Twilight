@@ -1,0 +1,48 @@
+Game random 0 4 O
+of random 5 7 O
+Thrones random 8 15 O
+is random 16 18 O
+a random 19 20 O
+TV random 21 23 O
+show random 24 28 O
+. random 28 29 O
+
+daenerys random 30 38 O
+targaryen random 39 48 O
+appears random 49 56 O
+in random 57 59 O
+it random 60 62 O
+. random 62 63 O
+
+--eosc random 64 70 O
+
+Arya random 71 75 O
+Stark random 76 81 O
+is random 82 84 O
+a random 85 86 O
+character random 87 96 O
+in random 97 99 O
+it random 100 102 O
+. random 102 103 O
+
+--eosc random 104 110 O
+
+Donald random 111 117 O
+Trump random 118 123 O
+is random 124 126 O
+the random 127 130 O
+president random 131 140 O
+of random 141 143 O
+US random 144 146 O
+. random 146 147 O
+
+--eosc random 148 154 O
+
+Trump random 155 160 O
+is random 161 163 O
+a random 164 165 O
+republican random 166 176 O
+. random 176 177 O
+
+--eosc random 178 184 O
+
